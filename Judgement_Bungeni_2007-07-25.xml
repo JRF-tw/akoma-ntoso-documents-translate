@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.akomantoso.org/2.0 ./akomantoso20.xsd" xmlns="http://www.akomantoso.org/2.0">
+	<!-- Task funded by UN/DESA. Analysis and markup performed by Monica Palmirani, CIRSFID, University of Bologna -->
+	<judgement>
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/ak/judgement/2007-07-25/14-2007/main"/>
+					<FRBRuri value="/ak/judgement/2007-07-25/14-2007"/>
+					<FRBRdate date="2007-03-28" name="Hearing"/>
+					<FRBRauthor href="#Scoz" as="#Author"/>
+					<FRBRcountry value="za"/>
+					<FRBRnumber value="14-2007"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/ak/judgement/2007-07-25/14-2007/eng@/main"/>
+					<FRBRuri value="/ak/judgement/2007-07-25/14-2007/eng@"/>
+					<FRBRdate date="2007-07-25" name="Delivery"/>
+					<FRBRauthor href="#somebody" as="#Editor"/>
+					<FRBRlanguage language="eng"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/ak/judgement/2007-07-25/14-2007/eng@/main.xml"/>
+					<FRBRuri value="/ak/judgement/2007-07-25/14-2007/eng@/main.akn"/>
+					<FRBRdate date="2009-01-20" name="XMLConversion"/>
+					<FRBRauthor href="#somebody" as="#Editor"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2007-07-29" name="Law Report" showAs="somebodyLand Law Journal" number="555"/>
+			<lifecycle source="#somebody">
+				<eventRef date="2007-07-25" id="e1" source="#ro1" type="generation"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step date="2007-03-28" id="a1" outcome="#hearingDate" actor="Scoz"/>
+				<step date="2007-07-25" id="a2"/>
+			</workflow>
+			<analysis source="#somebody">
+				<judicial>
+					<result type="deny"/>
+					<supports id="jdc01">
+						<source href="#casesReferences"/>
+						<destination href="/ak/judgement/1829/QB273/eng@/main.xml"/>
+					</supports>
+				</judicial>
+			</analysis>
+			<references source="#somebody">
+				<original id="ro1" href="/ak/judgement/2007-07-25/14-2007/eng@/main" showAs="Original"/>
+				<TLCOrganization id="somebody" href="/ontology/organization/kn/somebody" showAs="somebody"/>
+				<TLCOrganization id="Scoz" href="/ontology/organization/ak.SoupremeCourt" showAs="SUPREME COURT OF BUNGENI"/>
+				<TLCOrganization id="ag" href="/ontology/organization/ak.AttorneyGeneral" showAs="ATTORNEY GENERAL"/>
+				<TLCOrganization id="eac" href="/ontology/organization/ak.EllisAndCompany" showAs="Ellis and company"/>
+				<TLCOrganization id="ssaa" href="/ontology/organization/ak.EtaSangwaAndAssociates" showAs="Eta Sangwa and Associates"/>
+				<TLCOrganization id="lac" href="/ontology/organization/ak.Acme" showAs="ACME"/>
+				<TLCPerson id="smith" href="/ontology/person/ak.Smith" showAs="SMITH"/>
+				<TLCPerson id="brown" href="/ontology/person/ak.Brown" showAs="BROWN"/>
+				<TLCPerson id="alfa" href="/ontology/person/judges/ak.alfa" showAs="Alfa, C. J."/>
+				<TLCPerson id="beta" href="/ontology/person/judges/ak.beta" showAs="Beta, D. C. J."/>
+				<TLCPerson id="gamma" href="/ontology/person/judges/ak.gamma" showAs="Gamma, F.N.M."/>
+				<TLCPerson id="delta" href="/ontology/person/judges/ak.delta" showAs="Delta"/>
+				<TLCPerson id="epsilon" href="/ontology/person/judges/ak.epsilon" showAs="Epsilon, J. J. S."/>
+				<TLCPerson id="zeta" href="/ontology/person/ak.ZetaB" showAs="Zeta, S. C."/>
+				<TLCPerson id="eta" href="/ontology/person/ak.Eta" showAs="Eta, R. M."/>
+				<TLCPerson id="theta" href="/ontology/person/ak.Theta" showAs="Theta, S. C."/>
+				<TLCPerson id="iota" href="/ontology/person/ak.Simuma" showAs="R. Iota"/>
+				<TLCPerson id="kappa" href="/ontology/person/ak.Kappa" showAs="E. M. Kappa"/>
+				<TLCPerson id="lambda" href="/ontology/person/ak.Lambda" showAs="M. Lambda"/>
+				<TLCPerson id="adam" href="/ontology/person/persons/ak.adam" showAs="John Adam"/>
+				<TLCRole id="Author" href="/ontology/role/Author" showAs="Author of Document"/>
+				<TLCRole id="Editor" href="/ontology/role/Editor" showAs="Editor of Document"/>
+				<TLCRole id="CoEditor" href="/ontology/role/CoEditor" showAs="Co-Editor of Document"/>
+				<TLCRole id="Appellant" href="/ontology/role/Appellant" showAs="Appellant"/>
+				<TLCRole id="FirstRespondent" href="/ontology/role/Respondent" showAs="1st Respondent"/>
+				<TLCRole id="SecondRespondent" href="/ontology/role/Respondant" showAs="2nd Respondent"/>
+				<TLCRole id="AppellantAdvocate" href="/ontology/role/AppellantAdvocate" showAs="Appellant Advocate"/>
+				<TLCRole id="FirstRespondentAdvocate" href="/ontology/role/FirstRespondentAdvocate" showAs="1st Respondent Advocate"/>
+				<TLCRole id="SecondRespondentAdvocate" href="/ontology/role/SecondRespondentAdvocate" showAs="2nd Respondant Advocate"/>
+				<TLCRole id="AdvocateAssistant" href="/ontology/role/AdvocateAssistant" showAs="Advocate Assistant"/>
+				<TLCEvent id="hearingDate" href="/ontology/role/hearingDate" showAs="Hearing Date"/>
+				<TLCConcept id="minorPerson" href="/ontology/concept/minorPerson" showAs="Minor Person"/>
+			</references>
+			<notes source="#somebody">
+				<note id="not1">
+					<p> Some of the content of the motivations was deleted in order to simplify the
+                        reading of the example. </p>
+				</note>
+			</notes>
+		</meta>
+		<header>
+			<p class="judgementNumber">
+				<span class="preface"> Court Judgment No. <docketNumber>14 of 2007</docketNumber>
+				</span>
+				<!-- Important the neutral citation: methodology for make a citation of law case-->
+				<neutralCitation>Smith v Attorney General and Another (18/2007) [2007] ZMSC 14; SCZ No. 14 of 2007 (25 July 2007) 
+</neutralCitation>
+			</p>
+			<p class="caseNumber">APPEAL NO. <docNumber id="judgmentNumber">18 OF 2007</docNumber>
+			</p>
+			<p>
+				<docProponent>SUPREME COURT OF BUNGENI </docProponent>
+				<eol/>
+				<courtType>(Civil Jurisdiction)</courtType>
+			</p>
+			<p class="inTheMatter">
+				<docPurpose> THE MATTER OF AN ELECTION PETITION FOR MALOLE CONSTITUENCY
+                PARLIAMENTARY ELECTION </docPurpose>
+			</p>
+			<p>BETWEEN:</p>
+			<block name="perties" class="partiesContainer" id="parties1">
+				<party id="p1" refersTo="#smith" as="#Appellant">SMITH</party>
+				<span class="rightInline">APPELLANT</span>
+				<eol/> AND <eol/>
+				<party id="p2" refersTo="#ag" as="#FirstRespondent">ATTORNEY GENERAL</party>
+				<span class="rightAndUnderlinedInline">1<sup>st</sup>
+                    RESPONDEND</span>
+				<eol/>
+				<party id="p3" refersTo="#brown" as="#SecondRespondent">BROWN</party>
+				<span class="rightInline">2<sup>nd</sup> RESPONDEND</span>
+			</block>
+			<block name="coram" class="coramContainer" id="coram1">
+				<span class="bold">CORAM: <judge id="jud01" refersTo="#alfa">Alfa, C. J.</judge>, 
+				<judge id="jud02" refersTo="#beta"> Beta, D. C. J.</judge>, <judge id="jud03" refersTo="#gamma"> Gamma, F.N.M.</judge>, <judge id="jud04" refersTo="#delta"> Delta</judge>, <judge id="jud05" refersTo="#epsilon"> Epsilon, J. J. S.</judge>
+				</span>
+			</block>
+			<p class="hearingDates"> on <span refersTo="#a2">28<sup>th</sup>
+                    March</span> and <docDate id="judgmentDate" date="2007-07-25" refersTo="#e1">25<sup>th</sup> July</docDate>, 2007 </p>
+			<block name="lawyers" class="lawyersContainer" id="lawyers1">
+				<span class="appellantAdvocates"> For the Appellant: <lawyer id="law1" refersTo="#zeta" as="#AppellantAdvocate">Mr. Zeta, S. C.</lawyer> of <span refersTo="#eac">Ellis and company</span>; assisted by <lawyer id="law2" refersTo="#eta" as="#AdvocateAssistant">Mr. R. M. Eta</lawyer> of <span refersTo="#ssaa">Eta Sangwa and Associates</span>. </span>
+				<eol/>
+				<span class="firstRespondentAdvocates"> For the 1<sup>st</sup>
+                    Respondent: <lawyer id="law3" refersTo="#theta" as="#FirstRespondentAdvocate"> Mr.
+                        Theta, S. C.</lawyer>, Solicitor General; assisted by <lawyer id="law4" refersTo="#iota" as="#AdvocateAssistant">Mrs. R. Iota</lawyer>, Assistant
+                    Senior State advocate and <lawyer id="law5" refersTo="#kappa" as="#AdvocateAssistant">Mr. E. M. Kappa</lawyer>, Legal Counsel, E. C. Z. </span>
+				<eol/>
+				<span class="secondRespondentAdvocates"> For the 2<sup>nd</sup>
+                    Respondent: <lawyer id="law6" refersTo="#lambda" as="#SecondRespondentAdvocate">Mr. M.
+                        Lambda</lawyer> of <span refersTo="#lac">ACME and Company</span>. </span>
+			</block>
+			<p class="judgment">
+				<span class="centered">JUDGMENT</span>
+				<eol/>
+				<span  class="centered">
+					<judge id="jud06" refersTo="#epsilon" as="#Editor">Epsilon, J. J. S.</judge>
+				</span>
+				<span class="nocenteredrmal">delivered the judgment of the Court.</span>
+			</p>
+			<p>
+				<span class="bold">Cases referred to:-</span>
+			</p>
+			<ol id="casesReferences" class="casesReferences">
+				<li>
+					<ref id="ref01" href="/gb/judgement/1829/QB273/eng@/main.xml#290"> Queen Vs. The Judge of
+                        the City London Court (1892) QB, 273 @ 290. </ref>
+				</li>
+				<li>
+					<ref id="ref02" href="/ak/judgement/1994/ZR/eng@/main.xml#164"> The Attorney General and
+                        Another Vs. Lewanika and Others (1993 - 1994) ZR @164. </ref>
+				</li>
+				<li>
+					<ref id="ref03" href="/ak/judgement/1984/ZR1/eng@"> The
+                        Attorney General Vs. Million Juma (1984) ZR1. </ref>
+				</li>
+				<li>
+					<ref id="ref04" href="/ak/judgement/1977/ZR108/eng@">
+                        Mwambazi Vs. Morester Farms Limited (1977) ZR, 108. </ref>
+				</li>
+				<li>
+					<ref id="ref05" href="/ak/judgement/1971/ZR1/eng@"> The
+                        Attorney General Vs. William Chipango (1971). ZR 1 </ref>
+				</li>
+			</ol>
+			<p>
+				<span class="bold">Legislation referred to:</span>
+			</p>
+			<p class="legislationsReferences">
+				<ref id="ref06" href="/ak/act/2006/12">Electoral Act No 12 of 2006</ref>
+			</p>
+			<p>
+				<span class="bold">Authorities referred to:</span>
+			</p>
+			<ol id="booksReferences" class="booksReferences">
+				<li>
+					<ref id="ref07" href="/en/book/HalsburyLawsEngland/4/en@/main.xml#pag3-par1"> Halsbury's
+                        Laws of England, 4th Edition, page 3, para. 1 </ref> and <ref id="ref08" href="/en/book/HalsburyLawsEngland/4/en@/main.xml#pag8-par7"> page 8 para.
+                        7</ref>. </li>
+				<li>
+					<ref id="ref09" href="/en/book/OdgersOnCivilCourtActions/24/en@/main.xml#pag27"> Odgers on
+                        Civil Court Actions. Practice and Precedents. 24th Edition at p. 27 </ref>
+				</li>
+				<li>
+					<ref id="ref10" href="/en/book/Order18AOfTheRSC/1995/en@">
+                        Order 18A of the RSC. 1995 Edition </ref>
+				</li>
+				<li>
+					<ref id="ref11" href="/en/book/Order18-0-2AOfTheRSC/1999/en@"> Order 18 / 0 / 2 of the RSC. 1999 Edition. </ref>
+				</li>
+			</ol>
+		</header>
+		<judgementBody>
+			<!-- introduction about the judiciary history of the law case-->
+			<introduction>
+				<p> This appeal is against the Ruling of the High Court delivered on the 6<sup>th</sup> February, 2007. In the Ruling, the learned trial judge
+                    dismissed the election petition of the appellant on a preliminary point of law.
+                    For convenience, the appellant shall be referred to as the petitioner, while the
+                        1<sup>st</sup> and the 2<sup>nd</sup>
+                    respondents shall retain their positions as this is what they were in the court
+                    below. </p>
+			</introduction>
+			<!-- the facts-->
+			<background>
+				<p> The brief facts, common to both sides and which gave rise to the preliminary
+                    issues, were that the petitioner stood as a parliamentary candidate in the
+                    Malole Constituency in the Northern Province. Being dissatisfied with the
+                    election results, she instructed counsel to petition and a petition was duly
+                    filed. After a few days, an amended petition was filed. According to the record,
+                    all this was done within 30 days in compliance with <ref id="ref12" href="/ak/act/2006/12/eng@/main.xml#sec96">Section 96 of the Electoral Act
+                        No. 12 of 2006</ref> (hereinafter to be referred to as "the Act"). The
+                    petition, among other things, sought to declare the election of the 2<sup>nd</sup> respondent null and void; declare the appellant as the
+                    duly elected Member of Parliament for Malole Constituency and, therefore,
+                    entitled to take her seat in the National Assembly and enjoy all the benefits
+                    due to that office. </p>
+			</background>
+			<!-- the law-->
+			<motivation>
+				<p>
+					<noteRef href="#not1" marker="1"/>
+					<omissis>...</omissis>
+				</p>
+				<p> The preliminary issues, as points of law, were disposed of through submissions
+                    by counsel representing the parties to the election petition. Mr. Lambda,
+                    counsel for the 2<sup>nd</sup> respondent, submitted first because
+                    he had formally filed the 2<sup>nd</sup> respondent's notice to
+                    raise preliminary issues. According to the record, the formal notice was in
+                    response to the learned trial Judge's observations as to what status to accord
+                    the election petition that was not signed by the petitioner herself in
+                    compliance with the provisions of Section 96(3) of the Act. </p>
+				<p> The preliminary issues raised were in three parts. Without reproducing them, we
+                    shall, for the purposes of this appeal, take the first one, which was not only
+                    vigorously argued before the lower court and this court but which is also the
+                    subject of appeal. </p>
+				<p> As recast by counsel for the 2<sup>nd</sup> respondent and argued
+                    by the parties, the issue was: <span class="bold"> whether a petition filed into court and not
+                        signed by the petitioner herself can be said to be properly before the court
+                        and whether or not the court can entertain the petition or indeed allow an
+                        amendment </span>
+				</p>
+				<p> Mr. Lambda contended before the learned trial Judge that it was a mandatory
+                    requirement that the petition is signed by the petitioner in person and not
+                    through her legal representative; that an adherence to the procedure provided by
+                    the Act was of the utmost importance. </p>
+				<p> Counsel contended that the omission by the petitioner, in not signing the
+                    petition herself, was so fatal that it rendered the petition dismissible in its
+                    current form for want of procedure; that any defect in the petition could only
+                    be corrected within 30 days, the period stipulated for bringing the petition to
+                    court. </p>
+				<p> The record shows that Mr. Kappa, counsel for the 1<sup>st</sup>
+                    respondent, did not submit before the learned trial Judge because he was
+                    constrained by the application on account of what happened on their part during
+                    the elections. He, therefore, found it appropriate not to offer any position. </p>
+				<p> In response to the submissions by counsel for the 2<sup>nd</sup>
+                    respondent, Mr. Eta, counsel for the petitioner, submitted before the learned
+                    trial Judge that the issue that had arisen related to or rested on a proper
+                    construction of Section 96(3) of the Act. </p>
+				<p> To that extent, counsel told the trial court that a petition was a pleading just
+                    like a statement of claim or defence. With reference to <ref id="ref13" href="/en/book/HalsburyLawsEngland/4/en@/main.xml#pag3-par1"> Halsbury's
+                        Laws of England. 4th Edition </ref>, counsel submitted that where a pleading
+                    is settled by counsel it must be signed by him or her. He, therefore, contended
+                    that the petition before the trial court, signed by the petitioner through her
+                    counsel, was properly signed as counsel did not have an existence or life
+                    independent of a client. </p>
+				<p>
+					<noteRef href="#not1" marker="1"/>
+					<!-- anonimization of the data for the privacy issue-->
+					<person id="prs1" refersTo="#adam" status="ignore" class="anonimizer">John Adam </person> is a minor people part of the fact of this judgment.
+<omissis status="omissis" refersTo="#minorPerson" class="anonimizer">....</omissis>
+				</p>
+			</motivation>
+			<decision>
+				<p> In summary, our position is that the appeal has no merit. We reiterate our
+                    finding that Section 96(3), as read with Section 2(1), makes it mandatory for
+                    the petitioner to sign the petition personally under her or his hand before
+                    presenting it to the High Court for trial and determination. As this was a novel
+                    appeal case on a matter of public interest, we shall make no order for costs.
+                    Each party to bear it own costs. </p>
+			</decision>
+		</judgementBody>
+		<conclusions>
+			<p class="signature">
+				<judge id="jud07" refersTo="#alfa">C. J. Alfa</judge>, <eol/>
+				<span class="signature">CHIEF JUSTICE.</span>
+				<eol/>
+				<judge id="jud08" refersTo="#beta">D. C. J. Beta</judge>, <eol/>
+				<span class="signature">DEPUTY CHIEF JUSTICE.</span>
+				<eol/>
+				<judge id="jud09" refersTo="#gamma" as="#CoEditor">F.N.M. Gamma</judge>, <eol/>
+				<span class="signature">SUPREME COURT JUDGE.</span>
+			</p>
+		</conclusions>
+	</judgement>
+</akomaNtoso>
