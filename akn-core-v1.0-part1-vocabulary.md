@@ -690,19 +690,35 @@ Akoma Ntoso命名規範可以提供：
 
 The Akoma Ntoso naming convention can provide for:
 
+無論類型，管轄權，國家或發放機構如何，都可以直接存取參照的文件。
+
 the direct access to the document being referred to, regardless of type, jurisdiction, country, or emanating body.
+
+可以參照實體的規格，或是存在特定時間，或是同一份文件的多個複製。
 
 the specification of the existence, at a certain time, of more than one copy of the same document being referred to;
 
+有可能參照到尚未發佈在網路上的資源。
+
 the possibility that references to resources not yet published on the web are present.
+
+官方文件，法案，法律，條例和裁判包含許多參考到其他官方文件的參照－裁判，法案，法律和條例。整個議會，立法和司法文集可以被看成是一個網路，在這個網路中美份文件就像一個可以連結的節點，並且透過自然語言的表現連結到其他節點。透過採納共同的命名約定以及參照機制，可以連結到一個分散式的文件集合，如意會和法院體現的，將大大增強交叉引用的近用與豐富。它將使得對任何議會，立法和司法文集至關重要的全面交叉引用和抄連結可從以下幾個方式進行：
 
 Official documents, bills, laws, acts, and Judgment s contain numerous references to other official documents -Judgments, bills, laws, and acts. The whole parliamentary, legislative and judiciary corpus of documents can be seen as a network, in which each document is a node linking, and linked by, several other nodes through natural language expressions. The adoption of a common naming convention and a reference mechanism to connect a distributed document corpus, like the one embodied by the parliaments and courts, will greatly enhance the accessibility and richness of cross references. It will enable comprehensive cross referencing and hyper-linking, so vital to any parliamentary, legislative and judiciary corpus, from:
 
+立法的會議記錄
+
 debate record into legislation
+
+同個法案的立法章節互連
 
 section of legislation to section of legislation in the same act
 
+同一議會或像泛非議會或歐洲議會這樣的機構的另一個條例的立法部分立法;
+
 section of legislation to section of legislation in another act of the same Parliament or of an institution like the Pan African Parliament or European Parliament;
+
+從裁判到其他裁判與條例
 
 from judgments to other judgments and acts.
 
@@ -716,21 +732,37 @@ from judgments to other judgments and acts.
 
 ### <a name="_Toc480551416"></a><a name="_Toc479116018"></a><a name="_Toc447878672"></a><a name="_Toc409027873"></a><a name="_Toc397009752"></a><a name="_Toc395114103"></a><a name="__RefHeading__7094_2913917"></a><a name="_Toc351289790"></a><a name="_Toc348113714">4.1.1 Akoma Ntoso XML</a>-Schema
 
+XML語言的定義可以透過四種不同的規範：
+
 Defining an XML language goes through four different specifications:
+
+_namespace_，官方與明確的標識與語言的名稱（在Akoma Ntoso，這是 http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ）。
 
 The _namespace_, i.e., the official and unambiguous identifier and name of the language (in Akoma Ntoso, that is http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17).
 
+_vocabulary_ 是將用於語言的一組保留字。在XML中，詞彙表用於指定語言的元素與屬性的名稱。 目前，Akoma Ntoso為元素定義了310個名稱，為屬性定義了69個名稱，它為兩個元素（例如，mainBody，revisionList）和屬性（例如showAs，referTo）使用小駝峰式命名法。
+
 The _vocabulary_, i.e., the set of reserved words that will be used for the language. In XML the vocabulary is used to specify the name of elements and attributes of the language. Currently, Akoma Ntoso defines 310 names for elements and 69 names for attributes and it uses the lower camel case naming convention for both elements (e.g. mainBody, amendmentList) and for attributes (e.g. showAs, refersTo).
+
+_grammar_ 是用已經定義好的XML語言建立正確（或是，在XML裡，已驗證的）文件範例的規則。語法由規則組成，這些規則決定了在文件本身的其他元素與特徵方面，有哪些內容被允許出現在任何元素（被稱為內容模型）中。
 
 The _grammar_, i.e., the rules that are used to build a correct (or, in XML, valid) instance of a document in the XML language being defined. The grammar is composed of rules that dictate what content is legal to appear within any element (which is called the content model), both in terms of other elements and characteristics of the text itself.
 
+_semantics_，在有效文件所使用的詞彙和規則之間的映射，以及從其標記可推斷出的實際意義。 XML標記的語義絕對取決於標記件受到的使用方式（通常稱為下游應用程式）。為了確保人類和電腦應用程式的多種不同用途，比起下游應用程式的特殊定義，應當優先使用宣告的語義，如同結構、角色與目的的規範，透過宣告元素的描述就如同內容的描述一樣。
+
 The _semantics_, i.e., the mapping between the vocabulary and rules being used in a valid document, and the actual meaning inferable from its markup. The semantic of an XML markup is absolutely dependent on the kind of use the markup document is subject to (often called the downstream application). For ensuring multiple different uses, both by humans and computer applications, declarative semantics is preferred, where by declarative we refer to the description of the element as declaring the content as it is in terms of structure, role or purpose, rather than as it should be handled by any specific downstream application.
+
+這個4部分的區別在Akoma Ntoso中是明確的，用於確保以這種語言表達的所有文件的長期保存和廣泛的用途。
 
 This 4-part distinction is explicit in Akoma Ntoso, and is used to ensure the long life and widespread usefulness of all documents expressed in this language.
 
 ### <a name="_Toc480551417"></a><a name="_Toc479116019"></a><a name="_Toc447878673"></a><a name="_Toc409027874"></a><a name="_Toc397009753"></a><a name="_Toc395114104"></a><a name="__RefHeading__7096_2913917"></a><a name="_Toc351289791"></a><a name="_Toc348113715">4.1.2 URI/IRI</a>
 
+URI/IRI或統一資源標識符/國際化資源標識符是在萬維網上參照文件、語言和概念的標準機制。 一個好的URI/IRI既有識別目的（也就是說，它提供了一種普遍地以不隨時間，電腦系統或軟體版本改變的方式來引用特定資源的方法）或位置目的（即對於軟體或人類來說，這提供了一種方式，無論何時存取資源，都能明確而快速地存取資源），或者在某些情況下，兩者兼而有之。
+
 URIs/IRIs, or Uniform Resource Identifiers/Internationalized Resource Identifier, are standard mechanisms for referring to documents, languages and concepts on the World Wide Web. A good URI/IRI has either an identification purpose (i.e., it provides a way to universally refer to that resource in a manner that does not change with time, computer systems or software versions) or a location purpose (i.e., it provides a way for a software or a human to unambiguously and rapidly access the resources wherever it is stored), or, on some situations, both.
+
+Akoma Ntoso非常重視URI/IRI，並且為所有文件，本體以及標記語言本身提供系統特定的URI/IRI。 這些所有的URI/IRI都描述在Akoma Ntoso的命名約定中。
 
 Akoma Ntoso gives a lot of importance to URIs/IRIs, and provides systematically specific URIs/IRIs for all documents, concepts of the ontology, and even for the markup language itself. All such URIs/IRIs are described in the Akoma Ntoso naming convention.
 
