@@ -768,57 +768,103 @@ Akoma Ntoso gives a lot of importance to URIs/IRIs, and provides systematically 
 
 ### <a name="_Toc480551418"></a><a name="_Toc479116020"></a><a name="_Toc447878674"></a><a name="_Toc409027875"></a><a name="_Toc397009754"></a><a name="_Toc395114105"></a><a name="__RefHeading__7098_2913917"></a><a name="_Toc351289792"></a><a name="_Toc348113716">4.1.3 FRBR</a>
 
+Akoma Ntoso標準定義了許多在法律文件生命週期中使用的可參考概念。 本節的目的是通過使用與特殊本體的類和實例相關聯的URI/IRI引用來為這些概念提供標準引用機制。 本文中討論的引用機制是通用的，隨著基礎本體的演變而發展。
+
 The Akoma Ntoso standard defines a number of referenceable concepts that are used in many situations in the lifecycle of legal documents. The purpose of this section is to provide a standard referencing mechanism to these concepts through the use of URI/IRI references associated to classes and instances of an ad hoc ontology. The referencing mechanism discussed in this document is meant to be generic and evolving with the evolution of the underlying ontology.
+
+Akoma Ntoso非正式本體的最重要概念與具有法律地位的文件有關。所有的討論和所有法律來源的描述可以用IFLA FRBR（International Federation of Library Associations（IFLA）書目記錄功能要求 http://www.ifla.org/VII/s13/frbr/frbr.pdf ）介紹的四個層次文件來說明。
 
 The most important concepts of the Akoma Ntoso informal ontology are related to documents that have legal status. All discourse and all description of legal sources can be characterized as referring to one of the four levels of a document as introduced by IFLA FRBR (International Federation of Library Associations (IFLA) - Functional Requirements for Bibliographic Records (FRBR) http://www.ifla.org/VII/s13/frbr/frbr.pdf):
 
+WORK：法律資源的抽象概念（如2005年第3號法案）。
+
 WORK: the abstract concept of the legal resource (e.g., act 3 of 2005).
+
+表達：任何因任意原因與其他版本不同的任何版本：語言，版本等（例如2005年7月3日生效的修訂版本後的2005年第3號）。
 
 EXPRESSION: any version of the WORK whose content is specified and different from others for any reason: language, versions, etc. (e.g., act 3 of 2005 as in the version following the amendments entered into force on July 3rd, 2006).
 
+EXPRESSION - 任何電子或物理格式：MS Word，Open Office，XML，TIFF，PDF等（例如，2005年7月3日生效的修訂版本後的2005年第3號法律的PDF）。
+
 MANIFESTATION - any electronic or physical format of the EXPRESSION: MS Word, Open Office, XML, TIFF, PDF, etc (e.g., PDF representation of act 3 of 2005 as in the version following the amendments entered into force on July 3rd, 2006).
+
+ITEM：存在網絡上或離線的某些電腦某處，或文件任何表現形式的物理副本（例如，電腦上被命名為為act32005.pdf之我的文件，其中包含2005年3月3日的PDF）。
 
 ITEM: the physical copy of any manifestation in the form of a file stored somewhere in some computer on the net or disconnected (e.g., the file called act32005.pdf on my computer containing a PDF representation of act 3, 2005).
 
 ### <a name="_Toc480551419"></a><a name="_Toc479116021"></a><a name="_Toc447878675"></a><a name="_Toc409027876"></a><a name="_Toc397009755"></a><a name="_Toc395114106"></a><a name="__RefHeading__7100_2913917"></a><a name="_Toc351289793"></a><a name="_Toc348113718">4.1.4 Ontology</a>
 
+在資訊科學中，本體（Ontology）是一個有組織的事實、或是關於特定領域的術語集合。本體確定了一系列相關概念及其屬性以及這些類別（Class）之間的關係。在正確組織的本體中，即使在實例本身的描述中沒有明確存在，通過類別與屬性也可以派生（技術上，推斷）與類別的實例相關聯的新屬性。
+
 In computer science, an ontology is an organized collection of facts and assertions about a specific domain. Ontologies identify a number of classes of relevant concepts and their properties and the relations between these classes. In a properly organized ontology, through classes and properties it is possible to derive (technically, infer) new properties relating instances of the classes even if there are not explicitly present in the description of the instances themselves.
 
+得益於W3C的語義Web，在網路上，本體的學科正在獲得可見性和廣泛的應用。在這個過程中，已經定義了幾種語言，包括RDF [RDF]，RDF Schema和OWL。這樣的語言允許定義、混合和互換用於廣泛的目的的特定本體。
+
 Within the World Wide Web, the discipline of ontologies is gaining visibility and widespread adoption, thanks to the initiative called the Semantic Web by the W3C. Within this initiative, several languages have been defined, including RDF [RDF], RDF Schema and OWL. Such languages allow specific ontologies to be defined, mixed and interchanged for a wide number of purposes.
+
+Akoma Ntoso允許建立多個與它描述的文件相關的不同本體。Akoma Ntoso規範提供了定義機制，而非定義法律文件中所討論之法律問題的任意本體（可能過於廣泛和全面，因為法律問題本身可能相當廣泛與全面），並將其連結到文件和文本的各個部分。因此，Akoma Ntoso非正式本體集中在文件的概念上，透過文件的FRBR概念化規範非常精確的考量（關於它們參見下一節）。除了FRBR課程的文件外，Akoma Ntoso非正式本體還列出了許多支持的類別（如Person，Organization，Place或Event），用於為本體的主要類別提供更多的含義。
 
 Akoma Ntoso allows multiple different ontologies to be created about the document it describes. Rather than defining an ontology of the legal matter being discussed in the legal documents (which could be overly wide and all-encompassing, since the legal matter may be by itself rather wide and all-encompassing), the Akoma Ntoso specification provides mechanisms to define arbitrary ontologies and connect them to the various parts of the document and of the text. Akoma Ntoso informal ontologyThe Akoma Ntoso informal ontology is therefore centered on the concept of document, which is considered in a very precise way through the specification of the FRBR conceptualization of documents (about which see the next section). Besides the FRBR classes for document, the Akoma Ntoso informal ontology also lists a number of supporting classes (such as Person, Organization, Place or Event, that are used to provide further meaning to the main classes of the ontology.
 
 ### <a name="_Toc480551420"></a><a name="_Toc479116022"></a><a name="_Toc447878676"></a><a name="_Toc409027877"></a><a name="_Toc397009756"></a><a name="_Toc395114107"></a><a name="__RefHeading__7102_2913917"></a><a name="_Toc351289794"></a><a name="_Toc348113719">4.1.5 Design patterns</a>
 
+Pattern是設計和解決設計問題的過去經驗的經驗累積。 它們是通用和廣泛適用的準則，用於處理、判斷在基於XML的專案中經常發生的設計問題。
+
 Patterns are the abstraction and distillation of past experiences in designing and resolving design problems. They are general and widely applicable guidelines for approaching and justifying design issues that often occur in XML-based projects.
+
+在Akoma Ntoso中，Pattern用於建立內容模型類別（因此僅對應於已被發現實際有用的內容模型），另一種更常見的是schema設計（此對應於如何使模式更模組化，靈活，用戶更容易理解）。這兩種方法都是眾所周知，並由不同的專家以不同的方式在文獻中良好的建立起來。
 
 In Akoma Ntoso, patterns are used to create categories of content models (and thus correspond to only those content models that have been found to be actually useful) and, more generally, in schema design (and thus correspond to guidelines on how to make the schema more modular, flexible, and understandable to by users). Both approaches are well known and well established in the literature, although by different experts in different ways.
 
 #### <a name="_Toc409027878"></a><a name="_Toc397009757">4.1.5.1 Categories in content model</a>
 
+內容模型的分類是Akoma Ntoso中使用的術語，指的是具有相同內容概念組織的元素家族。Akoma Ntoso架構使用六種分類以分類內容模型。這意味著在模式中所使用的所有內容模型和複雜類型都遵循相關類別的形式，所有元素都可以根據其類別，而非單獨地描述和處理。
+
 Categories of content models is the term used within Akoma Ntoso to refer to families of elements that share the same conceptual organization of the internals. The Akoma Ntoso schema uses six categories of content models. This means that all content models and complex types used in the schema follow precisely the form of the relevant category, and all elements can be simply described and treated according to their category rather than individually.
+
+這些分類有：
 
 These categories are:
 
+_marker_ ：marker是無內容元素，放在文件中的任意位置，他們的名稱、屬性和放置位置是有意義的。 標記也被稱為空元素或里程碑。 Akoma Ntoso模式中有兩個主要的標記系列：文本內容（例如，註釋引用）中的佔位符，可以出現在任何還有內容的位置，meta元素僅出現在<meta>部分的某個小節中。 在Akoma Ntoso中，所有meta元素都是標記，因此meta不是文件內容的一部分，而是成為屬性值。
+
 The _markers_: markers are content-less elements that are placed here and there in the document and are meaningful for their position, their names and their attributes. Markers are also known as empty elements or milestones. There are two main families of markers in the Akoma Ntoso schema: placeholders in the text content (e.g., note references) that can appear in any position that also has text, and metadata elements that only appear in some subsection of the <meta> section. In Akoma Ntoso, all metadata elements are markers, so that metadata values are not part of the text content of a document, but rather become attribute values.
+
+_inlines_ ：行內元素是放置在混合模型元素內的元素，用於識別由於某些原因相關的文字片段。 有語義相關的行內元素也有表示引用的行內元素。 只有一個使用行內（和標記）的內容模型，這意味著所有混合模型元素（即同時允許文本和元素）都允許重複使用所有行內元素。 為了討論為什麼這只是一個權衡決定，而不是理想的解決方案，請參閱本節結尾處的討論。
 
 The _inlines_: an inline element is an element placed within a mixed model element to identify a text fragment as relevant for some reason. There are both semantically relevant inlines and presentation oriented inlines. There is but one content model using inlines (and markers), which means that all mixed model elements (i.e., those that allow both text and elements) also allow a repeatable selection of all inline elements. For a discussion of why this is only a trade-off decision, and not the ideal solution, see the discussion at the end of this section.
 
+_block_ ：區塊是文字或行內元素的容器，並且在顯示器上垂直顯示（即具有段落中斷的功能）。 Akoma Ntoso的大部分區塊都是基於HTML語言。 只有一個使用區塊的內容模型，它允許重複選擇所有可用的區塊。 這意味著，只要允許任何區塊被允許，也允許所有種類的區塊，例如：允許任何段落，任何一個表格或列表。
+
 The _blocks_: a block is a container of text or inlines and placeholders that is organized vertically on the display (i.e., has paragraph breaks). Most blocks in Akoma Ntoso are based on the HTML language. There is only one content model that uses blocks, and it allows a repeatable selection of all available blocks. This means that wherever any block is allowed, all blocks are allowed, as well: e.g., wherever a paragraph is allowed, a table or a list is also allowed.
+
+_subFlow_： subFlow元素是放置在混合模型元素中的元素，用於標識因任何理由出現在文本流中但不屬於它或不遵循其規則並完全獨立的上下文。 subFlow元素是出現在句子中間的容器，但包含完整的結構（不直接包含文本或行內元素）。
 
 The _subFlow_: a subFlow element is an element placed within a mixed model element to identify a completely separate context that, for any reason, appears within the flow of the text, but does not belong to it or does not follow its rules. subFlow elements are containers appearing in the middle of sentences but containing full structures (with no direct containment of text or inline elements).
 
+_containers_：容器是特定元素的序列，其中一些可以是可選的。容器彼此都是不同的（因為包含的元素的實際列表有所不同），因此沒有單個容器內容模型，而是一些共享相同概念類別的內容模型。 容器的共同特徵是，它們之間不允許直接包含任何文本，而只允許其他元素的集合。 因此，文本只能放置在容器內的塊內。
+
 The _containers_: containers are sequences of specific elements, some of which can be optional. Containers are all different from each other (since the actual list of contained elements vary), and so there is no single container content model, but rather a number of content models that share the same conceptual category. The shared characteristic of containers, is that no text is allowed directly inside them, but only a collection of other elements. Text therefore can only be placed within a block within the container.
+
+_hierarchy_： 層次結構是嵌套到任意深度的一組區塊，通常具有標題和編號。每個級別的嵌套可以包含更多的嵌套區塊或容器。在層次結構中不允許直接放入文本，文本只能包含在容器元素中的區塊元素（當然，不包含標題和編號）中。Akoma Ntoso僅使用一個層次結構，具有預先定義好的名稱，對其順序或系統分層沒有規定。
 
 The _hierarchy_: a hierarchy is a set of sections nested to an arbitrary depth, usually provided with title and numbering. Each level of the nesting can contain either more nested sections or a container. No text is allowed directly inside the hierarchy, but only within a block element that is contained within a container element (not considering, of course, titles and numbering). Akoma Ntoso uses only one hierarchy, with predefined names and no constraints on their order or systematic layering.
 
+系統使用模式有兩個例外：
+
 There are two exceptions to the systematic use of patterns:
 
+該模式將要求元素僅包含文本，嵌套列表將作為主列表的直接子元素。 由於這違反了通用的HTML實踐，所以我們決定採取全面的模式遵守和偏好HTML傳統。
+
 <ul><ol><li>). The pattern would require elements to contain only text, and nested lists to be direct child of the main list. Since this goes against universal HTML practice, we have decided against full pattern adherence and in favor of HTML tradition.
+
+允許這些元素和區塊，而在其他地方拒絕它們，所以已經決定最好讓它們到處都是，而不是無用地使模式複雜化。
 
 <preface> to allow these elements and blocks elsewhere to reject them, so it has been decided that it is better to allow them everywhere rather than uselessly complicating the schema.
 
 #### <a name="_Toc409027879"></a><a name="_Toc397009758"></a><a name="_Toc395114109"></a><a name="__RefHeading__7106_2913917"></a><a name="_Toc351289796"></a><a name="_Toc348113721">4.1.5.2 Patterns in schema design</a>
+
+設計模式是組織內容以及schema結構相關智慧的淬鍊。其中有一些列在 http://www.xmlpatterns.com/ 。每當有設計上的難處，難以立刻找到明顯自然的解法，就需要設計以做出相關與妥適使用的選擇。事實上， http://www.xmlpatterns.com/ 也包含在Akoma Ntoso所使用立即明顯且可接受的模式，但只有不明顯以及不太自然的選擇需要被明確提及參考。您可以在schema本身和文件中的註釋中找到相關的引用。
 
 Design patterns are a distillation of common wisdom in organizing the parts and the constraints of a schema. Some of them are listed in http://www.xmlpatterns.com/. Whenever there has been a design choice to be made that was not immediately obvious and naturally acceptable, a relevant pattern has been sought and properly used. In fact, http://www.xmlpatterns.com/ also contain immediately obvious and naturally acceptable patterns that have been used in Akoma Ntoso, but only the not-so-obvious and not-so-natural ones have been explicitly mentioned and referred to. You can find the relevant references in comments within the schema itself, and in the documentation.
 
@@ -826,7 +872,11 @@ Design patterns are a distillation of common wisdom in organizing the parts and 
 
 ### <a name="_Toc480551422"></a><a name="_Toc479116024"></a><a name="_Toc447878678"></a><a name="_Toc409027881"></a><a name="_Toc397009760"></a><a name="_Toc395114111"></a><a name="__RefHeading__7110_2913917"></a><a name="_Toc351289798"></a><a name="_Toc348113723">4.2.1 Support for all the types of legal documents</a>
 
+Akoma Ntoso在議會和司法活動範圍內為許多不同的文件結構提供明確的支援：立法文件（例如法案，條例等）、修正案文件（如修正案）、議會文件（例如辯論，議事錄，報告等） ）、司法文件（如裁判書）、文件集（如官方公報等）、一般文件（如附件，備忘錄等）。
+
 Akoma Ntoso provides explicit support for many different document structures within the context of parliamentary and judiciary activities: legislative documents (e.g. bills, acts, etc.), amendment documents (e.g. amendment), parliamentary documents (e.g. debates, hansard, report, etc.), judiciary documents (e.g. judgments), collection documents (e.g. Official Gazette, etc.), general document (e.g. annexes, memorandum, etc.).
+
+文件中被組織過的信息可以對應用於各種類型的文件。
 
 The information organized within the documents corresponds to various typologies of documents.
 
@@ -893,6 +943,8 @@ bill/act/ordinance/decree/subsidiary legislation/executive orders/ normative sta
   none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
   padding:5.4pt 5.4pt 5.4pt 5.4pt;height:28.65pt">
 
+這些是由議會活動或其他有權力機構（如委員會）提出的審議文件。它們通常根據分層結構製作，其中文本被細分為段落或章節。還有細分為條款或文章，小段等。
+
 These are deliberative documents produced by parliamentary activities or from other empowered bodies (e.g. Committee). They are usually drawn up according to a hierarchical structure in which the text is subdivided into sections or chapters. These are subdivided into clauses or articles, sub-paragraphs, etc.
 
 </td>
@@ -928,6 +980,8 @@ debate record/Hansards/judicial verbatim
   none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
   padding:5.4pt 5.4pt 5.4pt 5.4pt">
 
+這些是由任何審議工作產生的逐字稿文字。這個結構反映了議會工作中辯論和問題和答案的不同部分。 這種結構可以用於例如議會/司法逐字記錄，聯合國/糧農組織大會或理事會成員單等。
+
 These are texts resulting from the transcription of the any deliberative works. The structure reflects the different section of the debates and alternation of questions and answers that takes place during the parliamentary works. This structure could be used, for instance, for parliamentary/judicial verbatim, UN/FAO transcript of assembly or council, etc.
 
 </td>
@@ -961,6 +1015,8 @@ committee minutes/judicial minutes
   none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
   padding:5.4pt 5.4pt 5.4pt 5.4pt">
 
+這些是通常由委員會通常用來描述正式會議的文本。
+
 These are texts that are minutes or reports usually of the committee used to describe official meeting sessions.
 
 </td>
@@ -992,6 +1048,8 @@ judgments//case-law/precedents
   none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
   padding:5.4pt 5.4pt 5.4pt 5.4pt">
 
+這些是法庭在訴訟中作出正式決定或具體裁判的文件。結構反映了典型的判決敘述。
+
 These are documents in which a court of law makes a formal decision or specific determination following a lawsuit. The structure reflects a typical narrative of sentences.
 
 </td>
@@ -1017,6 +1075,8 @@ openStructure
 
 _Legal Document:_
 
+任何其他類型的文件/執行摘要備忘錄/附件/表/司法文件
+
 any other type of document/Executive SummaryMemorandum/etc annexes/table/judicial documents
 
 </td>
@@ -1024,6 +1084,8 @@ any other type of document/Executive SummaryMemorandum/etc annexes/table/judicia
 <td width="336" valign="top" style="width:252.1pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
   padding:5.4pt 5.4pt 5.4pt 5.4pt">
+
+這些是具有法律效力但沒有任何特定結構的文本。 這包括任何沒有特定文本結構的議會程序文件，而非其他文件的集合。 也可能是條例草案修正案，條例草案，商業命令，法律公告，司法文件等的報告。
 
 These are texts that are legally valid but do not have any particular structure. These include any parliamentary procedure document that has no particular textual structure and is not a collection of other documents. An example could be also the Report of the Amendments of a Bill, the Memorandum of a Bill, Order of Business, Legal Notice, judicial documents, etc.
 
@@ -1048,7 +1110,7 @@ _Akoma Ntoso type _collectionStructure
 
 _Legal Document:_
 
-collection of documents
+文件集
 
  
 
@@ -1058,7 +1120,12 @@ collection of documents
   none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
   padding:5.4pt 5.4pt 5.4pt 5.4pt">
 
+
+用於呈現其他獨立文件集合的文件。 一個典型的例子是與法案有關的電子資料夾。 該文件夾由幾個獨立的文件（委員會報告，提議，法案，備忘錄等）和不同的表現形式組成，如同一個法案的版本。 另一個例子是美國法典：它是一個由各種標準的正向、負向的法律組成的文件集。
+
 Used to represent documents which are collections of other independent documents. A typical example is the electronic folder related to a bill. This folder is composed of several independent documents (committee reports, initiative, bill, memorandum, etc.) and by different expressions over time such as versions of the same bill. Another example is the U.S. Code: it is a documentCollection composed of various Titles of positive and non-positive law.
+
+例如，在歐洲機構中，委員會的報告可以視為文件集，其中包括決議，解釋性備忘錄或其他委員會的意見等文件。
 
 In European institutions, the committee report, for example, can be considered as a document collection, as it includes documents like Resolutions, Explanatory Memorandum or Opinions from other committees.
 
@@ -1087,6 +1154,8 @@ _collectionStructure
   none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
   padding:5.4pt 5.4pt 5.4pt 5.4pt">
 
+用於代表一份特別文件，其中包括所有的修改，收集並提交給正式審議機構進行討論。
+
 Used to represent a special document that includes all the amendments, collected and submitted to the official deliberative body for the discussion.
 
 </td>
@@ -1114,6 +1183,8 @@ _collectionStructure
 <td width="336" valign="top" style="width:252.1pt;border-top:none;border-left:
   none;border-bottom:solid windowtext 1.0pt;border-right:solid black 1.0pt;
   padding:5.4pt 5.4pt 5.4pt 5.4pt">
+
+用於代表官方公報，如官方公報、日記、公報或聯邦公報等刊物。
 
 Used to represent an issue of an official publication body such as Official Gazette, Journal, Bulletin or Federal Register.
 
@@ -1145,6 +1216,8 @@ Amendment document
 <td width="336" valign="top" style="width:252.1pt;border-top:none;border-left:
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:5.4pt 5.4pt 5.4pt 5.4pt">
+
+用於描述具體的修正動議。 這是由議會成員向委員會或大會提交供討論和投票之修正動議的特別文件或組成部分。
 
 Used to describe specific amendment documents. It is a special document or a component of an amendment list, presented by the member(s) of parliament to the committee or to the assembly for discussion and vote.
 
@@ -1179,6 +1252,8 @@ US resolution
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:5.4pt 5.4pt 5.4pt 5.4pt">
 
+用於代表不一定有規範性的法律文件，但它們對於官方機構的存續來說是至關重要的。 他們通常有混合的結構（區塊和hcontainers）：一個例子是美國國會發布的一項決議，或是聯合國決議/聲明。其他例子是歐洲議會的決議或決定。
+
 Used to represent those legal documents that may or may not be normative, but they are fundamental for the life of an official institution. Often they have a mixed structure (blocks and hcontainers): an example is a resolution issued by the US Congress, or an UN resolution/declaration. Other examples are the resolution or decision from European Parliament.
 
 </td>
@@ -1204,13 +1279,15 @@ portionStructure
 
 _Legal Document:_
 
-chapter of a document
+文件的其中一章
 
 </td>
 
 <td width="336" valign="top" style="width:252.1pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
   padding:5.4pt 5.4pt 5.4pt 5.4pt">
+
+用於呈現任何任何文件的一部分。
 
 Used to represent a portion of any document at manifestation level.
 
@@ -1223,6 +1300,24 @@ Used to represent a portion of any document at manifestation level.
 </table>
 
 ### <a name="_Toc480551423"></a><a name="_Toc479116025"></a><a name="_Toc447878679"></a><a name="_Toc409027882"></a><a name="_Toc397009761"></a><a name="_Toc395114112"></a><a name="__RefHeading__7112_2913917"></a><a name="_Toc351289799"></a><a name="_Toc348113724">4.2.2 Support for all the uses of legal documents</a>
+
+Akoma Ntoso專門用於所有使用法律文件的應用上。這包括制定法律的審議機構內外的應用。Akoma Ntoso包括但不限於：
+
+初步起草票據;
+
+立法生命週期包括修正動議，官方公報刊登和會議記錄;
+
+不同版本的法案之間的比較;
+
+制定、合併法律法規;
+
+當發布一些變更時，編纂，重新整理，協調行為；
+
+出版法律和比較兩種不同版本的同一法律；以及
+
+涉及法律法規研究和追踪的應用。
+
+Akoma Ntoso還向申請人提供了可以影響法律的案例法，判例和裁判，包括由憲法法院產生的裁判。
 
 Akoma Ntoso is designed for use in all applications that use legal documents. This includes applications both inside and outside the deliberating bodies that make the law. Akoma Ntoso includes, without being limited to, support for:
 
@@ -1244,29 +1339,43 @@ Akoma Ntoso also gives to the applications a representation of case-law, precede
 
 ### <a name="_Toc480551424"></a><a name="_Toc479116026"></a><a name="_Toc447878680"></a><a name="_Toc409027883"></a><a name="_Toc397009762"></a><a name="_Toc395114113"></a><a name="_Toc351289800"></a><a name="_Toc348113725"></a><a name="__RefHeading__8042_2913917">4.2.3 Support for all the actors dealing with legal documents</a>
 
+法律文件對許多不同的人和組織很重要。這些範圍從原來要求或提出新法律的人，負責起草立法的人，立法委員主張和討問法案者，想修改法例的人，將立法簽署為法律的人，以及受到法律影響的人。Akoma Ntoso為參與立法過程的不同群體的參與者提供了支援。
+
 <a name="__RefHeading__7118_2913917">Legal documents are important to many different people and organizations. These range from the people who originally request or propose new laws, the person tasked with drafting the legislation, the legislators who sponsor and debate the legislation, the people who want to alter that legislation, the person who signs the legislation into law, and the people affected by the resulting law. Akoma Ntoso provides support for this diverse group of actors involved in the legislative process.</a>
 
 ### <a name="_Toc480551425"></a><a name="_Toc479116027"></a><a name="_Toc447878681"></a><a name="_Toc409027884"></a><a name="_Toc397009763"></a><a name="_Toc395114114"></a><a name="_Toc351289801"></a><a name="_Toc348113726"></a><a name="__RefHeading__8044_2913917">4.2.4 Support for all the processes affecting legal documents</a>
+
+涉及法律文件的過程不少。政府或機構內的一些過程涉及研擬和發佈法律文件。 有其他政府機構或有意遵守或符合法律規定之外部實體的其他程序涉及追踪和使用法律文件。 Akoma Ntoso旨在支援涉及法律文件的所有過程，無論是初步起草立法，頒布法律的流程，還是追蹤和遵守法律的後續流程。
 
 There are numerous processes that involve legal documents. Some processes within governments or institutions involve the production and issuance of legal documents. Other processes, by other government agencies or external entities interested in following or conforming to the law, involve the tracking and consumption of legal documents. Akoma Ntoso is designed to support all the processes that involve legal documents, whether it be the initial drafting of legislation, the process that results in the enactment of laws, or the follow-on processes to track and comply with those laws.
 
 ### <a name="_Toc480551426"></a><a name="_Toc479116028"></a><a name="_Toc447878682"></a><a name="_Toc409027885"></a><a name="_Toc397009764"></a><a name="_Toc395114115"></a><a name="__RefHeading__7124_2913917"></a><a name="_Toc351289802"></a><a name="_Toc348113727">4.2.5 Support for the characteristics of legal documents in all countries and jurisdictions</a>
 
+每個國家和每個管轄區都有獨特的要求。這是隨著時間的推移，世界各地的法律傳統分開發展的必然後果。 然而，經過進一步檢視很快就能看出，世界各地發現的所有不同傳統都源於歷史上相對差異不大的法律傳統。Akoma Ntoso透過仔細研究世界法律慣例，利用我們所有法律制度中發現的共同傳統，同時提供足夠的靈活性來適應所有的變化。
+
 Every country and every jurisdiction has unique requirements. This is a simple consequence of separate development of legal traditions around the world over time. However, upon further examination, it is quickly apparent that all the varying traditions found around the world stem from a relatively small set of legal traditions originating back in history. Akoma Ntoso has been designed, through careful examination of the world's legal practices, to take advantage of the common heritage found in all our legal systems while also providing enough flexibility to adapt to all the variations.
 
 ### <a name="_Toc480551427"></a><a name="_Toc479116029"></a><a name="_Toc447878683"></a><a name="_Toc409027886"></a><a name="_Toc397009765"></a><a name="_Toc395114116"></a><a name="__RefHeading__7126_2913917"></a><a name="_Toc351289803"></a><a name="_Toc348113728">4.2.6 Support for all legal documents of the past and of the future</a>
+
+重要的是，法律數據模型不僅支援法律信息系統的未來需求，也支援過去。 Akoma Ntoso旨在通過一致的法律文件標準以預測未來的需求，同時也具有足夠的靈活性，以適應過去的做法，容許過去發生的所有變化以單一文件結構建構。
 
 It is important that a legal data model support not only the future needs of legal information systems but also the past. Akoma Ntoso is designed to anticipate the future needs made possible by a uniform standard for legal documents while also being flexible enough to adapt to past practices, allowing all the variances that have occurred in the past to be modeled in a single document structure.
 
 ### <a name="_Toc480551428"></a><a name="_Toc479116030"></a><a name="_Toc447878684"></a><a name="_Toc409027887"></a><a name="_Toc397009766"></a><a name="_Toc395114117"></a><a name="__RefHeading__7128_2913917"></a><a name="_Toc351289804"></a><a name="_Toc348113729">4.2.7 Long term preservation</a>
 
+以XML建構和呈現的法律草案隨著時間的推移保持其法律效力，保持原始內容（在頒布階段正式化）與報告過程中該文本的重寫之間的明確分隔。 這允許我們在XML文檔中涵括數位憑證，由此凍結認證的文件，甚至是數位文件，以便將來可以直接呈現，而無需後續修改。
+
 Dematerialized legal documents modeled and represented in XML preserve their legal validity over time, maintaining a clear separation between original content (as formalized in the enactment stage) and the reworking of that text during the reporting process. This allows us to include a digital signature in the XML document, thus freezing authenticated documents, even digital ones, so that it can be represented in the future without subsequent modifications.
 
 ### <a name="_Toc480551429"></a><a name="_Toc479116031"></a><a name="_Toc447878685"></a><a name="_Toc409027888"></a><a name="_Toc397009767"></a><a name="_Toc395114118"></a><a name="__RefHeading__7130_2913917"></a><a name="_Toc351289805"></a><a name="_Toc348113730">4.2.8 Self-explanation</a>
 
+立法文件的標記應該要容易理解，而不必先研究和理解相關的格式，或必須掌握設計背後的任何特殊理論的知識。因此，詞彙應盡可能接近法律領域的術語，同時對任何法律特定的傳統也應盡可能中立。
+
 It should be possible to understand the markup of a legislative document without having to first study and understand the associated schema or having to possess any knowledge of any special theory behind the design. For this reason, the vocabulary should adhere as close as possible to the legal domain terminology, while also being as neutral as possible with respect to any legal-specific tradition.
 
 ### <a name="_Toc480551430"></a><a name="_Toc479116032"></a><a name="_Toc447878686"></a><a name="_Toc409027889"></a><a name="_Toc397009768"></a><a name="_Toc395114119"></a><a name="_Toc351289806"></a><a name="_Toc348113731"></a><a name="__RefHeading__8046_2913917">4.2.9 Self-containment</a>
+
+良好的合法XML schema必須將知識封裝在一個獨立的文件中，而不是在資料庫或文件處理應用程式的邏輯中出現分段。 這保留了文件在應用程式，平台和技術開發方面的中立性。 這也保留文件中包含的法律知識的彰顯，使文件能夠在整個網絡中自由移動。
 
 A good legal XML schema must encapsulate knowledge in one self-contained document without fragmentation in the logical schema of a database or document processing application. This preserves a document’s neutrality with respect to applications, platforms, and technological developments. It also keeps intact the expressive power of the legal knowledge contained in the document so that the document can move freely throughout the network.
 

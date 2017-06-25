@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--Akoma_Ntoso document-->
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.akomantoso.org/2.0 ./akomantoso20.xsd" xmlns="http://www.akomantoso.org/2.0">
+  <!-- 民法 -->
+  <!-- 根據行政院法規名稱英譯統一標準，民法應屬Act （http://www.ey.gov.tw/News_Content4.aspx?n=BBEC1571472009EF&sms=337EA9B16C7004DE&s=2C46185B4EA23289） -->
+  <act contains="originalVersion">
+    <meta>
+    <identification source="#somebody">
+      <!-- FRBR書目分類架構，ref： http://docs.oasis-open.org/legaldocml/akn-nc/v1.0/akn-nc-v1.0.html -->
+      <FRBRWork>
+        <FRBRthis value="/tw/act/2015-06-10/民法/main" />
+        <FRBRuri value="/tw/act/2015-06-10/民法" />
+        <FRBRdate date="2015-06-10" name="Generation" />
+        <FRBRauthor href="#legislative-yuan" as="#author" />
+        <FRBRcountry value="tw" />
+        <FRBRname value="民法" />
+      </FRBRWork>
+      <FRBRExpression>
+        <FRBRthis value="/tw/act/2015-06-10/民法/chi@/main" />
+        <FRBRuri value="/tw/act/2015-06-10/民法/chi@" />
+        <FRBRdate date="2015-06-10" name="Generation" />
+        <FRBRauthor href="#somebody" as="#editor" />
+        <FRBRlanguage language="chi" />
+      </FRBRExpression>
+      <FRBRManifestation>
+        <FRBRthis value="/tw/act/2015-06-10/民法/chi@/main.xml" />
+        <FRBRuri value="/tw/act/2015-06-10/民法/chi@.akn" />
+        <FRBRdate date="2017-06-23" name="Generation" />
+        <FRBRauthor href="#billy3321" as="#editor" />
+        <FRBRformat value="xml" />
+      </FRBRManifestation>
+    </identification>
+    <publication date="2015-06-10" number="中華民國一百零四年六月十日總統華總一義字第10400067431號令" />
+    <classification source="#somebody">
+      <keyword value="民法" showAs="民法" dictionary="TW" />
+    </classification>
+    <lifecycle source="#somebody">
+      <!-- 民法修正歷程，ref： http://law.moj.gov.tw/LawClass/LawHistory.aspx?PCode=B0000001 -->
+      <eventRef id="e1" date="1929-05-23" type="generation" target="#chapter-1" originalContent="中華民國十八年五月二十三日國民政府制定公佈總則編全文152條；並自中華民國十八年十月十日施行" />
+      <eventRef id="e2" date="1929-11-22" type="generation" originalContent="中華民國十八年十一月二十二日國民政府制定公佈債編全文604條；並自中華民國十九年五月五日施行" />
+      <eventRef id="e3" date="1929-11-30" type="generation" originalContent="中華民國十八年十一月三十日國民政府制定公佈物權編全文210條；並自中華民國十九年五月五日施行" />
+      <eventRef id="e4" date="1930-12-26" type="generation" originalContent="中華民國十九年十二月二十六日國民政府制定公佈親屬編全文171條、繼承編全文88條；並自中華民國二十年五月五日施行" />
+      <eventRef id="e5" date="1982-01-04" type="amendment" originalContent="中華民國七十一年一月四日總統令修正公佈第8、14、18、20、24、27、28、30、32～36、38、42～44、46～48、50～53、56、58～65、85、118、129、131～134、136、137、148、151、152條條文；並自中華民國七十二年一月一日施行" />
+      <eventRef id="e6" date="1985-06-03" type="amendment" originalContent="中華民國七十四年六月三日總統令修正公佈第971、977、982、983、985、988、1002、1010、1013、1016～1019、1021、1024、1050、1052、1058～1060、1063、1067、1074、1078～1080、1084、1088、1105、1113、1118、1131、1132、1145、1165、1174、1176～1178、1181、1195、1196、1213、1219～1222條條文暨第三章第五節節名；增訂第979-1、979-2、999-1、1008-1、1030-1、1073-1、1079-1、1079-2、1103-1、1116-1、1176-1、1178-1條條文；並刪除第992、1042、1043、1071條條文暨第二章第四節第三款第二目目名及第1142、1143、1167條條文" />
+      <eventRef id="e7" date="1995-01-16" type="amendment" originalContent="中華民國八十四年一月十六日總統（84）華總（一）義字第0195號令修正公佈第942條條文" />
+      <eventRef id="e8" date="1996-09-25" type="amendment" originalContent="中華民國八十五年九月二十五日總統（85）華總（一）義字第8500231840號令修正公佈第999-1、1055、1089條條文；增訂第1055-1、1055-2、1069-1、1116-2條條文；並刪除第1051條條文" />
+      <eventRef id="e9" date="1998-06-17" type="amendment" originalContent="中華民國八十七年六月十七日總統（87）華總（一）義字第8700121300號令修正公佈第983、1000、1002條條文；並刪除第986、987、993、994條條文" />
+      <eventRef id="e10" date="1999-04-21" type="amendment" originalContent="中華民國八十八年四月二十一日總統（88）華總一義字第8800085140號令修正公佈第159、160、162、164、165、174、177、178、184、186、187、191、192、195、196、213、217、227、229、244、247、248、250、281、292、293、312～315、318、327、330、331、334、358、365、374、389、397、406、408～410、412、416、425、426、440、449、458、459、464、469、473、474、481、490、495、502、503、507、513～521、523～527、531、534、544、546、553～555、563、567、572、573、580、595、602、603、606～608、612、615、618、620、623、625、637、641、642、650、654、656、658、661、666、667、670～674、679、685～687、697、722、743、749條條文及第十六節節名；並增訂第164-1、165-1～165-4、166-1、191-1～191-3、216-1、218-1、227-1、227-2、245-1、247-1、422-1、425-1、426-1、426-2、457-1、460-1、461-1、463-1、465-1、475-1、483-1、487-1、501-1、514-1～514-12、515-1、601-1、601-2、603-1、618-1、629-1、709-1～709-9、720-1、739-1、742-1、756-1～756-9條條文及第二章第八節之一、第十九節之一、第二十四節之一；並刪除第219、228、407、465、475、522、604、605、636條條文，中華民國八十八年四月二十一日總統華總一義字第8800084000號令修正公佈第1067條條文" />
+      <eventRef id="e11" date="2000-01-19" type="amendment" originalContent="中華民國八十九年一月十九日總統（89）華總（一）義字第8900011860號令修正公佈第1094條條文" />
+      <eventRef id="e12" date="2000-04-26" type="amendment" originalContent="中華民國八十九年四月二十六日總統（89）華總一義字第8900106130號令修正公佈第248條條文" />
+      <eventRef id="e13" date="2002-06-26" type="amendment" originalContent="中華民國九十一年六月二十六日總統華總一義字第09100128090號令修正公佈第1007、1008、1008-1、1010、1017、1018、1022、1023、1030-1、1031~1034、1038、1040、1041、1044、1046、1058條條文；增訂第1003-1、1018-1、1020-1、1020-2、1030-2、1030-3、1030-4、1031-1條文條文；並刪除第1006、1013~1016、1019~1021、1024~1030、1035~1037、1045、1047、1048條條文" />
+      <eventRef id="e14" date="2007-03-28" type="amendment" originalContent="中華民國九十六年三月二十八日總統華總一義字第09600037751號令修正公布第860～863、866、869、871～874、876、877、879、881、883～890、892、893、897～900、902、904～906、908～910、928～930、932、933、936、937、939條條文；增訂第862-1、870-1、870-2、873-1、873-2、875-1～875-4、877-1、879-1、881-1～881-17、899-1、899-2、906-1～906-4、907-1、932-1條條文及第六章第一節節名、第二節節名、第三節節名；刪除第935、938條條文；並自公布後六個月施行" />
+      <eventRef id="e15" date="2007-05-23" type="amendment" originalContent="中華民國九十六年五月二十三日總統華總一義字第09600064111號令修正公布第982、988、1030-1、1052、1059、1062、1063、1067、1070、1073～1083、1086、1090條條文；增訂第988-1、1059-1、1076-1、1076-2、1079-3～1079-5、1080-1～1080-3、1083-1、1089-1條條文；刪除第1068條條文；除第982條之規定自公布後一年施行，其餘修正之條文自公布日施行" />
+      <eventRef id="e16" date="2008-01-02" type="amendment" originalContent="中華民國九十七年一月二日總統華總一義字第09600179031號令修正公布第1148、1153、1154、1156、1157、1163、1174、1176條條文" />
+      <eventRef id="e17" date="2008-01-09" type="amendment" originalContent="中華民國九十七年一月九日總統華總一義字第09700002331號令修正公布第1052條條文　中華民國九十七年一月九日總統華總一義字第09700002231號令修正公布第1120條條文" />
+      <eventRef id="e18" date="2008-05-23" type="amendment" originalContent="中華民國九十七年五月二十三日華總一義字第09700059171號令修正公布第14、15、22條條文；增訂第15-1、15-2條條文；第14～15-2條修正條文，自公布後一年六個月（九十八年十一月二十三日）施行；第22條修正條文施行日期，以命令定之　中華民國九十七年十月二十二日總統華總一義字第09700216301號令發布第22條修正條文定自九十八年一月一日施行　中華民國九十七年五月二十三日華總一義字第09700059171號令修正公布第1092～1101、1103、1104、1106～1109、1110～1113條條文及第二節節名；增訂第1094-1、1099-1、1106-1、1109-1、1109-2、1111-1、1111-2、1112-1、1112-2、1113-1條條文；刪除第1103-1、1105條條文；並自公布後一年六個月（九十八年十一月二十三日）施行" />
+      <eventRef id="e19" date="2009-01-23" type="amendment" originalContent="中華民國九十八年一月二十三日總統華總一義字第09800018501號令修正公布第757～759、764、767～772、774、775、777～782、784～790、792～794、796～800、802～807、810、816、818、820、822～824、827、828、830條條文；增訂第759-1、768-1、796-1、796-2、799-1、799-2、800-1、805-1、807-1、824-1、826-1條條文；刪除第760條條文；並自公布後六個月施行" />
+      <eventRef id="e20" date="2009-04-29" type="amendment" originalContent="中華民國九十八年四月二十九日總統華總一義字第09800105881號令增訂公布第1052-1條條文" />
+      <eventRef id="e21" date="2009-06-10" type="amendment" originalContent="中華民國九十八年六月十日總統華總一義字第09800142881號令修正公布第1148、1153、1154、1156、1157、1159、1161、1163、1176條條文；增訂第1148-1、1156-1、1162-1、1162-2條條文；刪除第1155條條文及第二章第二節節名" />
+      <eventRef id="e22" date="2009-12-30" type="amendment" originalContent="中華民國九十八年十二月三十日總統華總一義字第09800324501號令修正公布第687、708、1131、1133、1198、1210條條文；並自九十八年十一月二十三日施行" />
+      <eventRef id="e23" date="2010-01-27" type="amendment" originalContent="中華民國九十九年一月二十七日總統華總一義字第09900020021號令增訂公布第1118-1條條文" />
+      <eventRef id="e24" date="2010-02-03" type="amendment" originalContent="中華民國九十九年二月三日總統華總一義字第09900022461號令修正公布第800-1、832、834～836、838～841、851～857、859、882、911、913、915、917～921、925、927、941～945、948～954、956、959、965條條文及第五章章名；增訂第833-1、833-2、835-1、836-1～836-3、838-1、841-1～841-6、850-1～850-9、851-1、855-1、859-1～859-5、917-1、922-1、924-1、924-2、951-1、963-1條文及第三章第一節節名、第三章第二節節名、第四章之一章名；刪除第833、842～850、858、914條條文及第四章章名；並自公布後六個月施行" />
+      <eventRef id="e25" date="2010-05-19" type="amendment" originalContent="中華民國九十九年五月十九日總統華總一義字第 09900123131號修正公布第1059、1059-1條條文" />
+      <eventRef id="e26" date="2010-05-26" type="amendment" originalContent="中華民國九十九年五月二十六日總統華總一義字第09900127971號令修正公布第746條條文；並增訂第753-1條條文" />
+      <eventRef id="e27" date="2012-06-13" type="amendment" originalContent="中華民國一百零一年六月十三日總統華總一義字第10100138141號令修正公布第805、805-1條條文；並自公布後六個月施行" />
+      <eventRef id="e28" date="2012-12-26" type="amendment" originalContent="中華民國一百零一年十二月二十六日總統華總一義字第10100284731號令修正公布第1030-1條條文；並刪除第1009、1011條條文" />
+      <eventRef id="e29" date="2013-12-21" type="amendment" originalContent="中華民國一百零二年十二月十一日總統華總一義字第10200225201號令修正公布第1055-1條條文" />
+      <eventRef id="e30" date="2014-01-29" type="amendment" originalContent="中華民國一百零三年一月二十九日總統華總一義字第10300011841號令修正公布第1132、1212條條文" />
+      <eventRef id="e31" date="2015-01-14" type="amendment" originalContent="中華民國一百零四年一月十四日總統華總一義字第10400002271號令修正公布第1111-2、1183條條文；並增訂第1211-1條條文" />
+      <eventRef id="e32" date="2015-06-10" type="amendment" originalContent="中華民國一百零四年六月十日總統華總一義字第10400067431號令修正公布第10條條文；並自公布日施行" />
+    </lifecycle>
+    <workflow source="#立法院">
+      <!-- 立法院立法歷程，ref： http://lis.ly.gov.tw/lglawc/lawsingle?005127F2DB22000000000000000001E000000005000000^04507104052600^00061001001 -->
+      <step date="2014-12-05" outcome="#一讀" actor="#立法院" source="103卷85期4194號3-3頁" />
+      <step date="2015-04-30" outcome="#委員會審查" actor="#立法院" source="104卷38期4237號65-65,67-119頁" />
+      <step date="2015-05-26" outcome="#二讀(廣泛討論)" actor="#立法院" source="1040526 104卷44期4243號二冊270-273頁" />
+      <step date="2015-05-26" outcome="#二讀(逐條討論)" actor="#立法院" source="104卷44期4243號二冊273-273頁" />
+      <step date="2015-05-26" outcome="#三讀" actor="#立法院" source="104卷44期4243號二冊273-273頁" />
+      <step date="2015-06-10" outcome="#公布" actor="#總統府" source="總統華總一義字第10400067431號令" />
+    </workflow>
+    <references source="#somebody">
+      <!-- Ontology的結構，ref： http://docs.oasis-open.org/legaldocml/akn-nc/v1.0/akn-nc-v1.0.html -->
+      <original id="ro1" href="/tw/act/2003-12-10/民法/chi@/main" showAs="Original" />
+      <TLCPerson id="somebody" href="/akn/ontology/person/akn/somebody" showAs="somebody" />
+      <TLCOrganization id="立法院" href="/akn/ontology/organization/tw/立法院" showAs="House of Congress" />
+      <TLCRole id="editor" href="/akn/ontology/role/editor" showAs="Editor" />
+      <TLCRole id="author" href="/akn/ontology/role/author" showAs="Author" />
+      <TLCRole id="檢察官" href="/akn/ontology/role/zh.wikipedia.檢察官" showAs="檢察官" />
+      <TLCRole id="法院" href="/akn/ontology/role/zh.wikipedia.法院" showAs="檢察官" />
+      <TLCConcept id="民法" href="/akn/ontology/concept/zh.wikipedia.民法" showAs="民法" />
+      <TLCConcept id="自然人" href="/akn/ontology/concept/zh.wikipedia.自然人" showAs="自然人" />
+      <TLCConcept id="法人" href="/akn/ontology/concept/zh.wikipedia.法人" showAs="法人" />
+      <TLCConcept id="法院" href="/akn/ontology/concept/zh.wikipedia.法院" showAs="法院" />
+    </references>
+    </meta>
+    <preface>
+      <!-- 此處有點不清楚應以總統府公告或以立法院最後一版為主 -->
+      <p>
+        <legislature>第八屆立法院</legislature>
+        <docType>民法</docType>
+        <p>
+          <docDate date="2015-06-10">中華民國104年6月10日</docDate>
+    </preface>
+    <preamble>
+      <formula></formula>
+      <authorialNote>本文件為示範範例，處理至第三章。</authorialNote>
+    </preamble>
+
+    <body>
+      <!-- 條文內容 -->
+      <part eId="prt_1">
+        <num>
+          第一編
+        </num>
+        <heading>
+          總則
+        </heading>
+        <chapter eId="prt_1__chp_1">
+          <num>
+            第一章
+          </num>
+          <heading>
+            法例
+          </heading>
+          <article eId="prt_1__chp_1__art_1">
+            <num>
+              第一條
+            </num>
+            <note>
+              法源
+            </note>
+            <content>
+              <p eId="prt_1__chp_1__art_1__p_1">民事，法律所未規定者，依習慣；無習慣者，依法理。</p>
+            </content>
+          </article>
+          <article eId="prt_1__chp_1__art_2">
+            <num>
+              第二條
+            </num>
+            <note>
+              適用習慣之限制
+            </note>
+            <content>
+              <p eId="prt_1__chp_1__art_2__p_1">民事所適用之習慣，以不背於公共秩序或善良風俗者為限。</p>
+            </content>
+          </article>
+          <article eId="prt_1__chp_1__art_3">
+            <num>
+              第三條
+            </num>
+            <content>
+              <p eId="prt_1__chp_1__art_3__p_1">依法律之規定，有使用文字之必要者，得不由本人自寫，但必須親自簽名。</p>
+              <p eId="prt_1__chp_1__art_3__p_2">如有用印章代簽名者，其蓋章與簽名生同等之效力。</p>
+              <p eId="prt_1__chp_1__art_3__p_3">如以指印、十字或其他符號代簽名者，在文件上，經二人簽名證明，亦與簽名生同等之效力。</p>
+            </content>
+          </article>
+          <article eId="prt_1__chp_1__art_4">
+            <num>第四條</num>
+            <note>以文字為準</note>
+            <content>
+              <p eId="prt_1__chp_1__art_4__p_1">關於一定之數量，同時以文字及其號碼表示者，其文字與號碼有不符合時，如法院不能決定何者為當事人之原意，應以文字為準。</p>
+            </content>
+          </article>
+          <article eId="prt_1__chp_1__art_5">
+            <num>第五條</num>
+            <note>以最低額為準</note>
+            <content>
+              <p eId="prt_1__chp_1__art_5__p_1">關於一定之數量，以文字或號碼為數次之表示者，其表示有不符合時，如法院不能決定何者為當事人之原意，應以最低額為準。</p>
+            </content>
+          </article>
+        </chapter>
+        <chapter eId="prt_2">
+          <num>第二章</num>
+          <heading>人</heading>
+          <section eId="prt_2__sec_1">
+            <num>第一節</num>
+            <heading>自然人</heading>
+            <article eId="prt_2__sec_1__art_6">
+              <num>第六條</num>
+              <note>自然人之權利能力</note>
+              <content>
+                <p eId="prt_2__sec_1__art_6__p_1">人之權利能力，始於出生，終於死亡。</p>
+              </content>
+            </article>
+            <article eId="prt_2__sec_1__art_7">
+              <num>第七條</num>
+              <content>
+                <p eId="prt_2__sec_1__art_7__p_1">胎兒以將來非死產者為限，關於其個人利益之保護，視為既已出生。</p>
+              </content>
+            </article>
+            <article eId="prt_2__sec_1__art_8">
+              <num>第八條</num>
+              <note>死亡宣告</note>
+              <content>
+                <p eId="prt_2__sec_1__art_8__p_1">失蹤人失蹤滿七年後，法院得因利害關係人或檢察官之聲請，為死亡之宣告。</p>
+                <p eId="prt_2__sec_1__art_8__p_2">失蹤人為八十歲以上者，得於失蹤滿三年後，為死亡之宣告。</p>
+                <p eId="prt_2__sec_1__art_8__p_3">失蹤人為遭遇特別災難者，得於特別災難終了滿一年後，為死亡之宣告。</p>
+              </content>
+            </article>
+            <article>
+              <num eId="prt_2__sec_1__art_9">第九條</num>
+              <note>死亡時間之推定</note>
+              <content>
+                <p eId="prt_2__sec_1__art_9__p_1">受死亡宣告者，以判決內所確定死亡之時，推定其為死亡。</p>
+                <p eId="prt_2__sec_1__art_9__p_2">前項死亡之時，應為前條各項所定期間最後日終止之時。但有反證者，不在此限。</p>
+              </content>
+            </article>
+            <article eId="prt_2__sec_1__art_10">
+              <num>第十條</num>
+              <note>失蹤人財產之管理</note>
+              <content>
+                <p eId="prt_2__sec_1__art_10__p_1">失蹤人失蹤後，未受死亡宣告前，其財產之管理，除其他法律另有規定者外，依家事事件法之規定。</p>
+              </content>
+              <note>
+                <p eId="prt_2__sec_1__art_10__note__p_1">
+                  理由：
+                  <date date="2012-01-29">一百零一年一月十一日</date>公布，自
+                  <date date="2012-06-01">一百零一年六月一日</date>施行之
+                  <ref>家事事件法第四編第八章</ref>，就失蹤人財產管理事件已有整體規範，且非訟事件法有關失蹤人財產管理之規定（
+                  <ref>第一百零八條至第一百二十條</ref>），已於
+                  <date date="2013-05-08">一百零二年五月八日</date>配合刪除，現行非訟事件法已無失蹤人財產管理之規定，爰將原條文修正為除其他法律另有規定者外，依
+                  <ref>家事事件法</ref>。
+                </p>
+              </note>
+            </article>
+            <article eId="prt_2__sec_1__art_11">
+              <num>第十一條</num>
+              <note>同死推定</note>
+              <content>
+                <p eId="prt_2__sec_1__art_11__p_1">二人以上同時遇難，不能證明其死亡之先後時，推定其為同時死亡。</p>
+              </content>
+            </article>
+            <article>
+              <num eId="prt_2__sec_1__art_12">第十二條</num>
+              <note>成年時期</note>
+              <content>
+                <p eId="prt_2__sec_1__art_12__p_1">滿二十歲為成年。</p>
+              </content>
+            </article>
+            <article eId="prt_2__sec_1__art_13">
+              <num>第十三條</num>
+              <note>未成年人及其行為能力</note>
+              <content>
+                <p eId="prt_2__sec_1__art_13__p_1">未滿七歲之未成年人，無行為能力。</p>
+                <p eId="prt_2__sec_1__art_13__p_2">滿七歲以上之未成年人，有限制行為能力。</p>
+                <p eId="prt_2__sec_1__art_13__p_3">未成年人已結婚者，有行為能力。</p>
+              </content>
+            </article>
+            <article eId="prt_2__sec_1__art_14">
+              <num>第十四條</num>
+              <note>監護之宣告及撤銷</note>
+              <content>
+                <p eId="prt_2__sec_1__art_14__p_1">對於因精神障礙或其他心智缺陷，致不能為意思表示或受意思表示，或不能辨識其意思表示之效果者，法院得因本人、配偶、四親等內之親屬、最近一年有同居事實之其他親屬、檢察官、主管機關或社會福利機構之聲請，為監護之宣告。</p>
+                <p eId="prt_2__sec_1__art_14__p_2">受監護之原因消滅時，法院應依
+                  <ref href="#prt_2__sec_1__art_14__p_1">前項</ref>聲請權人之聲請，撤銷其宣告。</p>
+                <p eId="prt_2__sec_1__art_14__p_3">法院對於監護之聲請，認為未達第一項之程度者，得依
+                  <ref href="#prt_2__sec_1__art_15-1__p_1">第十五條之一第一項</ref>規定，為輔助之宣告。</p>
+                <p eId="prt_2__sec_1__art_14__p_4">受監護之原因消滅，而仍有輔助之必要者，法院得依
+                  <ref href="#prt_2__sec_1__art_15-1__p_1">第十五條之一第一項</ref>規定，變更為輔助之宣告。</p>
+              </content>
+            </article>
+            <article eId="prt_2__sec_1__art_15">
+              <num>第十五條</num>
+              <note>受監護宣告人之能力</note>
+              <content>
+                <p eId="prt_2__sec_1__art_15__p_1">受監護宣告之人，無行為能力。</p>
+              </content>
+            </article>
+            <article eId="prt_2__sec_1__art_15-1">
+              <num>第十五條之一</num>
+              <note>輔助之宣告</note>
+              <content>
+                <p eId="prt_2__sec_1__art_15-1__p_1">對於因精神障礙或其他心智缺陷，致其為意思表示或受意思表示，或辨識其意思表示效果之能力，顯有不足者，法院得因本人、配偶、四親等內之親屬、最近一年有同居事實之其他親屬、檢察官、主管機關或社會福利機構之聲請，為輔助之宣告。</p>
+                <p eId="prt_2__sec_1__art_15-1__p_2">受輔助之原因消滅時，法院應依
+                  <ref href="#prt_2__sec_1__art_15-1__p_1">前項</ref>聲請權人之聲請，撤銷其宣告。</p>
+                <p eId="prt_2__sec_1__art_15-1__p_3">受輔助宣告之人有受監護之必要者，法院得依
+                  <ref>第十四條第一項</ref>規定，變更為監護之宣告。</p>
+              </content>
+            </article>
+            <article eId="prt_2__sec_1__art_15-2">
+              <num>第十五條之二</num>
+              <note>受輔助宣告之人應經輔助人同意之行為</note>
+              <content>
+                <p eId="prt_2__sec_1__art_15-2__p_1">受輔助宣告之人為下列行為時，應經輔助人同意。但純獲法律上利益，或依其年齡及身分、日常生活所必需者，不在此限：</p>
+                <list eId="prt_2__sec_1__art_15-2__list_1">
+                  <point eId="prt_2__sec_1__art_15-2__list_1__point_1">
+                    <num>一</num>、為獨資、合夥營業或為法人之負責人。</point>
+                  <point eId="prt_2__sec_1__art_15-2__list_1__point_2">
+                    <num>二</num>、為消費借貸、消費寄託、保證、贈與或信託。</point>
+                  <point eId="prt_2__sec_1__art_15-2__list_1__point_3">
+                    <num>三</num>、為訴訟行為。</point>
+                  <point eId="prt_2__sec_1__art_15-2__list_1__point_4">
+                    <num>四</num>、為和解、調解、調處或簽訂仲裁契約。</point>
+                  <point eId="prt_2__sec_1__art_15-2__list_1__point_5">
+                    <num>五</num>、為不動產、船舶、航空器、汽車或其他重要財產之處分、設定負擔、買賣、租賃或借貸。</point>
+                  <point eId="prt_2__sec_1__art_15-2__list_1__point_6">
+                    <num>六</num>、為遺產分割、遺贈、拋棄繼承權或其他相關權利。</point>
+                  <point eId="prt_2__sec_1__art_15-2__list_1__point_7">
+                    <num>七</num>、法院依前條聲請權人或輔助人之聲請，所指定之其他行為。</point>
+                </list>
+                <p eId="prt_2__sec_1__art_15-2__p_2">
+                  <rref from="#prt_4__sec_2__art_78" upTo="#prt_4__sec_2__art_83">第七十八條至第八十三條</rref>規定，於未依
+                  <ref href="#prt_2__sec_1__art_15-2__p_1">前項</ref>規定得輔助人同意之情形，準用之。</p>
+                <p eId="prt_2__sec_1__art_15-2__p_3">
+                  <ref href="#prt_4__sec_2__art_85">第八十五條</ref>規定，於輔助人同意受輔助宣告之人為
+                  <ref href="#prt_2__sec_1__art_15-2__list_1__point_1">第一項第一款</ref>行為時，準用之。</p>
+                <p eId="prt_2__sec_1__art_15-2__p_4">
+                  <ref href="#prt_2__sec_1__art_15-2__list_1">第一項所列</ref>應經同意之行為，無損害受輔助宣告之人利益之虞，而輔助人仍不為同意時，受輔助宣告之人得逕行聲請法院許可後為之。</p>
+              </content>
+            </article>
+            <article eId="prt_2__sec_1__art_16">
+              <num>第十六條</num>
+              <note>能力之保護</note>
+              <content>
+                <p eId="prt_2__sec_1__art_16__p_1">權利能力及行為能力，不得拋棄。</p>
+              </content>
+            </article>
+            <article eId="prt_2__sec_1__art_17">
+              <num>第十七條</num>
+              <note>自由之保護</note>
+              <content>
+                <p eId="prt_2__sec_1__art_17__p_1">自由不得拋棄。</p>
+                <p eId="prt_2__sec_1__art_17__p_2">自由之限制，以不背於公共秩序或善良風俗者為限。</p>
+              </content>
+            </article>
+            <article eId="prt_2__sec_1__art_18">
+              <num>第十八條</num>
+              <note>人格權之保護</note>
+              <content>
+                <p eId="prt_2__sec_1__art_18__p_1">人格權受侵害時，得請求法院除去其侵害；有受侵害之虞時，得請求防止之。</p>
+                <p eId="prt_2__sec_1__art_18__p_2">前項情形，以法律有特別規定者為限，得請求損害賠償或慰撫金。</p>
+              </content>
+            </article>
+            <article eId="prt_2__sec_1__art_19">
+              <num>第十九條</num>
+              <note>姓名權之保護</note>
+              <content>
+                <p eId="prt_2__sec_1__art_19__p_1">姓名權受侵害者，得請求法院除去其侵害，並得請求損害賠償。</p>
+              </content>
+            </article>
+            <article eId="prt_2__sec_1__art_20">
+              <num>第二十條</num>
+              <note>住所之設定</note>
+              <content>
+                <p eId="prt_2__sec_1__art_20__p_1">依一定事實，足認以久住之意思，住於一定之地域者，即為設定其住所於該地。</p>
+                <p eId="prt_2__sec_1__art_20__p_2">一人同時不得有兩住所。</p>
+              </content>
+            </article>
+            <article eId="prt_2__sec_1__art_21">
+              <num>第二十一條</num>
+              <note>無行為能力人及限制行為能力人之住所</note>
+              <content>
+                <p eId="prt_2__sec_1__art_21__p_1">無行為能力人及限制行為能力人，以其法定代理人之住所為住所。</p>
+              </content>
+            </article>
+            <article eId="prt_2__sec_1__art_22">
+              <num>第二十二條</num>
+              <note>居所視為住所</note>
+              <content>
+                <p eId="prt_2__sec_1__art_22__p_1">遇有下列情形之一，其居所視為住所：</p>
+                <list eId="prt_2__sec_1__art_22__list_1">
+                  <point eId="prt_2__sec_1__art_22__list_1__point_1">
+                    <num>一</num>、住所無可考者。</point>
+                  <point eId="prt_2__sec_1__art_22__list_1__point_2">
+                    <num>二</num>、在我國無住所者。但依法須依住所地法者，不在此限。</point>
+                </list>
+              </content>
+            </article>
+            <article eId="prt_2__sec_1__art_23">
+              <num>第二十三條</num>
+              <note>居住視為住所</note>
+              <content>
+                <p eId="prt_2__sec_1__art_23__p_1">因特定行為選定居所者，關於其行為，視為住所。</p>
+              </content>
+            </article>
+            <article eId="prt_2__sec_1__art_24">
+              <num>第二十四條</num>
+              <note>住所之廢止</note>
+              <content>
+                <p eId="prt_2__sec_1__art_24__p_1">依一定事實，足認以廢止之意思離去其住所者，即為廢止其住所。</p>
+              </content>
+            </article>
+          </section>
+          <section eId="prt_2__sec_2">
+            <num>第二節</num>
+            <heading>法人</heading>
+            <subsection eId="prt_2__sec_2__subsec_1">
+              <num>第一款</num>
+              <heading>通則</heading>
+              <article eId="prt_2__sec_2__subsec_1__art_25">
+                <num>
+                  第二十五條
+                </num>
+                <note>法人成立法定原則</note>
+                <content>
+                  <p eId="prt_2__sec_2__subsec_1__art_25__p_1">法人非依本法或其他法律之規定，不得成立。</p>
+                </content>
+              </article>
+              <article eId="prt_2__sec_2__subsec_1__art_26">
+                <num>
+                  第二十六條
+                </num>
+                <note>法人權利能力</note>
+                <content>
+                  <p eId="prt_2__sec_2__subsec_1__art_26__p_1">法人於法令限制內，有享受權利負擔義務之能力。但專屬於自然人之權利義務，不在此限。</p>
+                </content>
+              </article>
+              <article eId="prt_2__sec_2__subsec_1__art_27">
+                <num>第二十七條</num>
+                <note>法人之機關</note>
+                <content>
+                  <p eId="prt_2__sec_2__subsec_1__art_27__p_1">法人應設董事。董事有數人者，法人事務之執行，除章程另有規定外，取決於全體董事過半數之同意。</p>
+                  <p eId="prt_2__sec_2__subsec_1__art_27__p_2">董事就法人一切事務，對外代表法人。董事有數人者，除章程另有規定外，各董事均得代表法人。</p>
+                  <p eId="prt_2__sec_2__subsec_1__art_27__p_3">對於董事代表權所加之限制，不得對抗善意第三人。</p>
+                  <p eId="prt_2__sec_2__subsec_1__art_27__p_4">法人得設監察人，監察法人事務之執行。監察人有數人者，除章程另有規定外，各監察人均得單獨行使監察權。</p>
+                </content>
+              </article>
+              <article eId="prt_2__sec_2__subsec_1__art_28">
+                <num>
+                  第二十八條
+                </num>
+                <note>法人侵權責任</note>
+                <content>
+                  <p eId="prt_2__sec_2__subsec_1__art_28__p_1">法人對於其董事或其他有代表權之人因執行職務所加於他人之損害，與該行為人連帶負賠償之責任。</p>
+                </content>
+              </article>
+              <article eId="prt_2__sec_2__subsec_1__art_29">
+                <num>
+                  第二十九條
+                </num>
+                <note>法人住所</note>
+                <content>
+                  <p eId="prt_2__sec_2__subsec_1__art_29__p_1">法人以其主事務所之所在地為住所。</p>
+                </content>
+              </article>
+              <article eId="prt_2__sec_2__subsec_1__art_30">
+                <num>
+                  第三十條
+                </num>
+                <note>法人設立登記</note>
+                <content>
+                  <p eId="prt_2__sec_2__subsec_1__art_30__p_1">法人非經向主管機關登記，不得成立。</p>
+                </content>
+              </article>
+              <article eId="prt_2__sec_2__subsec_1__art_31">
+                <num>第三十一條</num>
+                <note>登記之效力</note>
+                <content>
+                  <p eId="prt_2__sec_2__subsec_1__art_31__p_1">法人登記後，有應登記之事項而不登記，或已登記之事項有變更而不為變更之登記者，不得以其事項對抗第三人。</p>
+                </content>
+              </article>
+              <article eId="prt_2__sec_2__subsec_1__art_32">
+                <num>第三十二條</num>
+                <note>法人業務監督</note>
+                <content>
+                  <p eId="prt_2__sec_2__subsec_1__art_32__p_1">受設立許可之法人，其業務屬於主管機關監督，主管機關得檢查其財產狀況及其有無違反許可條件與其他法律之規定。</p>
+                </content>
+              </article>
+              <article eId="prt_2__sec_2__subsec_1__art_33">
+                <num>第三十三條</num>
+                <note>妨礙監督權行使之處罰</note>
+                <content>
+                  <p eId="prt_2__sec_2__subsec_1__art_33__p_1">受設立許可法人之董事或監察人，不遵主管機關監督之命令，或妨礙其檢查者，得處以五千元以下之罰鍰。</p>
+                  <p eId="prt_2__sec_2__subsec_1__art_33__p_2">前項董事或監察人違反法令或章程，足以危害公益或法人之利益者，主管機關得請求法院解除其職務，並為其他必要之處置。</p>
+                </content>
+              </article>
+              <article eId="prt_2__sec_2__subsec_1__art_34">
+                <num>第三十四條</num>
+                <note>撤銷法人許可</note>
+                <content>
+                  <p eId="prt_2__sec_2__subsec_1__art_34__p_1">法人違反設立許可之條件者，主管機關得撤銷其許可。</p>
+                </content>
+              </article>
+              <article eId="prt_2__sec_2__subsec_1__art_35">
+                <num>第三十五條</num>
+                <note>法人之破產及其聲請</note>
+                <content>
+                  <p eId="prt_2__sec_2__subsec_1__art_35__p_1">法人之財產不能清償債務時，董事應即向法院聲請破產。</p>
+                  <p eId="prt_2__sec_2__subsec_1__art_35__p_2">不為前項聲請，致法人之債權人受損害時，有過失之董事，應負賠償責任，其有二人以上時，應連帶負責。</p>
+                </content>
+              </article>
+              <article eId="prt_2__sec_2__subsec_1__art_36">
+                <num>第三十六條</num>
+                <note>法人宣告解散</note>
+                <content>
+                  <p eId="prt_2__sec_2__subsec_1__art_36__p_1">法人之目的或其行為，有違反法律、公共秩序或善良風俗者，法院得因主管機關、檢察官或利害關係人之請求，宣告解散。</p>
+                </content>
+              </article>
+              <article eId="prt_2__sec_2__subsec_1__art_37">
+                <num>第三十七條</num>
+                <note>法定清算人</note>
+                <content>
+                  <p eId="prt_2__sec_2__subsec_1__art_37__p_1">法人解散後，其財產之清算，由董事為之。但其章程有特別規定，或總會另有決議者，不在此限。</p>
+                </content>
+              </article>
+              <article eId="prt_2__sec_2__subsec_1__art_38">
+                <num>第三十八條</num>
+                <note>選任清算人</note>
+                <content>
+                  <p eId="prt_2__sec_2__subsec_1__art_38__p_1">不能依前條規定，定其清算人時，法院得因主管機關、檢察官或利害關係人之聲請，或依職權，選任清算人。</p>
+                </content>
+              </article>
+              <article eId="prt_2__sec_2__subsec_1__art_39">
+                <num>第三十九條</num>
+                <note>清算人之解任</note>
+                <content>
+                  <p eId="prt_2__sec_2__subsec_1__art_39__p_1">清算人，法院認為有必要時，得解除其任務。</p>
+                </content>
+              </article>
+              <article eId="prt_2__sec_2__subsec_1__art_40">
+                <num>第四十條</num>
+                <note>清算人之職務及法人存續之擬制</note>
+                <content>
+                  <p eId="prt_2__sec_2__subsec_1__art_40__p_1">清算人之職務如左：</p>
+                  <list eId="prt_2__sec_2__subsec_1__art_40__list_1">
+                    <point eId="prt_2__sec_2__subsec_1__art_40__list_1__point_1">
+                      <num>一</num>、了結現務。</point>
+                    <point eId="prt_2__sec_2__subsec_1__art_40__list_1__point_2">
+                      <num>二</num>、收取債權，清償債務。</point>
+                    <point eId="prt_2__sec_2__subsec_1__art_40__list_1__point_3">
+                      <num>三</num>、移交賸餘財產於應得者。</point>
+                  </list>
+                  <p eId="prt_2__sec_2__subsec_1__art_40__p_2">法人至清算終結止，在清算之必要範圍內，視為存續。</p>
+                </content>
+              </article>
+              <article eId="prt_2__sec_2__subsec_1__art_41">
+                <num>第四十一條</num>
+                <note>清算之程序</note>
+                <content>
+                  <p eId="prt_2__sec_2__subsec_1__art_41__p_1">清算之程序，除本通則有規定外，準用股份有限公司清算之規定。</p>
+                </content>
+              </article>
+              <article eId="prt_2__sec_2__subsec_1__art_42">
+                <num>第四十二條</num>
+                <note>清算之監督機關及方法</note>
+                <content>
+                  <p eId="prt_2__sec_2__subsec_1__art_42__p_1">法人之清算，屬於法院監督。法院得隨時為監督上必要之檢查及處分。</p>
+                  <p eId="prt_2__sec_2__subsec_1__art_42__p_2">法人經主管機關撤銷許可或命令解散者，主管機關應同時通知法院。</p>
+                  <p eId="prt_2__sec_2__subsec_1__art_42__p_3">法人經依章程規定或總會決議解散者，董事應於十五日內報告法院。</p>
+                </content>
+              </article>
+              <article eId="prt_2__sec_2__subsec_1__art_43">
+                <num>第四十三條</num>
+                <note></note>
+                <content>
+                  <p eId="prt_2__sec_2__subsec_1__art_43__p_1">清算人不遵法院監督命令，或妨礙檢查者，得處以五千元以下之罰鍰。董事違反前條第三項之規定者亦同。</p>
+                </content>
+              </article>
+              <article eId="prt_2__sec_2__subsec_1__art_44">
+                <num>第四十四條</num>
+                <note>賸餘財產之歸屬</note>
+                <content>
+                  <p eId="prt_2__sec_2__subsec_1__art_44__p_1">法人解散後，除法律另有規定外，於清償債務後，其賸餘財產之歸屬，應依其章程之規定，或總會之決議。但以公益為目的之法人解散時，其賸餘財產不得歸屬於自然人或以營利為目的之團體。</p>
+                  <p eId="prt_2__sec_2__subsec_1__art_44__p_2">如無前項法律或章程之規定或總會之決議時，其賸餘財產歸屬於法人住所所在地之地方自治團體。</p>
+                </content>
+              </article>
+            </subsection>
+            <subsection eId="prt_2__sec_2__subsec_2">
+              <num>第二款</num>
+              <heading>社團</heading>
+              <article eId="prt_2__sec_2__subsec_2__art_45">
+                <num>第四十五條</num>
+                <note>營利法人之登記</note>
+                <content>
+                  <p eId="prt_2__sec_2__subsec_2__art_45__p_1">以營利為目的之社團，其取得法人資格，依特別法之規定。</p>
+                </content>
+              </article>
+              <article eId="prt_2__sec_2__subsec_2__art_46">
+                <num>第四十六條</num>
+                <note>公益法人之設立</note>
+                <content>
+                  <p eId="prt_2__sec_2__subsec_2__art_46__p_1">以公益為目的之社團，於登記前，應得主管機關之許可。</p>
+                </content>
+              </article>
+              <article eId="prt_2__sec_2__subsec_2__art_47">
+                <num>第四十七條</num>
+                <note>章程應載事項</note>
+                <content>
+                  <p eId="prt_2__sec_2__subsec_2__art_47__p_1">設立社團者，應訂定章程，其應記載之事項如左：</p>
+                  <list eId="prt_2__sec_2__subsec_2__art_47__list_1">
+                    <point eId="prt_2__sec_2__subsec_2__art_47__list_1__point_1"><num>一</num>、目的。</point>
+                    <point eId="prt_2__sec_2__subsec_2__art_47__list_1__point_2"><num>二</num>、名稱。</point>
+                    <point eId="prt_2__sec_2__subsec_2__art_47__list_1__point_3"><num>三</num>、董事之人數、任期及任免。設有監察人者，其人數、任期及任免。</point>
+                    <point eId="prt_2__sec_2__subsec_2__art_47__list_1__point_4"><num>四</num>、總會召集之條件、程序及其決議證明之方法。</point>
+                    <point eId="prt_2__sec_2__subsec_2__art_47__list_1__point_5"><num>五</num>、社員之出資。</point>
+                    <point eId="prt_2__sec_2__subsec_2__art_47__list_1__point_6"><num>六</num>、社員資格之取得與喪失。</point>
+                    <point eId="prt_2__sec_2__subsec_2__art_47__list_1__point_7"><num>七</num>、訂定章程之年、月、日。</point>
+                  </list>
+                </content>
+              </article>
+              <article eId="prt_2__sec_2__subsec_2__art_48">
+                <num>第四十八條</num>
+                <note>社團設立登記事項</note>
+                <content>
+                  <p eId="prt_2__sec_2__subsec_2__art_48__p_1">社團設立時，應登記之事項如左：</p>
+                  <list>
+                    <point eId="prt_2__sec_2__subsec_2__art_48__list_1__point_1"><num>一</num>、目的。</point>
+                    <point eId="prt_2__sec_2__subsec_2__art_48__list_1__point_2"><num>二</num>、名稱。</point>
+                    <point eId="prt_2__sec_2__subsec_2__art_48__list_1__point_3"><num>三</num>、主事務所及分事務所。</point>
+                    <point eId="prt_2__sec_2__subsec_2__art_48__list_1__point_4"><num>四</num>、董事之姓名及住所。設有監察人者，其姓名及住所。</point>
+                    <point eId="prt_2__sec_2__subsec_2__art_48__list_1__point_5"><num>五</num>、財產之總額。</point>
+                    <point eId="prt_2__sec_2__subsec_2__art_48__list_1__point_6"><num>六</num>、應受設立許可者，其許可之年、月、日。</point>
+                    <point eId="prt_2__sec_2__subsec_2__art_48__list_1__point_7"><num>七</num>、定有出資方法者，其方法。</point>
+                    <point eId="prt_2__sec_2__subsec_2__art_48__list_1__point_8"><num>八</num>、定有代表法人之董事者，其姓名。</point>
+                    <point eId="prt_2__sec_2__subsec_2__art_48__list_1__point_9"><num>九</num>、定有存立時期者，其時期。</point>
+                  </list>
+                  <p eId="prt_2__sec_2__subsec_2__art_48__p_2">社團之登記，由董事向其主事務所及分事務所所在地之主管機關行之，並應附具章程備案。</p>
+                </content>
+              </article>
+              <article eId="prt_2__sec_2__subsec_2__art_49">
+                <num>第四十九條</num>
+                <note>章程得載事項</note>
+                <content>
+                  <p eId="prt_2__sec_2__subsec_2__art_49__p_1">社團之組織及社團與社員之關係，以不違反第五十條至第五十八條之規定為限，得以章程定之。</p>
+                </content>
+              </article>
+              <article eId="prt_2__sec_2__subsec_2__art_50">
+                <num>第五十條</num>
+                <note>社團總會之權限</note>
+                <content>
+                  <p eId="prt_2__sec_2__subsec_2__art_50__p_1">社團以總會為最高機關。</p>
+                  <p eId="prt_2__sec_2__subsec_2__art_50__p_2">左列事項應經總會之決議：</p>
+                  <list eId="prt_2__sec_2__subsec_2__art_50__list_1">
+                    <point eId="prt_2__sec_2__subsec_2__art_50__list_1__point_1"><num>一</num>、變更章程。</point>
+                    <point eId="prt_2__sec_2__subsec_2__art_50__list_1__point_2"><num>二</num>、任免董事及監察人。</point>
+                    <point eId="prt_2__sec_2__subsec_2__art_50__list_1__point_3"><num>三</num>、監督董事及監察人職務之執行。</point>
+                    <point eId="prt_2__sec_2__subsec_2__art_50__list_1__point_4"><num>四</num>、開除社員。但以有正當理由時為限。</point>
+                  </list>
+                </content>
+              </article>
+              <article eId="prt_2__sec_2__subsec_2__art_51">
+                <num>第五十一條</num>
+                <note>社團總會之召集</note>
+                <content>
+                  <p eId="prt_2__sec_2__subsec_2__art_51__p_1">總會由董事召集之，每年至少召集一次。董事不為召集時，監察人得召集之。</p>
+                  <p eId="prt_2__sec_2__subsec_2__art_51__p_2">如有全體社員十分一以上之請求，表明會議目的及召集理由，請求召集時，董事應召集之。</p>
+                  <p eId="prt_2__sec_2__subsec_2__art_51__p_3">董事受前項之請求後，一個月內不為召集者，得由請求之社員，經法院之許可召集之。</p>
+                  <p eId="prt_2__sec_2__subsec_2__art_51__p_4">總會之召集，除章程另有規定外，應於三十日前對各社員發出通知。通知內應載明會議目的事項。</p>
+                </content>
+              </article>
+              <article eId="prt_2__sec_2__subsec_2__art_52">
+                <num>第五十二條</num>
+                <note>總會之通常決議</note>
+                <content>
+                  <p eId="prt_2__sec_2__subsec_2__art_52__p_1">總會決議，除本法有特別規定外，以出席社員過半數決之。</p>
+                  <p eId="prt_2__sec_2__subsec_2__art_52__p_2">社員有平等之表決權。</p>
+                  <p eId="prt_2__sec_2__subsec_2__art_52__p_3">社員表決權之行使，除章程另有限制外，得以書面授權他人代理為之。但一人僅得代理社員一人。</p>
+                  <p eId="prt_2__sec_2__subsec_2__art_52__p_4">社員對於總會決議事項，因自身利害關係而有損害社團利益之虞時，該社員不得加入表決，亦不得代理他人行使表決權。</p>
+                </content>
+              </article>
+              <article eId="prt_2__sec_2__subsec_2__art_53">
+                <num>第五十三條</num>
+                <note>社團章程之變更</note>
+                <content>
+                  <p eId="prt_2__sec_2__subsec_2__art_53__p_1">社團變更章程之決議，應有全體社員過半數之出席，出席社員四分三以上之同意，或有全體社員三分二以上書面之同意。</p>
+                  <p eId="prt_2__sec_2__subsec_2__art_53__p_2">受設立許可之社團，變更章程時，並應得主管機關之許可。</p>
+                </content>
+              </article>
+              <article eId="prt_2__sec_2__subsec_2__art_54">
+                <num>第五十四條</num>
+                <note>社員退社自由原則</note>
+                <content>
+                  <p eId="prt_2__sec_2__subsec_2__art_54__p_1">社員得隨時退社。但章程限定於事務年度終，或經過預告期間後，始准退社者，不在此限。</p>
+                  <p eId="prt_2__sec_2__subsec_2__art_54__p_2">前項預告期間，不得超過六個月。</p>
+                </content>
+              </article>
+              <article eId="prt_2__sec_2__subsec_2__art_55">
+                <num>第五十五條</num>
+                <note>退社或開除後之權利義務</note>
+                <content>
+                  <p eId="prt_2__sec_2__subsec_2__art_55__p_1">已退社或開除之社員，對於社團之財產無請求權。但非公益法人，其章程另有規定者，不在此限。</p>
+                  <p eId="prt_2__sec_2__subsec_2__art_55__p_2">前項社員，對於其退社或開除以前應分擔之出資，仍負清償之義務。</p>
+                </content>
+              </article>
+              <article eId="prt_2__sec_2__subsec_2__art_56">
+                <num>第五十六條</num>
+                <note>總會之無效及撤銷</note>
+                <content>
+                  <p eId="prt_2__sec_2__subsec_2__art_56__p_1">總會之召集程序或決議方法，違反法令或章程時，社員得於決議後三個月內請求法院撤銷其決議。但出席社員，對召集程序或決議方法，未當場表示異議者，不在此限。</p>
+                  <p eId="prt_2__sec_2__subsec_2__art_56__p_2">總會決議之內容違反法令或章程者，無效。</p>
+                </content>
+              </article>
+              <article eId="prt_2__sec_2__subsec_2__art_57">
+                <num>第五十七條</num>
+                <note>社團決議解散</note>
+                <content>
+                  <p eId="prt_2__sec_2__subsec_2__art_57__p_1">社團得隨時以全體社員三分二以上之可決解散之。</p>
+                </content>
+              </article>
+              <article eId="prt_2__sec_2__subsec_2__art_58">
+                <num>第五十八條</num>
+                <note>法院宣告解散</note>
+                <content>
+                  <p eId="prt_2__sec_2__subsec_2__art_58__p_1">社團之事務，無從依章程所定進行時，法院得因主管機關、檢察官或利害關係人之聲請解散之。</p>
+                </content>
+              </article>
+            </subsection>
+            <subsection eId="prt_2__sec_2__subsec_3">
+              <num>第三款</num>
+              <heading>財團</heading>
+              <article eId="prt_2__sec_2__subsec_3__art_59">
+                <num>第五十九條</num>
+                <note>設立許可</note>
+                <content>
+                  <p eId="prt_2__sec_2__subsec_3__art_59__p_1">財團於登記前，應得主管機關之許可。</p>
+                </content>
+              </article>
+              <article eId="prt_2__sec_2__subsec_3__art_60">
+                <num>第六十條</num>
+                <note>捐助章程之訂定</note>
+                <content>
+                  <p eId="prt_2__sec_2__subsec_3__art_60__p_1">設立財團者，應訂立捐助章程。但以遺囑捐助者，不在此限。</p>
+                  <p eId="prt_2__sec_2__subsec_3__art_60__p_2">捐助章程，應訂明法人目的及所捐財產。</p>
+                  <p eId="prt_2__sec_2__subsec_3__art_60__p_3">以遺囑捐助設立財團法人者，如無遺囑執行人時，法院得依主管機關、檢察官或利害關係人之聲請，指定遺囑執行人。</p>
+                </content>
+              </article>
+              <article eId="prt_2__sec_2__subsec_3__art_61">
+                <num>第六十一條</num>
+                <note>財團設立登記事項</note>
+                <content>
+                  <p eId="prt_2__sec_2__subsec_3__art_61__p_1">財團設立時，應登記之事項如左：</p>
+                  <list eId="prt_2__sec_2__subsec_3__art_61__list_1">
+                    <point eId="prt_2__sec_2__subsec_3__art_61__list_1__point_1"><num>一</num>、目的。</point>
+                    <point eId="prt_2__sec_2__subsec_3__art_61__list_1__point_2"><num>二</num>、名稱。</point>
+                    <point eId="prt_2__sec_2__subsec_3__art_61__list_1__point_3"><num>三</num>、主事務所及分事務所。</point>
+                    <point eId="prt_2__sec_2__subsec_3__art_61__list_1__point_4"><num>四</num>、財產之總額。</point>
+                    <point eId="prt_2__sec_2__subsec_3__art_61__list_1__point_5"><num>五</num>、受許可之年、月、日。</point>
+                    <point eId="prt_2__sec_2__subsec_3__art_61__list_1__point_6"><num>六</num>、董事之姓名及住所。設有監察人者，其姓名及住所。</point>
+                    <point eId="prt_2__sec_2__subsec_3__art_61__list_1__point_7"><num>七</num>、定有代表法人之董事者，其姓名。</point>
+                    <point eId="prt_2__sec_2__subsec_3__art_61__list_1__point_8"><num>八</num>、定有存立時期者，其時期。</point>
+                  </list>
+                  <p>財團之登記，由董事向其主事務所及分事務所所在地之主管機關行之。並應附具捐助章程或遺囑備案。</p>
+                </content>
+              </article>
+              <article eId="prt_2__sec_2__subsec_3__art_62">
+                <num>第六十二條</num>
+                <note>財團組織及管理方法</note>
+                <content>
+                  <p eId="prt_2__sec_2__subsec_3__art_62__p_1">財團之組織及其管理方法，由捐助人以捐助章程或遺囑定之。捐助章程或遺囑所定之組織不完全，或重要之管理方法不具備者，法院得因主管機關、檢察官或利害關係人之聲請，為必要之處分。</p>
+                </content>
+              </article>
+              <article eId="prt_2__sec_2__subsec_3__art_63">
+                <num>第六十三條</num>
+                <note>財團變更組織</note>
+                <content>
+                  <p eId="prt_2__sec_2__subsec_3__art_63__p_1">為維持財團之目的或保存其財產，法院得因捐助人、董事、主管機關、檢察官或利害關係人之聲請，變更其組織。</p>
+                </content>
+              </article>
+              <article eId="prt_2__sec_2__subsec_3__art_64">
+                <num>第六十四條</num>
+                <note>財團董事行為無效之宣告</note>
+                <content>
+                  <p eId="prt_2__sec_2__subsec_3__art_64__p_1">財團董事，有違反捐助章程之行為時，法院得因主管機關、檢察官或利害關係人之聲請，宣告其行為為無效。</p>
+                </content>
+              </article>
+              <article eId="prt_2__sec_2__subsec_3__art_65">
+                <num>第六十五條</num>
+                <note>財團目的不達時之保護</note>
+                <content>
+                  <p eId="prt_2__sec_2__subsec_3__art_65__p_1">因情事變更，致財團之目的不能達到時，主管機關得斟酌捐助人之意思，變更其目的及其必要之組織，或解散之。</p>
+                </content>
+              </article>
+            </subsection>
+          </section>
+        </chapter>
+        <chapter eId="prt_3">
+          <num>第三章</num>
+          <heading>物</heading>
+          <article eId="prt_3__art_66">
+            <num>第六十六條</num>
+            <note>物之意義－不動產</note>
+            <content>
+              <p eId="prt_3__art_66__p_1">稱不動產者，謂土地及其定著物。</p>
+              <p eId="prt_3__art_66__p_2">不動產之出產物，尚未分離者，為該不動產之部分。</p>
+            </content>
+          </article>
+          <article eId="prt_3__art_67">
+            <num>第六十七條</num>
+            <note>物之意義－動產</note>
+            <content>
+              <p eId="prt_3__art_67__p_1">稱動產者，為前條所稱不動產以外之物。</p>
+            </content>
+          </article>
+          <article eId="prt_3__art_68">
+            <num>第六十八條</num>
+            <note>主物與從物</note>
+            <content>
+              <p eId="prt_3__art_68__p_1">非主物之成分，常助主物之效用，而同屬於一人者，為從物。但交易上有特別習慣者，依其習慣。</p>
+              <p eId="prt_3__art_68__p_2">主物之處分，及於從物。</p>
+            </content>
+          </article>
+          <article eId="prt_3__art_69">
+            <num>第六十九條</num>
+            <note>天然孳息與法定孳息</note>
+            <content>
+              <p eId="prt_3__art_69__p_1">稱天然孳息者，謂果實、動物之產物及其他依物之用法所收穫之出產物。</p>
+              <p eId="prt_3__art_69__p_2">稱法定孳息者，謂利息、租金及其他因法律關係所得之收益。</p>
+            </content>
+          </article>
+          <article eId="prt_3__art_70">
+            <num>第七十條</num>
+            <note>孳息之歸屬</note>
+            <content>
+              <p eId="prt_3__art_70__p_1">有收取天然孳息權利之人，其權利存續期間內，取得與原物分離之孳息。</p>
+              <p eId="prt_3__art_70__p_2">有收取法定孳息權利之人，按其權利存續期間內之日數，取得其孳息。</p>
+            </content>
+          </article>
+        </chapter>
+      </part>
+    </body>
+  </act>
+</akomaNtoso>
