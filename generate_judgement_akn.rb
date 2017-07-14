@@ -260,8 +260,9 @@ def main
   url = ARGV[0]
   data = get_judgement(url)
   # puts data.to_json
-  # puts apply_template(data)
-  File.open("./#{data[:identification]}.akn", 'w') { |file| file.write(apply_template(data)) }
+  result = apply_template(data)
+  puts result
+  File.open("./#{data[:identification]}.akn", 'w') { |file| file.write(result) }
 end
 
 main()

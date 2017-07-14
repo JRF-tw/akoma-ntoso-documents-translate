@@ -26,11 +26,13 @@
       </identification>
       <publication date="2015-12-08" name="判決" showAs="臺灣臺北地方法院民事判決" number="104年度北簡字第9523號"/>
       <classification source="#somebody">
+        <keyword id="返還消費借貸款" value="返還消費借貸款" showAs="返還消費借貸款"/>
       </classification>
       <lifecycle source="#somebody">
         <eventRef date="2015-12-08" id="e1" source="ro1" type="generation"/>
       </lifecycle>
       <workflow source="#somebody">
+        <step date="2015-12-01" id="a1" outcome="#言詞辯論終結" />
         <step date="2015-12-08" id="a2" outcome="#宣判"/>
       </workflow>
       <analysis source="#somebody">
