@@ -4,22 +4,22 @@
     <meta>
       <identification source="#somebody">
         <FRBRWork>
-          <FRBRthis value="/tw/judgement/2015-12-08/TPEV-民-104-北簡-9523-1/main"/>
-          <FRBRuri value="/tw/judgement/2015-12-08/TPEV-民-104-北簡-9523-1"/>
+          <FRBRthis value="/tw/judgement/2015-12-08/TPEV-民事-104-北簡-9523-1/main"/>
+          <FRBRuri value="/tw/judgement/2015-12-08/TPEV-民事-104-北簡-9523-1"/>
           <FRBRdate date="2015-12-08" name="判決"/>
           <FRBRauthor href="#劉宇霖" as="#Author"/>
           <FRBRcountry value="tw"/>
         </FRBRWork>
         <FRBRExpression>
-          <FRBRthis value="/tw/judgement/2015-12-08/TPEV-民-104-北簡-9523-1/chi@/main"/>
-          <FRBRuri value="/tw/judgement/2015-12-08/TPEV-民-104-北簡-9523-1/chi@"/>
+          <FRBRthis value="/tw/judgement/2015-12-08/TPEV-民事-104-北簡-9523-1/chi@/main"/>
+          <FRBRuri value="/tw/judgement/2015-12-08/TPEV-民事-104-北簡-9523-1/chi@"/>
           <FRBRdate date="2015-12-08" name="Published"/>
           <FRBRauthor href="#somebody" as="#Editor"/>
           <FRBRlanguage language="chi"/>
         </FRBRExpression>
         <FRBRManifestation>
-          <FRBRthis value="/tw/judgement/2015-12-08/TPEV-民-104-北簡-9523-1/chi@/main.xml"/>
-          <FRBRuri value="/tw/judgement/2015-12-08/TPEV-民-104-北簡-9523-1/chi@.akn"/>
+          <FRBRthis value="/tw/judgement/2015-12-08/TPEV-民事-104-北簡-9523-1/chi@/main.xml"/>
+          <FRBRuri value="/tw/judgement/2015-12-08/TPEV-民事-104-北簡-9523-1/chi@.akn"/>
           <FRBRdate date="2012-10-09" name="XMLConversion"/>
           <FRBRauthor href="#somebody" as="#Editor"/>
         </FRBRManifestation>
@@ -41,8 +41,7 @@
         </judicial>
       </analysis>
       <references source="#somebody">
-        <original id="ro1" href="/tw/judgement/2015-12-08/TPEV-民-104-北簡-9523-1/chi@" showAs="Original"/>
-        
+        <original id="ro1" href="/tw/judgement/2015-12-08/TPEV-民事-104-北簡-9523-1/chi@" showAs="Original"/>
         <TLCReference href="/tw/act/民法/@chi/main~art_233" showAs="民法第233條"/>
         <TLCReference href="/tw/act/民法/@chi/main~art_478" showAs="民法第478條"/>
         <TLCReference href="/tw/act/民法/@chi/main~art_736" showAs="民法第736條"/>
