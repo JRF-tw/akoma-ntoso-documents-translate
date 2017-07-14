@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.akomantoso.org/2.0 ./akomantoso20.xsd" xmlns="http://www.akomantoso.org/2.0">
+  <judgement>
+    <meta>
+      <identification source="#somebody">
+        <FRBRWork>
+          <FRBRthis value="/tw/judgement/2015-12-08/TPEV-民-104-北簡-9523-1/main"/>
+          <FRBRuri value="/tw/judgement/2015-12-08/TPEV-民-104-北簡-9523-1"/>
+          <FRBRdate date="2015-12-08" name="判決"/>
+          <FRBRauthor href="#劉宇霖" as="#Author"/>
+          <FRBRcountry value="tw"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/tw/judgement/2015-12-08/TPEV-民-104-北簡-9523-1/chi@/main"/>
+          <FRBRuri value="/tw/judgement/2015-12-08/TPEV-民-104-北簡-9523-1/chi@"/>
+          <FRBRdate date="2015-12-08" name="Published"/>
+          <FRBRauthor href="#somebody" as="#Editor"/>
+          <FRBRlanguage language="chi"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/tw/judgement/2015-12-08/TPEV-民-104-北簡-9523-1/chi@/main.xml"/>
+          <FRBRuri value="/tw/judgement/2015-12-08/TPEV-民-104-北簡-9523-1/chi@.akn"/>
+          <FRBRdate date="2012-10-09" name="XMLConversion"/>
+          <FRBRauthor href="#somebody" as="#Editor"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-12-08" name="判決" showAs="臺灣臺北地方法院民事判決" number="104年度北簡字第9523號"/>
+      <classification source="#somebody">
+      </classification>
+      <lifecycle source="#somebody">
+        <eventRef date="2015-12-08" id="e1" source="ro1" type="generation"/>
+      </lifecycle>
+      <workflow source="#somebody">
+        <step date="2015-12-08" id="a2" outcome="#宣判"/>
+      </workflow>
+      <analysis source="#somebody">
+        <judicial>
+          <result type="decide"/>
+        </judicial>
+      </analysis>
+      <references source="#somebody">
+        <original id="ro1" href="/tw/judgement/2015-12-08/TPEV-民-104-北簡-9523-1/chi@" showAs="Original"/>
+        
+        <TLCReference href="/tw/act/民法/@chi/main~art_233" showAs="民法第233條"/>
+        <TLCReference href="/tw/act/民法/@chi/main~art_478" showAs="民法第478條"/>
+        <TLCReference href="/tw/act/民法/@chi/main~art_736" showAs="民法第736條"/>
+        <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_24" showAs="民事訴訟法第24條"/>
+        <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_78" showAs="民事訴訟法第78條"/>
+        <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_385__para_1" showAs="民事訴訟法第385條第1項"/>
+        <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_386" showAs="民事訴訟法第386條"/>
+        <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_389__para_1__subpara_3" showAs="民事訴訟法第389條第1項第3款"/>
+        <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_392__para_2" showAs="民事訴訟法第392條第2項"/>
+        <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_392__para_3" showAs="民事訴訟法第392條第3項"/>
+        <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_427__para_1" showAs="民事訴訟法第427條第1項"/>
+        <TLCReference href="/tw/act/銀行法/@chi/main~art_47__para_1__subpara_2" showAs="銀行法第47條之1第2項"/>
+      </references>
+    </meta>
+    <header>
+      <p>
+        <b>
+          <docProponent>臺灣臺北地方法院民事判決</docProponent>
+        </b>
+      </p>
+      <p class="judgementNumber"><docNumber id="judgmentNumber">104年度北簡字第9523號</docNumber>
+      </p>
+      <p class="parties">
+        <b>原告</b>
+        <party id="p1" refersTo="#台新國際商業銀行股份有限公司" as="#Appellant">台新國際商業銀行股份有限公司</party>
+        <eol/>
+        <b>法定代理人</b>
+        <party id="p2" refersTo="#鍾隆毓">鍾隆毓</party>
+        <eol/>
+        <b>訴訟代理人</b>
+        <party id="p3" refersTo="#李裕吉">李裕吉</party>
+        <eol/>
+        <party id="p3" refersTo="#海清淦">海清淦</party>
+        <eol/>
+        <b>被告</b>
+        <party id="p2" refersTo="#謝玲女" as="#Respondent">謝玲女</party>
+      </p>
+      <p class="summary">
+        <b>主文：</b>
+        <p>被告應給付原告新臺幣壹拾陸萬肆仟玖佰捌拾壹元，及其中新臺幣肆萬玖仟玖佰零柒元部分，自民國一百零四年五月二十七日起至民國一百零四年八月三十一日止，按週年利率百分之十八點二五計算之利息，自民國一百零四年九月一日起至清償日止，按週年利率百分之十五計算之利息。</p>
+        <p>訴訟費用由被告負擔。</p>
+        <p>本判決得假執行；但被告如以新臺幣壹拾陸萬肆仟玖佰捌拾壹元為原告預供擔保，得免為假執行。</p>
+      </p>
+    </header>
+    <judgementBody>
+      <background>
+        <blockList>
+          <item>
+            <p><num>壹</num>、程序方面</p>
+            <blockList>
+              <item>
+                <p><num>一</num>、本件兩造合意以本院為管轄法院，有現金卡信用貸款約定書第23條附卷可證，依民事訴訟法第24條規定，本院自有管轄權，合先敘明。</p>
+              </item>
+              <item>
+                <p><num>二</num>、次按言詞辯論期日當事人之一造不到場者，得依到場當事人之聲請，由其一造辯論而為判決，不到場之當事人，經再次通知而仍不到場者，並得依職權由一造辯論而為判決，民事訴訟法第385條第1項定有明文。本件被告經合法通知，未於最後言詞辯論期日到場，且核無民事訴訟法第386條各款所列情形，爰依聲請由原告一造辯論而為判決。</p>
+              </item>
+            </blockList>
+          </item>
+          <item>
+            <p><num>貳</num>、實體方面：</p>
+            <blockList>
+              <item>
+                <p><num>一</num>、原告主張：被告於民國92年2月10日向原告申請「台新銀行現金卡信用貸款」，依約定書第1條被告得以金融卡提款或轉帳方式動撥貸款額度內之現金，惟依約定書第5條之約定，被告應於每月之繳款截止日依約繳納每月應還款之金額。詎被告未依約繳款，至104年5月26日止，借款尚餘新臺幣（下同）164,981元未按期給付。依約定書第2條約定，系爭貸款之利息計算，依週年利率18.25％按日計息。然如未依約繳款，依約定書第8條之約定，原告得自應付還本日或付息日之翌日起至清償日止，改依週年利率20％計算延滯利息（依銀行法第47條之1第2項，自104年9月1日起信用卡或現金卡之循環利率不得超過週年利率15％）。且按約定書第9條之約定，被告已喪失期限利益，應即清償所有未償還之全部款項，並應給付其中本金49,907元及自104年5月24日起至104年8月31日止，按週年利率20％計算，自104年9月1日起至清償日止，按週年利率15％計算之延滯利息，雖迭經原告催請，被告仍未清償，爰依消費借貸契約之法律關係請求，並聲明如主文第1項所示。</p>
+              </item>
+              <item>
+                <p><num>二</num>、被告未於最後言詞辯論期日到場，據其前到場所為之聲明及陳述，略以：伊確有向原告申請信用卡使用，也願意還這筆錢，但目前無法一次清償，希望能以每月還款5,000元、共還33個月之條件分期清償等語，資為抗辯。並聲明：原告之訴駁回。</p>
+              </item>
+            </blockList>
+          </item>
+        </blockList>
+      </background>
+      <motivation>
+        <blockList id="reasoning">
+          <item>
+            <p><num>三</num>、得心證之理由：</p>
+            <blockList>
+              <item>
+                <p><num>（一）</num>經查，本件原告主張被告前向其申辦現金卡信用貸款借款，詎被告未依約還款，迄今尚有164,981元之欠款及遲延利息未清償之事實，業據其提出台新銀行YouBe申請書、電腦帳務資料、Story生活故事現金卡信用貸款約定書、帳務明細等件為證（見本院卷第2-4頁反面、第17頁），核與其所述情節相符，且為被告所不爭執，自堪信為真實。</p>
+              </item>
+              <item>
+                <p><num>（二）</num>按消費借貸之借用人應於約定期限內，返還與借用物種類品質、數量相同之物：遲延之債務，以支付金錢為標的者，債權人得請求依法定利率計算之遲延利息。但約定利率較高者，仍從其約定利率，<ref href="/tw/act/民法/@chi/main~art_478">民法第478條前段</ref>、<ref href="/tw/act/民法/@chi/main~art_233__para_1">第233條第1項</ref>分別定有明文。本件被告前向原告申辦現金卡信用貸款借款，然未依約還款，迄今共欠164,981元之欠款及遲延利息未依約清償等節，已如上述，揆諸上揭規定，被告自應負清償責任。被告雖抗辯目前無法一次全部清償，請求每月還款5,000元、共還33個月之條件分期清償云云，惟此被告因清償能力不佳致無法償還乙節縱令為真，仍僅是債務人履行能力問題，並非其得分期或緩期清償之法定原因，不影響其依約應負之清償責任；況原告並未同意被告之分期清償條件，顯見兩造就系爭現金卡信用貸款借款債權並未達成互相讓步，以終止爭執或防止爭執發生之和解契約（民法第736條參照），被告復未能提出其他證據舉證有約定分期或緩期清償之情形，是被告上開抗辯，尚無可取。</p>
+              </item>
+            </blockList>
+          </item>
+        </blockList>
+      </motivation>
+      <decision>
+        <blockList>
+          <item>
+            <p><num>四</num>、綜上所述，原告依消費借貸之法律關係，請求被告返還系爭現金卡信用貸款借款債權164,981元，及其中49,907元部分，自104年5月27日起至104年8月31日止，按週年利率18.25％計算之利息，自104年9月1日起至清償日止，按週年利率15％計算之利息，為有理由，應予准許。</p>
+          </item>
+          <item>
+            <p><num>五</num>、本件係就民事訴訟法第427條第1項訴訟適用簡易程序所為被告敗訴之判決，依同法第389條第1項第3款規定，應依職權宣告假執行。並依同法第392條第2項、第3項規定，依職權宣告被告於執行標的物拍定、變賣前預供擔保，得免為假執行。</p>
+          </item>
+          <item>
+            <p><num>六</num>、訴訟費用負擔之依據：民事訴訟法第78條。</p>
+          </item>
+        </blockList>
+      </decision>
+    </judgementBody>
+    <conclusions>
+      <p class="signature">
+        <p>臺北簡易庭 法官</p>
+        <judge id="jud1" refersTo="#劉宇霖">劉宇霖</judge>
+      </p>
+    </conclusions>
+  </judgement>
+</akomaNtoso>

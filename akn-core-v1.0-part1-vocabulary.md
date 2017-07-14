@@ -1381,13 +1381,23 @@ A good legal XML schema must encapsulate knowledge in one self-contained documen
 
 ## <a name="_Toc480551431"></a><a name="_Toc479116033"></a><a name="_Toc447878687"></a><a name="_Toc409027890"></a><a name="_Toc397009769"></a><a name="_Toc395114120"></a><a name="__RefHeading__7136_2913917"></a><a name="_Toc351289807"></a><a name="_Toc348113732">4.3 Strong distinction between authors and editors</a>
 
+最重要的一點是，作者（決定和寫入句子，單詞和標點符號的實際內容）和編輯（決定和組織文件的最終版面和發布）角色之間明確和完全地分離。一般來說，作者建立了內容，編輯者建立了meta data。另一種說法是作者是FRBR Expression的建立者，編輯是FRBR Menifestation的建立者。
+
+
+
 The first important point is the explicit and complete separation between the role of authors (who decide and write the actual content in terms of sentences, words, and punctuation) and of editors (who decide and organize the final layout and publication of the document). We often say that the author has created the content and the editors have created the metadata. Another way to put it is that the author is the creator of the FRBR Expression, and the editors are the creators of the FRBR Manifestation.
 
+在法律發佈領域，作者通常是抽象的概念（例如立法者），其內容是正式行動的結果（例如，對充分討論文本的最終批准），而編輯者可以參與在發佈過程的各個階段。在這方面，確定構成內容的是什麼、編輯添加了什麼在許多情況下是微妙而難以分辨的。經驗法則上，會試圖確定文件在離開作者手中並被編輯者採納時的狀態。例如，即使在官方公報上公佈該文件也不能清楚地確定「官方」內容為何。一些公佈的資料（例如，公報本身的編號）並不在官方作者的手中，因此應被視為meta data而不是內容。
+
 In the field of legal publishing, the author is often an abstract concept (e.g., the legislator), whose content is the result of a formal action (e.g., a final vote of approval for a highly discussed text), while editors can be involved at all stages of the publication process. In this regard, the identification of what constitutes the content and what is an editorial addition is in many cases subtle and difficult to establish. A rule of thumb is to try to determine the state of the document at the moment it left the hands of the author and was taken in by the editors. For instance, even the publication of the document on the official gazette does not determine clearly the “official” content. Some published data (such as, for instance, the number of the gazette itself) were not in the hand of the official authors and as such should be considered metadata and not content.
+
+另一方面來說，這簡單的區別產生了一些需要簡要討論的次要反思。
 
 This basic distinction generates, on the other hand, a few secondary reflections that need to be discussed briefly.
 
 ### <a name="_Toc480551432"></a><a name="_Toc479116034"></a><a name="_Toc447878688"></a><a name="_Toc409027891"></a><a name="_Toc397009770"></a><a name="_Toc395114121"></a><a name="__RefHeading__7138_2913917"></a><a name="_Toc351289808"></a><a name="_Toc348113733"></a><a name="_Toc76988090">4.3.1 The official form is the guarantee of the authorial intention</a>
+
+許多類型的法律文件擁有比格式“更重要”的出版格式。 我們稱之為權威（或官方）格式。 通常情況下，這是一份印在紙上的文件，並在一些眾所周知、高度控制的編輯步驟之後，在官方的管道（例如官方公報）上發佈。 自然地，所有轉換為電子格式後依然具有低於官方格式權威性。 因此，確認其內容正確性的任何疑問可以透過將電子格式的內容與權威表格的內容進行比較，這是理想上的方式。
 
 Many types of legal documents have a “more important” form of publication than others. We will call this the authoritative (or official) form. More often than not, this is a version of the document printed on paper and published within official channels (e.g., the official gazette) after a number of well-known and highly controlled editorial steps. All conversions into electronic formats, by their very nature, have an authoritative status that is of lesser authoritativeness than the official form. Any doubt arising about the correctness of its content should therefore be redeemed by comparing the content of the electronic format with that of the authoritative form, which remains the guarantee of the authorial intention.
 
@@ -1783,6 +1793,8 @@ This element permits including a portion of any other document. It is possible t
 </table>
 
 ## <a name="_Toc480551442"></a><a name="_Toc479116044"></a><a name="_Toc447878698"></a><a name="_Toc409027900"></a><a name="_Toc397009778"></a><a name="_Toc395114129"></a><a name="__RefHeading__7156_2913917"></a><a name="_Toc348113747">5.2 The basic structure of Akoma Ntoso XML resources</a>
+
+Akoma Ntoso的文件結構（Bill/Act，辯論，辯論報告，判決，修正動議，聲明和文件）具有相同的外部組織：一段metadata，封面頁面，介紹性區段（例如序言/ 序言或標題），文件的主要內容部分（四個結構不同），一個結論性的區塊，最後是一個列出附件的區塊（如果有的話）。下表簡要描述了「文字順序」及其部分：
 
 The document structures of Akoma Ntoso (bill/act, debate, debateReport, judgment, amendment, statement, and document) have the same external organization: a place for metadata elements, a cover page, a place for the introductory matters (e.g. preface/ preamble or header for Judgments), the main content part of the document (which is different in the four structures), a place for conclusive remarks, and lastly, a place for listing the attachments if any. The table below describes briefly the “text sequence” and their parts:
 
