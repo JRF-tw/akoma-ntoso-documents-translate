@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.akomantoso.org/2.0 ./akomantoso20.xsd" xmlns="http://www.akomantoso.org/2.0">
+  <judgement>
+    <meta>
+    <identification source="#somebody">
+      <FRBRWork>
+        <FRBRthis value="/tw/judgement/2016-07-12/FSE-民事-104-鳳簡-428-1/main" />
+        <FRBRuri value="/tw/judgement/2016-07-12/FSE-民事-104-鳳簡-428-1" />
+        <FRBRdate date="FSE-民事-104-鳳簡-428-1" name="宣判" />
+        <FRBRauthor href="#蕭承信" as="#Author" />
+        <FRBRcountry value="tw" />
+        <FRBRnumber value="FSE-民事-104-鳳簡-428-1" />
+      </FRBRWork>
+      <FRBRExpression>
+        <FRBRthis value="/tw/judgement/2016-07-12/FSE-民事-104-鳳簡-428-1/chi@/main" />
+        <FRBRuri value="/tw/judgement/2016-07-12/FSE-民事-104-鳳簡-428-1/chi@" />
+        <FRBRdate date="2016-07-12" name="宣判" />
+        <FRBRauthor href="#somebody" as="#Editor" />
+        <FRBRlanguage language="chi" />
+      </FRBRExpression>
+      <FRBRManifestation>
+        <FRBRthis value="/tw/judgement/2016-07-12/FSE-民事-104-鳳簡-428-1/chi@/main.xml" />
+        <FRBRuri value="/tw/judgement/2016-07-12/FSE-民事-104-鳳簡-428-1/chi@/main.akn" />
+        <FRBRdate date="2017-07-20" name="XMLConversion" />
+        <FRBRauthor href="#somebody" as="#Editor" />
+        <FRBRformat value="xml" />
+      </FRBRManifestation>
+    </identification>
+    <publication date="2016-07-12" name="Sentenced" showAs="宣判" number="FSE-民事-104-鳳簡-428-1" />
+    <classification source="#somebody">
+      <keyword id="排除侵害等" value="排除侵害等" showAs="排除侵害等" />
+    </classification>
+    <lifecycle source="#somebody">
+      <eventRef date="2016-07-12" id="e1" source="#ro1" type="published" />
+    </lifecycle>
+    <workflow source="#somebody">
+      <step date="2016-06-28" id="a1" outcome="#言詞辯論終結" />
+      <step date="2016-07-12" id="a2" outcome="#宣判" />
+    </workflow>
+    <analysis source="#somebody">
+      <judicial>
+      </judicial>
+    </analysis>
+    <references source="#somebody">
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_79" showAs="民事訴訟法第79條" />
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_385__para_1" showAs="民事訴訟法第385條第1項" />
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_386" showAs="民事訴訟法第386條" />
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_389__para_1__subpara_3" showAs="民事訴訟法第389條第1項第3款" />
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_392__para_2" showAs="民事訴訟法第392條第2項" />
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_427" showAs="民事訴訟法第427條" />
+    </references>
+    <note>
+      <p>原始網址： http://djirs.judicial.gov.tw/fjud/index_1_S.aspx?p=GyQ2s6zpOZhzAA8co56cvXoADGte1o0DyW3GtAFq1pE%3d</p>
+    </note>
+    </meta>
+    <header>
+      <p>
+        <b>
+          <docProponent>臺灣高雄地方法院民事判決</docProponent>
+        </b>
+      </p>
+      <p class="judgementNumber">
+        <docNumber id="judgmentNumber">104年度鳳簡字第428號</docNumber>
+      </p>
+      <p class="parties">
+        <b>原告</b>
+        <party id="p1" refersTo="#陳慶輝" as="#Appellant">陳慶輝</party>
+        <eol/>
+        <b>訴訟代理人</b>
+        <lawyer id="p2" refersTo="#梁智豪">梁智豪</lawyer>
+        <eol/>
+        <b>複代理人</b>
+        <lawyer id="p3" refersTo="#陳沛羲">陳沛羲</lawyer>
+        <eol/>
+        <b>被告</b>
+        <party id="p4" refersTo="#陳順" as="#Respondent">陳順</party>
+        <eol/>
+        <b>訴訟代理人</b>
+        <party id="p5" refersTo="#陳俞錚">陳俞錚</party>
+      </p>
+      <p class="summary">
+        <b>主文：</b>
+        <p>被告應將坐落<location>高雄市○○區○○段○○○○○地號土地</location>如附圖編號（Ａ）部分車庫增建（面積零點陸參平方公尺）、編號（Ｂ）部分之窗戶（面積參點柒玖平方公尺）、編號（Ｃ）部分鐵皮增建（面積零點參壹平方公尺）及編號（Ｄ）部分圍牆（面積零點參伍平方公尺）拆除，並將該部分土地返還原告。 原告其餘之訴駁回。
+        </p>
+        <p>訴訟費用由被告負擔。</p>
+        <p>本判決原告勝訴部分得假執行。但被告以新臺幣壹拾柒萬柒仟捌佰元為原告預供擔保後，得免為假執行。</p>
+      </p>
+    </header>
+    <judgementBody>
+      <!-- introduction about the judiciary history of the law case-->
+      <introduction>
+      </introduction>
+      <!-- the facts-->
+      <background>
+        <blockList>
+          <item>
+            <p>
+              <num>壹</num>、程序事項：按訴狀送達後，原告不得將原訴變更或追加他訴。被告於訴之變更或追加無異議，而為本案之言詞辯論者，視為同意變更或追加，民事訴訟法第255條第1項本文及第2項定有明文。本件原告原起訴請求被告將高雄市○○區○○段000○號建物（門牌號碼高雄市○○區○○○路00號，下稱系爭建物）右側立面增建14扇窗戶拆除並填平，將共同壁返還原告。嗣於民國105年5月13日具狀追加請求被告將系爭建物右側增建車庫、鐵皮及圍牆占用同段108-10地號土地（下稱108-10號土地）部分拆除，核屬訴之追加，惟被告就原告之追加並未提出異議，而為本案之言詞辯論，依前開規定，應視為同意追加，原告之追加，自屬合法，合先敘明。
+            </p>
+          </item>
+          <item>
+            <p>
+              <num>貳</num>、實體事項：</p>
+            <blockList>
+              <item>
+                <p>
+                  <num>一</num>、原告主張：高雄市○○區○○段00000地號土地（下稱108-9號土地）及108-10號土地均為原告所有。被告於75年間固經原告之父同意將108-9號土地無償借貸予被告，供其興建房屋作為自用住宅使用（即系爭建物）。惟建築方式不得妨礙日後鄰地即108-10號土地另興建房屋，故約定建物之右側立面應作為共同壁使用。詎被告竟違反前開約定，擅自於系爭建物右側立面共同壁增建14扇對外窗（即如附圖編號（Ｂ）所示之窗戶，下稱系爭窗戶），致原告現欲於108-10號土地興建房屋時，無法使用該共同壁。原告自得依兩造間切結書約定，請求被告將系爭建物右側立面增建之14扇窗戶拆除並填平，將共同壁返還原告。另被告於系爭建物旁增建如附圖編號（Ａ）所示之車庫、編號（Ｃ）所示之鐵皮增建及編號（Ｄ）所示之圍牆，已逾越使用範圍至108-10號土地，侵害原告對108-10號土地之所有權，原告亦得依民法第767條之法律關係請求被告拆除等語，並聲明：(一)被告應將系爭建物如附圖編號（Ａ）所示之車庫、編號（Ｃ）所示之鐵皮增建及編號（Ｄ）所示之圍牆拆除；(二)被告應將系爭窗戶拆除並填平，將共同壁返還予原告。</p>
+                <p>
+                  <num>二</num>、被告則以：系爭建物自75年9月15日興建完工迄今已29年，除車庫及晒衣間為事後增建外，其餘外觀、窗戶及屋簷均維持原始建築樣貌。又108-9號土地與108-10號土地及同段108-5地號土地，原均為訴外人即原告之父陳見萬以買賣方式取得，且原均為108-5地號土地，後經分割為3筆地號，後經以夫妻贈與方式移轉登記予訴外人陳林亂，其中108-9號土地與108-10號土地再分別以贈與及買賣之方式移轉登記予原告，原告於取得該等土地前，即已明知系爭建物之存在，自應維持使用現狀。又原告雖主張本件係無償借貸契約，然當時訂立者為土地使用同意書，並非借貸契約，應適用普通地上權之規定，且該同意書並無約定使用期限，被告對地上物自有使用支配之權利。且原告所提出之切結書中陳見萬亦約定「如爾後未行使共同壁，願自本人基地退讓至兩側側院寬度六公尺為準後，方得建築」，顯見被告並無妨礙原告之使用，此觀陳見萬於108-10號土地上另行興建之鐵皮屋，亦距離系爭建物約3公尺，即可知切結書有此約定存在。另系爭建物興建當時僅有單一筆土地，係興建完成後才分割土地，故系爭建物增建部分亦為陳見萬所知悉，且有同意使用等語資為抗辯，並聲明：原告之訴駁回。</p>
+              </item>
+            </blockList>
+          </item>
+        </blockList>
+      </background>
+      <!-- the law-->
+      <motivation>
+        <blockList id="reasoning">
+          <item>
+            <p>
+              <num>(一)</num>原告主張系爭建物右側立面窗戶即如附圖編號（Ｂ）部分所示範圍，及如附圖所示編號（Ａ）部分車庫增建部分、編號（Ｃ）部分鐵皮增建部分與編號（Ｄ）部分圍牆占用原告所有108-10號土地部分，業經本院會同兩造現場履勘，並囑託高雄市政府地政局仁武區地政事務所現場測量，製成如附圖所示之複丈成果圖，堪認原告此部分主張應屬實在。</p>
+          </item>
+          <item>
+            <p>
+              <num>(二)</num>原告主張依被告曾與訴外人陳見萬約定就系爭建物右側立面保留作為共同壁使用，為被告所否認。經查，原告主張之切結書（見本院卷第63頁），係由訴外人陳見萬所簽立，承諾「將來如未行使共同壁，願自其基地退讓至兩側側院寬度六公尺為準後方得建築」，僅屬陳見萬單方義務之承諾，並無被告是否保留同意共同壁使用之約定，自難認得依該切結書對被告為任何主張。縱原告係主張依陳見萬與被告間之保留共同壁約定而為請求，然縱原告主張屬實，該約定亦僅及於約定之當事人即陳見萬及被告間，如非契約關係之當事人，自無援用之理。本件原告係分別基於買賣及贈與之法律關係自訴外人陳林亂取得108-9、108-10號土地，而陳林亂則係基於夫妻贈與之法律關係請求該等土地，自非當然得繼受該契約關係，原告復未提出任何證據證明其有繼受該契約關係之權利義務，自難認原告得基於陳見萬與被告間之約定而為請求。</p>
+          </item>
+          <item>
+            <p>
+              <num>(三)</num>原告另主張縱不得依被告與陳見萬間共同壁之約定請求，亦得依民法第767條前段規定請求被告拆除。按所有人對於無權占有或侵奪其所有物者，得請求返還之，對於妨害其所有權者，得請求除去之，有妨害其所有權之虞者，得請求防止之，民法第767條定有明文。又按以無權占有為原因，請求返還土地者，占有人對土地所有權存在之事實無爭執，而僅以非無權占有為抗辯者，土地所有權人對其土地被無權占有之事實無舉證責任，占有人自應就其取得占有係有正當權源之事實證明之（最高法院85年度台上字第1120號判決要旨參照）。本件原告主張108-10號土地為其所有部分，業據原告提出108-10號土地登記謄本為證（見本院卷第6頁），且為被告所不爭執，堪信為真實。依前開說明，即應由被告就其非屬無權占有之事實舉證以實其說。</p>
+          </item>
+          <item>
+            <p>
+              <num>(四)</num>被告雖抗辯其興建系爭窗戶及增建部分時已得當時土地所有權人陳見萬之同意云云，然原告既係分別基於買賣及贈與之法律關係自訴外人陳林亂取得108-9、108-10號土地，基於契約相對性之原則，自不當然繼受陳見萬與被告間之約定，是縱被告所辯曾得陳見萬同意之情屬實，亦不生拘束非契約當事人之原告之效力理，尚難以此對抗原告，此與原告是否知悉被告已於上開土地上興建系爭建物無涉，被告此部分抗辯，自屬無據。被告復辯稱當時陳見萬已同意其興建系爭建物，應已取得地上權云云。惟按不動產物權，依法律行為而取得、設定、喪失及變更者，非經登記，不生效力，民法第758條第1項定有明文。揆諸上開規定，縱陳見萬確有同意被告得使用原108-5地號土地興建系爭建物，若未經為地上權登記，自不發生地上權之效力。而本件108-9、108-10號土地上均無地上權之登記，有土地登記謄本在卷可參（見本院卷第5至6頁），顯見被告確未取得地上權，被告此部分辯解，顯有誤會。</p>
+          </item>
+          <item>
+            <p>
+              <num>(五)</num>從而，系爭窗戶及如附圖所示編號（Ａ）部分車庫增建部分、編號（Ｃ）部分鐵皮增建部分與編號（Ｄ）部分圍牆既有占用108-10號土地之情形，被告復未能舉證證明有何占用之權源，自屬無權占有108-10號土地，原告請求被告將系爭窗戶及如附圖所示編號（Ａ）部分車庫增建部分、編號（Ｃ）部分鐵皮增建部分與編號（Ｄ）部分圍牆拆除，自屬有據。</p>
+            <p>惟縱系爭窗戶侵害原告對108-10號土地之所有權，原告亦僅得請求被告拆除，尚無請求將共同壁返還之理，是原告請求被告將共同壁返還，應無理由。</p>
+          </item>
+          </item>
+        </blockList>
+      </motivation>
+      <decision>
+        <blockList>
+          <item>
+            <p><num>四</num>、本件係就民事訴訟法第427條訴訟適用簡易程序所為被告部分敗訴之判決，爰依同法第389條第1項第3款之規定，依職權就原告勝訴部分宣告假執行。並依同法第392條第2項，依職權為被告預供擔保，得免為假執行之宣告。</p>
+          </item>
+          <item>
+            <p><num>五</num>、本件事證已臻明確，兩造其餘攻擊防禦方法，核與判決結果不生影響，爰不逐一論述。</p>
+          </item>
+          <item>
+            <p><num>六</num>、訴訟費用負擔之依據：民事訴訟法第79條。</p>
+          </item>
+        </blockList>
+      </decision>
+    </judgementBody>
+    <conclusions>
+      <p class="signature"><span class="signature">法官</span>
+        <judge id="jud01" refersTo="#蕭承信">蕭承信</judge>
+        <eol/>
+      </p>
+    </conclusions>
+  </judgement>
+  <authorialNote>
+    <p>如不服本判決，應於送達後20日內，向本院提出上訴狀並表明上訴理由，如於本判決宣示後送達前提起上訴者，應於判決送達後20日內補提上訴理由書（須附繕本）。</p>
+  </authorialNote>
+</akomaNtoso>

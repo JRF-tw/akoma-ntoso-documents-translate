@@ -158,6 +158,7 @@ def get_judgement(url)
     publish_date: publish_date,
     reason: reason,
     url_code: url_code,
+    url: url,
     year: year,
     word: word,
     number: number,
@@ -166,6 +167,44 @@ def get_judgement(url)
     content: content
   }
   return data
+end
+
+def generate_header(content)
+  main = nil
+
+  if content.match(/\s*主\s+文\s*\n([\p{Word}\s\S]+)\s*事\s+實\s*\n/)
+    main = content.scan(/\s*主\s+文\s*\n([\p{Word}\s\S]+)\s*事\s+實\s*\n/)[0][0].strip
+  elsif content.match(/\n\s*主\s+文\s*\n([\p{Word}\s\S]+)\n\s*事\s*實及理\s*由\s*\n/)
+    main = content.scan(/\n\s*主\s+文\s*\n([\p{Word}\s\S]+)\n\s*事\s*實及理\s*由\s*\n/)[0][0].strip
+  elsif content.match(/\n\s*主\s+文\s*\n([\p{Word}\s\S]+)\n\s*犯罪事實\s*及\s*理由.*\n/)
+    main = content.scan(/\n\s*主\s+文\s*\n([\p{Word}\s\S]+)\n\s*犯罪事實\s*及\s*理由.*\n/)[0][0].strip
+  elsif content.match(/\n\s*主\s+文\s*\n([\p{Word}\s\S]+)\n\s*犯罪事實.*\n/)
+    main = content.scan(/\n\s*主\s+文\s*\n([\p{Word}\s\S]+)\n\s*犯罪事實.*\n/)[0][0].strip
+  elsif content.match(/\n\s*主\s+文\s*\n([\p{Word}\s\S]+)\n\s*事實及理由要領\s*\n/)
+    main = content.scan(/\n\s*主\s+文\s*\n([\p{Word}\s\S]+)\n\s*事實及理由要領\s*\n/)[0][0].strip
+  elsif content.match(/\n\s*主\s+文\s*\n([\p{Word}\s\S]+)\n\s*理\s+由\s*\n/)
+    main = content.scan(/\n\s*主\s+文\s*\n([\p{Word}\s\S]+)\n\s*理\s+由\s*\n/)[0][0].strip
+  end
+  first_line = content.split("\n").first.gsub(/ +/, '||').split('||')
+  court = first_line.first
+  number = first_line.last
+  <<-EOF.gsub(/^\s+/, '')
+  <p>
+    <b>
+      <docProponent>#{court}</docProponent>
+        </b>
+      </p>
+      <p class="judgementNumber">
+        <docNumber id="judgmentNumber">#{number}</docNumber>
+      </p>
+      <p class="parties">
+      </p>
+      <p class="summary">
+        <b>主文：</b>
+        <p>#{main}</p>
+      </p>
+    </p>
+  EOF
 end
 
 def generate_conclusions(judges)
@@ -213,19 +252,23 @@ def apply_template(data)
               <FRBRlanguage language="chi"/>
             </FRBRExpression>
             <FRBRManifestation>
-              <FRBRthis value="/tw/judgement/#{data[:publish_date].strftime('%Y-%m-%d')}/#{data[:identification]}/eng@/main.xml"/>
-              <FRBRuri value="/tw/judgement/#{data[:publish_date].strftime('%Y-%m-%d')}/#{data[:identification]}/eng@/main.akn"/>
+              <FRBRthis value="/tw/judgement/#{data[:publish_date].strftime('%Y-%m-%d')}/#{data[:identification]}/chi@/main.xml"/>
+              <FRBRuri value="/tw/judgement/#{data[:publish_date].strftime('%Y-%m-%d')}/#{data[:identification]}/chi@/main.akn"/>
               <FRBRdate date="#{Date.today.strftime('%Y-%m-%d')}" name="XMLConversion"/>
               <FRBRauthor href="#somebody" as="#Editor"/>
               <FRBRformat value="xml"/>
             </FRBRManifestation>
           </identification>
           <publication date="#{data[:publish_date].strftime('%Y-%m-%d')}" name="Sentenced" showAs="宣判" number="#{data[:identification]}"/>
+          <classification source="#somebody">
+            <keyword id="#{data[:reason]}" value="#{data[:reason]}" showAs="#{data[:reason]}"/>
+          </classification>
           <lifecycle source="#somebody">
             <eventRef date="#{data[:publish_date].strftime('%Y-%m-%d')}" id="e1" source="#ro1" type="published"/>
           </lifecycle>
           <workflow source="#somebody">
-            <step date="#{data[:publish_date].strftime('%Y-%m-%d')}" id="a1"/>
+            <step date="" id="a1" outcome="#言詞辯論終結"/>
+            <step date="#{data[:publish_date].strftime('%Y-%m-%d')}" id="a2" outcome="#宣判"/>
           </workflow>
           <analysis source="#somebody">
             <judicial>
@@ -233,8 +276,12 @@ def apply_template(data)
           </analysis>
           <references source="#somebody">
           </references>
+          <note>
+            <p>原始網址： #{data[:url]}</p>
+          </note>
         </meta>
         <header>
+          #{generate_header(data[:content])}
         </header>
         <judgementBody>
           <!-- introduction about the judiciary history of the law case-->
@@ -248,9 +295,14 @@ def apply_template(data)
           </motivation>
           <decision>
           </decision>
+          <temp>
+          #{data[:content]}
+          </temp>
         </judgementBody>
         #{generate_conclusions(data[:judges])}
       </judgement>
+      <authorialNote>
+      </authorialNote>
     </akomaNtoso>
   EOF
 end
