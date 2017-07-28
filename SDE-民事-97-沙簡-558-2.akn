@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.akomantoso.org/2.0 ./akomantoso20.xsd" xmlns="http://www.akomantoso.org/2.0">
+  <judgement>
+    <meta>
+    <identification source="#somebody">
+      <FRBRWork>
+        <FRBRthis value="/tw/judgement/2009-03-18/SDE-民事-97-沙簡-558-2/main" />
+        <FRBRuri value="/tw/judgement/2009-03-18/SDE-民事-97-沙簡-558-2" />
+        <FRBRdate date="SDE-民事-97-沙簡-558-2" name="宣判" />
+        <FRBRauthor href="#黃佳琪" as="#Author" />
+        <FRBRcountry value="tw" />
+        <FRBRnumber value="SDE-民事-97-沙簡-558-2" />
+      </FRBRWork>
+      <FRBRExpression>
+        <FRBRthis value="/tw/judgement/2009-03-18/SDE-民事-97-沙簡-558-2/chi@/main" />
+        <FRBRuri value="/tw/judgement/2009-03-18/SDE-民事-97-沙簡-558-2/chi@" />
+        <FRBRdate date="2009-03-18" name="宣判" />
+        <FRBRauthor href="#somebody" as="#Editor" />
+        <FRBRlanguage language="chi" />
+      </FRBRExpression>
+      <FRBRManifestation>
+        <FRBRthis value="/tw/judgement/2009-03-18/SDE-民事-97-沙簡-558-2/chi@/main.xml" />
+        <FRBRuri value="/tw/judgement/2009-03-18/SDE-民事-97-沙簡-558-2/chi@/main.akn" />
+        <FRBRdate date="2017-07-20" name="XMLConversion" />
+        <FRBRauthor href="#somebody" as="#Editor" />
+        <FRBRformat value="xml" />
+      </FRBRManifestation>
+    </identification>
+    <publication date="2009-03-18" name="Sentenced" showAs="宣判" number="SDE-民事-97-沙簡-558-2" />
+    <classification source="#somebody">
+      <keyword id="返還借款" value="返還借款" showAs="返還借款" />
+    </classification>
+    <lifecycle source="#somebody">
+      <eventRef date="2009-03-18" id="e1" source="#ro1" type="published" />
+    </lifecycle>
+    <workflow source="#somebody">
+      <step date="2009-03-04" id="a1" outcome="辯論終結" />
+      <step date="2009-03-18" id="a2" outcome="宣判" />
+    </workflow>
+    <analysis source="#somebody">
+      <judicial>
+      </judicial>
+    </analysis>
+    <references source="#somebody">
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_78" showAs="民事訴訟法第78條" />
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_255__para_1__subpara_3" showAs="民事訴訟法第255條第1項第3款" />
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_385__para_1" showAs="民事訴訟法第385條第1項" />
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_386" showAs="民事訴訟法第386條" />
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_389__para_1__subpara_3" showAs="民事訴訟法第389條第1項第3款" />
+      <TLCReference href="/tw/judgement/TCD-97-司促-28870/@chi/main" showAs="臺灣臺中地方法院97年度司促字第28870號支付命令" />
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_427__para_1" showAs="民事訴訟法第427條第1項" />
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_436__para_2" showAs="民事訴訟法第436條第2項" />
+      <TLCReference href="/tw/act/民法/@chi/main~art_103__para_1" showAs="民法第103條第1項" />
+      <TLCReference href="/tw/act/民法/@chi/main~art_474__para_1" showAs="民法第474條第1項" />
+      <TLCReference href="/tw/act/民法/@chi/main~art_739" showAs="民法第739條第1項" />
+      <TLCReference href="/tw/act/民法/@chi/main~art_740" showAs="民法第740條第1項" /> 
+    </references>
+    <note>
+      <p>原始網址： http://djirs.judicial.gov.tw/fjud/index_1_S.aspx?p=sxQJLZcCaeOfIS0tainXMxII4irIXu5L13xGzOwnyTM%3d</p>
+    </note>
+    </meta>
+    <header>
+      <p>
+        <b>
+          <docProponent>臺灣臺中地方法院民事判決</docProponent>
+        </b>
+      </p>
+      <p class="judgementNumber">
+        <docNumber id="judgmentNumber">97年度沙簡字第558號</docNumber>
+      </p>
+      <p class="parties">
+        <b>原告</b>
+        <party id="p1" refersTo="#丁○○" as="#Appellant">丁○○</party>
+        <eol/>
+        <b>訴訟代理人</b>
+        <lawyer id="p2" refersTo="#陳怡成">陳怡成</lawyer>
+        <eol/>
+        <b>複代理人</b>
+        <lawyer id="p3" refersTo="#許富雄">許富雄</lawyer>
+        <eol/>
+        <b>被告</b>
+        <party id="p4" refersTo="#甲○○" as="#Respondent">甲○○</party>
+        <eol/>
+        <b>被告兼訴訟代理人</b>
+        <party id="p5" refersTo="#乙○○">乙○○</party>
+      </p>
+      <p class="summary">
+        <b>主文：</b>
+        <p>被告甲○○應給付原告新臺幣伍拾柒萬元，及其中新臺幣參拾萬元自民國九十七年八月二十三日起至清償日止，按年息百分之十八計算之利息。</p>
+        <p>被告乙○○應給付原告新臺幣伍拾柒萬元，及其中新臺幣參拾萬元自民國九十七年八月二十三日起至清償日止，按年息百分之十八計算之利息。</p>
+        <p>前二項所命之給付，如任一被告為全部或一部之給付時，另一被告於該給付範圍內同免給付之義務。</p>
+        <p>訴訟費用新臺幣參仟貳佰元由被告負擔。</p>
+        <p>本判決得假執行。</p>
+      </p>
+    </header>
+    <judgementBody>
+      <!-- introduction about the judiciary history of the law case-->
+      <introduction>
+      </introduction>
+      <!-- the facts-->
+      <background>
+        <blockList>
+          <item>
+            <p>
+              <num>壹</num>程序方面：</p>
+            <blockList>
+              <item>
+                <p>
+                  <num>一</num>、按訴狀送達後，原告不得將原訴變更或追加他訴。但有下列各款情形之一者，不在此限：三、擴張或減縮應受判決事項之聲明者，民事訴訟法第255條第1項第3款定有明文。本件原告起訴原請求被告應連帶給付原告新臺幣（下同）30萬元，及自支付命令送達翌日起起至清償日止，按年息18%計算之利息。嗣於本院審理中變更訴之聲明為：(一)被告甲○○應給付原告57萬元，及其中30萬元自臺灣臺中地方法院（下稱臺中地院）97年度司促字第28870號支付命令送達翌日起至清償日止，按年息18%計算之利息。(二)被告乙○○應給付原告57萬元，及其中30萬元自臺中地院97年度司促字第28870號支付命令送達翌日起至清償日止，按年息18%計算之利息。(三)前2項聲明，如任一被告為全部或一部之給付時，另一被告於該給付範圍內同免給付之義務，核與上開規定相符，應予准許。</p>
+              </item>
+              <item>
+                <p>
+                  <num>二</num>、被告經合法通知，未於言詞辯論期日到場，核均無民事訴訟法第386條各款所列情形，爰依原告聲請，由其一造辯論而為判決。</p>
+              </item>
+            </blockList>
+          </item>
+          <item>
+            <p>
+              <num>貳</num>、實體方面：</p>
+            <blockList>
+              <item>
+                <p>
+                  <num>一</num>、原告起訴主張：被告甲○○邀同被告乙○○為保證人並拋棄先訴抗辯權，向原告借款30萬元，約定借貸期間自民國90年9月10日起至91年3月10日止，借貸期限屆滿時即應清償，並約定利息每月4,500元，即以年利率18%計付利息。而該筆借款係原告委由訴外人丙○○代理原告處理，原告並將30萬元現金交由丙○○轉交給被告，嗣亦由丙○○代原告向被告催討債務，惟被告經丙○○催討後，除曾於91年1月17日、91年3月14日、91年5月14日、91年7月12日分別以被告乙○○及其女兒陳怡安之名義每次各匯款9,000元入丙○○妻子廖育英之帳戶（即包括6個月之利息及2個月之遲延利息）外，即不再清償，顯已遲延，原告乃請求被告清償本金30萬元、自臺中地院97年度司促字第28870號支付命令送達被告之日前5年內即92年8月23日起至97年8月22日止之遲延利息計27萬元（計算式：4,500元×12月×5）、自臺中地院97年度司促字第28870號支付命令送達翌日起至清償日止，按年息18%計算之利息，爰提起本件訴訟。並聲明：如主文第1至3項所示。</p>
+              </item>
+              <item>
+                <p>
+                  <num>二</num>、被告未於言詞辯論期日到場，惟提出書狀辯稱：被告甲○○、乙○○與原告並不認識，被告二人並未向原告借錢，被告係向訴外人丙○○借錢，錢亦係由丙○○交付，被告前後支付8個月之利息，亦係給付予丙○○，借貸關係係存在於被告與丙○○之間。至原告所提之借據乙紙，被告簽名時，甲方部分係空白，是事後填具，不能以此認定兩造間成立借貸關係等語資為抗辯，並聲明：原告之訴駁回。</p>
+              </item>
+            </blockList>
+          </item>
+        </blockList>
+      </background>
+      <!-- the law-->
+      <motivation>
+        <blockList id="reasoning">
+          <item>
+            <p>
+              <num>(一)</num>原告主張被告甲○○邀同被告乙○○為保證人並拋棄先訴抗辯權，簽立借據借款30萬元等情，業據其提出借據1紙為證，復為被告所不爭執，堪信為真。</p>
+          </item>
+          <item>
+            <p>
+              <num>(二)</num>原告再主張該筆借款係原告委由訴外人丙○○代理原告處理，原告並將30萬元現金交由丙○○轉交給被告等語。被告則辯稱被告係向丙○○借款，借貸關係係存在於被告與丙○○之間，借據上之甲方即貸與人欄於被告簽名時係空白，是事後填具等語。經查：</p>
+            <blockList>
+              <item>
+                <p>
+                  <num>1.</num>按稱消費借貸者，謂當事人一方移轉金錢或其他代替物之所有權於他方，而約定他方以種類、品質、數量相同之物返還之契約；借用人應於約定期限內，返還與借用物種類、品質、數量相同之物，民法第474條第1項、第478條前段分別定有明文。又稱保證者，謂當事人約定，一方於他方之債務人不履行債務時，由其代負履行責任之契約；保證債務，除契約另有訂定外，包含主債務之利息、違約金、損害賠償及其他從屬於主債務之負擔，亦為民法第739條、第740條所明定。按保證人拋棄先訴抗辯權後，其與主債務人對於債權人，就同一內容之給付，即應各負全部履行責任，此二債務具有同一經濟上之目的，倘其中一人為給付，他人就其給付範圍內，亦同免其責任，故應認為保證人與主債務人對於債權人負有不真正連帶債務。次按代理人於代理權限內，以本人名義所為之意思表示，直接對本人發生效力，為民法第103條第1項所明文。而關於代理意思之表示方法，民法未設限制，通常雖應記載代理意旨或字樣，惟依一切具體情事，可認為相對人明悉代理人有代理意思，或可得而知者，則不必表示其係代理人，亦不妨僅表示本人之姓名而為法律行為（洪遜欣著中國民法總則第476頁參照）。</p>
+              </item>
+              <item>
+                <p>
+                  <num>2.</num>查原告主張該筆借款係原告委由訴外人丙○○代理原告處理等情，業據證人丙○○到庭證稱：被告於90年間某日向伊借款，伊當時有向被告表示伊沒有錢，被告並要求伊去問伊朋友是否有人願意借錢給被告，伊乃去問原告是否願意借錢給被告，原告答應借款給被告，惟條件是要寫借據，原告並將現金30萬元及原告之印章交給伊，由伊和被告寫借據，伊在借據上簽原告之姓名，並蓋原告之印章，地點係伊在臺中市○○○路之住處，嗣因原告很忙，故被告之利息是匯款至伊妻子之帳戶，再由伊將現金交給原告等語（見98年1月23日言詞辯論筆錄）。顯見被告於借款時已知悉並非丙○○借款給被告，且丙○○在借據上簽原告之姓名，蓋原告之印章，亦有借據影本1紙在卷可稽，可認被告於借款時已可得而知丙○○係代理原告借款予被告，則丙○○於其代理權限內，以原告之名義代理原告借款30萬元予被告，其所為之意思表示，直接對原告發生效力，是系爭借貸關係存在於原告與被告甲○○之間，被告辯稱其非向原告借款，而係向丙○○借款云云，尚難憑採。</p>
+              </item>
+            </blockList>
+          </item>
+          <item>
+            <p>
+              <num>(三)</num>綜上，本件被告甲○○既偕同被告乙○○為保證人並拋棄先訴抗辯權向原告借款，尚有本金30萬元、92年8月23日起至97年8月22日止之利息27萬元、本金30萬元部分自97年8月23日起至清償日止，按年息18%計算之利息未清償，從而，原告依消費借貸及保證之法律關係，請求被告給付如主文所示之本金、利息，為有理由，應予准許。</p>
+          </item>
+        </blockList>
+      </motivation>
+      <decision>
+        <blockList>
+          <item>
+            <p>
+              <num>四</num>、本件係就民事訴訟法第427條第1項訴訟適用簡易程序所為被告敗訴之判決，故依同法第389條第1項第3款之規定，自應依職權宣告假執行。</p>
+          </item>
+          <item>
+            <p>
+              <num>五</num>、本件訴訟費用額確定為3,200元，由敗訴之被告負擔。</p>
+          </item>
+          <item>
+            <p>
+              <num>六</num>、據上論結，原告之訴為有理由，依民事訴訟法第78條、第436條第2項、第385條第1項前段、第389條第1項第3款，判決如主文。</p>
+          </item>
+        </blockList>
+      </decision>
+    </judgementBody>
+    <conclusions>
+      <p class="signature"><span class="signature">法官</span>
+        <judge id="jud01" refersTo="#黃佳琪">黃佳琪</judge>
+        <eol/>
+      </p>
+    </conclusions>
+  </judgement>
+  <authorialNote>
+    <p>如不服本判決，應於送達後20日內，向本院提出上訴狀並表明上訴理由，如於本判決宣示後送達前提起上訴者，應於判決送達後20日內補提上訴理由書（須附繕本）。</p>
+  </authorialNote>
+</akomaNtoso>

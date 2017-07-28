@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.akomantoso.org/2.0 ./akomantoso20.xsd" xmlns="http://www.akomantoso.org/2.0">
+  <judgement>
+    <meta>
+    <identification source="#somebody">
+      <FRBRWork>
+        <FRBRthis value="/tw/judgement/2017-04-06/TPE-民事-105-北簡-15487-1/main" />
+        <FRBRuri value="/tw/judgement/2017-04-06/TPE-民事-105-北簡-15487-1" />
+        <FRBRdate date="TPE-民事-105-北簡-15487-1" name="宣判" />
+        <FRBRauthor href="#劉宇霖" as="#Author" />
+        <FRBRcountry value="tw" />
+        <FRBRnumber value="TPE-民事-105-北簡-15487-1" />
+      </FRBRWork>
+      <FRBRExpression>
+        <FRBRthis value="/tw/judgement/2017-04-06/TPE-民事-105-北簡-15487-1/chi@/main" />
+        <FRBRuri value="/tw/judgement/2017-04-06/TPE-民事-105-北簡-15487-1/chi@" />
+        <FRBRdate date="2017-04-06" name="宣判" />
+        <FRBRauthor href="#somebody" as="#Editor" />
+        <FRBRlanguage language="chi" />
+      </FRBRExpression>
+      <FRBRManifestation>
+        <FRBRthis value="/tw/judgement/2017-04-06/TPE-民事-105-北簡-15487-1/chi@/main.xml" />
+        <FRBRuri value="/tw/judgement/2017-04-06/TPE-民事-105-北簡-15487-1/chi@/main.akn" />
+        <FRBRdate date="2017-07-27" name="XMLConversion" />
+        <FRBRauthor href="#somebody" as="#Editor" />
+        <FRBRformat value="xml" />
+      </FRBRManifestation>
+    </identification>
+    <publication date="2017-04-06" name="Sentenced" showAs="宣判" number="TPE-民事-105-北簡-15487-1" />
+    <classification source="#somebody">
+      <keyword id="損害賠償" value="損害賠償" showAs="損害賠償" />
+    </classification>
+    <lifecycle source="#somebody">
+      <eventRef date="2017-04-06" id="e1" source="#ro1" type="published" />
+    </lifecycle>
+    <workflow source="#somebody">
+      <step date="2017-03-22" id="a1" outcome="#言詞辯論終結" />
+      <step date="2017-04-06" id="a2" outcome="#宣判" />
+    </workflow>
+    <analysis source="#somebody">
+      <judicial>
+      </judicial>
+    </analysis>
+    <references source="#somebody">
+    </references>
+    <note>
+      <p>原始網址： http://djirs.judicial.gov.tw/fjud/index_1_S.aspx?p=3fS4eHW%2bOVlWZ8OYyh7b2Do4BR0rGPj%2b5ARdQRoVUcsUagx3SnjbVg%3d%3d</p>
+    </note>
+    </meta>
+    <header>
+      <p>
+        <b>
+<docProponent>臺灣臺北地方法院民事判決</docProponent>
+</b>
+      </p>
+      <p class="judgementNumber">
+        <docNumber id="judgmentNumber">臺灣臺北地方法院民事判決</docNumber>
+      </p>
+      <p class="parties">
+        <b>原告</b>
+        <party id="p1" refersTo="#彭志文" as="#Appellant">彭志文</party>
+        <eol/>
+        <b>被告</b>
+        <party id="p1" refersTo="#翁正振" as="#Respondent">翁正振</party>
+        <eol/>
+        <b>被告</b>
+        <party id="p1" refersTo="#韋伯室內裝修實業有限公司" as="#Respondent">韋伯室內裝修實業有限公司</party>
+        <eol/>
+        <b>法定代理人</b>
+        <party id="p1" refersTo="#劉俊良">劉俊良</party>
+        <eol/>
+      </p>
+      <p class="summary">
+        <b>主文：</b>
+        <p>原告之訴及假執行之聲請均駁回。</p>
+        <p>訴訟費用由原告負擔。</p>
+      </p>
+      </p>
+    </header>
+    <judgementBody>
+      <!-- introduction about the judiciary history of the law case-->
+      <introduction>
+      </introduction>
+      <!-- the facts-->
+      <background>
+        <blockList>
+          <item>
+            <p>
+              <num>一</num>、按言詞辯論期日當事人之一造不到場者，得依到場當事人之聲請，由其一造辯論而為判決，不到場之當事人，經再次通知而仍不到場者，並得依職權由一造辯論而為判決，民事訴訟法第385條第1項定有明文。本件被告韋伯室內裝修實業有限公司（下稱被告韋伯公司）經合法通知，未於言詞辯論期日到場，且核無民事訴訟法第386條各款所列情形，爰依原告聲請由其一造辯論而為判決。</p>
+          </item>
+          <item>
+            <p>
+              <num>二</num>、原告主張：原告為
+              <location>門牌號碼臺北市○○區○○路○段00號11樓之2房屋（下稱系爭房屋）</location>之所有權人，被告翁正振於民國104年8月間，委請被告韋伯公司就被告翁正振所有之
+              <location>門牌號碼臺北市○○區○○路○段00號12樓之2房屋（下稱系爭12樓房屋）</location>進行室內裝修及變更外推窗工程，於同年9月28日杜鵑颱風時因被告翁正振定做、指示不當及被告韋伯公司施作之疏失，致漏水滲漏至系爭房屋，造成嚴重漏水、壁癌、龜裂、落塵，造成裝潢家具受損，影響原告居住造成痛苦，其後再次於105年9月27日梅姬颱風時漏水造成裝潢寢具床套、玩具受損，故被告翁正振應負民法第184條第1項前段、第189條但書、第191條第1項、第195條第1項之損害賠償責任，被告韋伯公司應負民法第184條第1項前段、第195條第1項之損害賠償責任，且被告應依民法第185條第1項負連帶損害賠償責任，故原告得依民法第213條第1項及第3項規定向被告請求賠償如工程估價詳細單（下稱系爭估價單）所載新臺幣（下同）196,600元之回復原狀必要費用，然經管委會及調解均不成立，爰依民法184條第1項前段、第189條但書、第191條第1項、第195條第1項、第185條第1項、第213條第1項及第3項規定提起本件訴訟等語，並聲明：1.被告應連帶給付原告196,600元，及自104年11月19日起至清償日止按年息5%計算之利息；2.願供擔保，請准宣告假執行。</p>
+          </item>
+          <item>
+            <p>
+              <num>三</num>、被告則以：</p>
+            <blockList>
+              <item>
+                <p>
+                  <num>(一)</num>被告翁正振則以：伊為系爭12樓房屋之承租人，被告韋伯公司僅代為申請施工許可，實際上是伊自行找師傅施工，原告所稱漏水情形非施工所致，亦與系爭12樓房屋無涉，原告所稱漏水時間均為颱風來襲時，滲漏位置皆為原告陽台外推使用位置及天井旁，係因老舊大樓洗石子材質外牆暗裂嚴重，故颱風來襲使雨水滲漏，原告所提出管委會會議紀錄與事實不符，105年9月27日有請員警進入系爭12樓房屋相對位置查看拍照，經確認該位置地板及旁邊紙箱均為乾燥，已證實該漏水非由系爭12樓房屋往下流所致，原告係與系爭12樓房屋屋主有糾紛才提起訴訟等語，資為抗辯，並聲明：1.駁回原告之訴及假執行之聲請；2.如受不利判決，願供擔保請准宣告免為假執行。</p>
+              </item>
+              <item>
+                <p>
+                  <num>(二)</num>被告韋伯公司則以：伊未承攬該室內裝修工程，僅受託協助辦理進行室內裝修施工許可證之審查作業，日後實際完成工程發包作業時，再依規定辦理將施工許可證上廠商名稱變更為實際承攬工程廠商，故被告翁正振未交給伊施作，即不應再張貼上有伊名義之施工許可證，本件與伊無涉等語，資為抗辯，並聲明：駁回原告之訴。</p>
+              </item>
+            </blockList>
+          </item>
+        </blockList>
+      </background>
+      <!-- the law-->
+      <motivation>
+        <blockList id="reasoning">
+          <item>
+            <p>
+              <num>(一)</num>原告不得依民法第191條第1項向被告翁正振請求損害賠償：</p>
+            <blockList>
+              <item>
+                <p>
+                  <num>1.</num>按土地上之建築物或其他工作物所致他人權利之損害，由工作物之所有人負賠償責任。但其對於設置或保管並無欠缺，或損害非因設置或保管有欠缺，或於防止損害之發生，已盡相當之注意者，不在此限，民法第191條第1項定有明文。是以，除非工作物所有人能舉證證明上開法條但書所示之情形存在，得免負侵權行為損害賠償責任外，因土地上之工作物造成他人之損害，即依法推定工作物所有人有過失，而應負侵權行為損害賠償責任（最高法院96年台上字第489號判決意旨參照）。另民法第191條第1項所謂之土地上之工作物，係指以人工作成之設施，建築物係其例示。而建築物內部之設備如天花板、樓梯、水電配置管線設備等，屬建築物之成分者，固為建築物之一部，應包括在內（最高法院95年度台上字第310號判決意旨參照）。</p>
+              </item>
+              <item>
+                <p>
+                  <num>2.</num>經查，被告翁正振辯稱伊非系爭12樓房屋之所有權人，僅為承租人等語，有存證信函可稽（見本院卷第54至57頁），且為原告所不爭執（見本院卷第61頁），堪信符實，則被告翁正振既非所有人，原告主張應依民法第191條第1項賠償系爭12樓房屋及裝修工程所生損害云云，即與前開要件未合，自屬無據。</p>
+              </item>
+            </blockList>
+          </item>
+          <item>
+            <p>
+              <num>(二)</num>原告就系爭房屋漏水損害向被告請求損害賠償，有無理由？</p>
+            <blockList>
+              <item>
+                <p>
+                  <num>1.</num>因故意或過失，不法侵害他人權利者，負損害賠償責任；負損害賠償責任者，除法律另有規定或契約另有訂定外，應回復他方損害發生前之原狀，民法第184條第1項前段、第213條第1項分別定有明文。又共同侵權行為，須共同侵權行為人皆已具備侵權行為之要件始能成立，若其中有人無故意過失，或無不法侵害行為，則其人非侵權行為人，自不須與具備侵權行為要件之人負連帶損害賠償責任（最高法院22年上字第3437號判例參照）。而依民法第184條第1項前段規定，侵權行為之成立，須行為人因故意過失不法侵害他人權利，亦即行為人須具備歸責性、違法性，並不法行為與損害間有因果關係，始能成立，且主張侵權行為損害賠償請求權之人，對於侵權行為之成立要件應負舉證責任。就歸責事由而言，無論行為人因作為或不作為而生之侵權責任，均以行為人負有注意義務為前提，在當事人間無一定之特殊關係（如當事人間為不相識之陌生人）之情形下，行為人對於他人並不負一般防範損害之注意義務。又就違法性而論，倘行為人所從事者為社會上一般正常之交易行為或經濟活動，除被害人能證明其具有不法性外，亦難概認為侵害行為，以維護侵權行為制度在於兼顧「權益保護」與「行為自由」之旨意（最高法院100年度台上字第328號判決參照）。又當事人主張有利於己之事實者，就其事實有舉證之責任，民事訴訟法第277條前段有明文規定。民事訴訟如係由原告主張權利者，應先由原告負舉證之責，若原告先不能舉證，以證實自己主張之事實為真實，則被告就其抗辯事實即令不能舉證，或其所舉證據尚有疵累，亦應駁回原告之請求（最高法院17年上字第917號判例可資參照）。本件原告主張系爭房屋之天花板及牆壁漏水係因系爭12樓房屋漏水、被告施工所致而受有上開損害，均為被告所否認，則原告自應就係爭房屋漏水原因係系爭12樓房屋漏水、被告施工所致，負舉證之責。</p>
+              </item>
+              <item>
+                <p>
+                  <num>2.</num>經查，原告前揭主張，固據其提出現場照片、漏水位置圖、管委會會議紀錄、系爭估價單為佐（見本院卷第7-22頁、第63頁），然上開照片、位置圖、會議紀錄及估價單僅能證明系爭房屋天花板及牆壁曾有漏水、所載工程所需費用之事實，被告復辯稱系爭12樓房屋相對位置並無水痕等語，並提出漏水相對位置示意圖、監視器翻拍畫面及現場照片為憑（見本院卷第53頁），則尚難認系爭房屋之漏水原因係由系爭12樓房屋漏水或被告施工所致，復經本院闡明後（見本院卷第60頁反面），原告仍未能提出相關證據就系爭估價單所載修繕費用、系爭房屋漏水原因係由系爭12樓房屋漏水、被告施工所致等節為舉證，從而，原告依民法184條第1項前段、第189條但書、第195條第1項、第185條第1項請求被告連帶給付本件修繕費用，即屬無據。</p>
+              </item>
+            </blockList>
+          </item>
+        </blockList>
+      </motivation>
+      <decision>
+        <blockList>
+          <item>
+            <p>
+              <num>五</num>、綜上所述，原告未能就漏水原因為舉證，自不得依民法184條第1項前段、第189條但書、第191條第1項、第195條第1項、第185條第1項請求被告連帶給付本件修繕費用。從而，原告請求被告連帶給付196,600元，及自104年11月19日起至清償日止按年息5%計算之利息，為無理由，應予駁回。其假執行之聲請，亦失所依據，應併駁回之。</p>
+          </item>
+          <item>
+            <p>
+              <num>六</num>、本件事證已臻明確，兩造其餘攻擊防禦方法及證據，核與判決結果不生影響，爰不一一論列，併此敘明。</p>
+          </item>
+          <item>
+            <p>
+              <num>七</num>、訴訟費用負擔之依據：民事訴訟法第78條。</p>
+          </item>
+        </blockList>
+      </decision>
+    </judgementBody>
+    <conclusions>
+      <p class="signature"><span class="signature">法官</span>
+        <judge id="jud01" refersTo="#劉宇霖">劉宇霖</judge>
+        <eol/>
+      </p>
+    </conclusions>
+  </judgement>
+  <authorialNote>
+    <p>如不服本判決，應於判決送達後20日內向本庭（臺北市○○區○○○路0段000巷0號）提出上訴狀。（須按他造當事人之人數附繕本）。如委任律師提起上訴者，應一併繳納上訴審裁判費。</p>
+  </authorialNote>
+</akomaNtoso>

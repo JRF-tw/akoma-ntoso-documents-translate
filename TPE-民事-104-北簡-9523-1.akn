@@ -4,66 +4,57 @@
     <meta>
     <identification source="#somebody">
       <FRBRWork>
-        <FRBRthis value="/tw/judgement/2015-12-08/TPEV-民事-104-北簡-9523-1/main" />
-        <FRBRuri value="/tw/judgement/2015-12-08/TPEV-民事-104-北簡-9523-1" />
-        <FRBRdate date="2015-12-08" name="判決" />
+        <FRBRthis value="/tw/judgement/2015-12-08/TPE-民事-104-北簡-9523-1/main" />
+        <FRBRuri value="/tw/judgement/2015-12-08/TPE-民事-104-北簡-9523-1" />
+        <FRBRdate date="TPE-民事-104-北簡-9523-1" name="宣判" />
         <FRBRauthor href="#劉宇霖" as="#Author" />
         <FRBRcountry value="tw" />
+        <FRBRnumber value="TPE-民事-104-北簡-9523-1" />
       </FRBRWork>
       <FRBRExpression>
-        <FRBRthis value="/tw/judgement/2015-12-08/TPEV-民事-104-北簡-9523-1/chi@/main" />
-        <FRBRuri value="/tw/judgement/2015-12-08/TPEV-民事-104-北簡-9523-1/chi@" />
-        <FRBRdate date="2015-12-08" name="Published" />
+        <FRBRthis value="/tw/judgement/2015-12-08/TPE-民事-104-北簡-9523-1/chi@/main" />
+        <FRBRuri value="/tw/judgement/2015-12-08/TPE-民事-104-北簡-9523-1/chi@" />
+        <FRBRdate date="2015-12-08" name="宣判" />
         <FRBRauthor href="#somebody" as="#Editor" />
         <FRBRlanguage language="chi" />
       </FRBRExpression>
       <FRBRManifestation>
-        <FRBRthis value="/tw/judgement/2015-12-08/TPEV-民事-104-北簡-9523-1/chi@/main.xml" />
-        <FRBRuri value="/tw/judgement/2015-12-08/TPEV-民事-104-北簡-9523-1/chi@.akn" />
-        <FRBRdate date="2012-10-09" name="XMLConversion" />
+        <FRBRthis value="/tw/judgement/2015-12-08/TPE-民事-104-北簡-9523-1/chi@/main.xml" />
+        <FRBRuri value="/tw/judgement/2015-12-08/TPE-民事-104-北簡-9523-1/chi@/main.akn" />
+        <FRBRdate date="2017-07-27" name="XMLConversion" />
         <FRBRauthor href="#somebody" as="#Editor" />
+        <FRBRformat value="xml" />
       </FRBRManifestation>
     </identification>
-    <publication date="2015-12-08" name="判決" showAs="臺灣臺北地方法院民事判決" number="104年度北簡字第9523號" />
+    <publication date="2015-12-08" name="Sentenced" showAs="宣判" number="TPE-民事-104-北簡-9523-1" />
     <classification source="#somebody">
       <keyword id="返還消費借貸款" value="返還消費借貸款" showAs="返還消費借貸款" />
     </classification>
     <lifecycle source="#somebody">
-      <eventRef date="2015-12-08" id="e1" source="ro1" type="generation" />
+      <eventRef date="2015-12-08" id="e1" source="#ro1" type="published" />
     </lifecycle>
     <workflow source="#somebody">
-      <step date="2015-12-01" id="a1" outcome="#言詞辯論終結" />
+      <step date="" id="a1" outcome="#言詞辯論終結" />
       <step date="2015-12-08" id="a2" outcome="#宣判" />
     </workflow>
     <analysis source="#somebody">
       <judicial>
-        <result type="decide" />
       </judicial>
     </analysis>
     <references source="#somebody">
-      <original id="ro1" href="/tw/judgement/2015-12-08/TPEV-民事-104-北簡-9523-1/chi@" showAs="Original" />
-      <TLCReference href="/tw/act/民法/@chi/main~art_233" showAs="民法第233條" />
-      <TLCReference href="/tw/act/民法/@chi/main~art_478" showAs="民法第478條" />
-      <TLCReference href="/tw/act/民法/@chi/main~art_736" showAs="民法第736條" />
-      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_24" showAs="民事訴訟法第24條" />
-      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_78" showAs="民事訴訟法第78條" />
-      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_385__para_1" showAs="民事訴訟法第385條第1項" />
-      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_386" showAs="民事訴訟法第386條" />
-      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_389__para_1__subpara_3" showAs="民事訴訟法第389條第1項第3款" />
-      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_392__para_2" showAs="民事訴訟法第392條第2項" />
-      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_392__para_3" showAs="民事訴訟法第392條第3項" />
-      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_427__para_1" showAs="民事訴訟法第427條第1項" />
-      <TLCReference href="/tw/act/銀行法/@chi/main~art_47__para_1__subpara_2" showAs="銀行法第47條之1第2項" />
     </references>
+    <note>
+      <p>原始網址： http://djirs.judicial.gov.tw/fjud/index_1_S.aspx?p=JHGjmdElzId1mhndOsscMsv0bjE0tUQyuFnOJBSr6wA%3d</p>
+    </note>
     </meta>
     <header>
       <p>
         <b>
-          <docProponent>臺灣臺北地方法院民事判決</docProponent>
-        </b>
+<docProponent>臺灣臺北地方法院民事判決</docProponent>
+</b>
       </p>
       <p class="judgementNumber">
-        <docNumber id="judgmentNumber">104年度北簡字第9523號</docNumber>
+        <docNumber id="judgmentNumber">臺灣臺北地方法院民事判決</docNumber>
       </p>
       <p class="parties">
         <b>原告</b>
@@ -86,8 +77,13 @@
         <p>訴訟費用由被告負擔。</p>
         <p>本判決得假執行；但被告如以新臺幣壹拾陸萬肆仟玖佰捌拾壹元為原告預供擔保，得免為假執行。</p>
       </p>
+      </p>
     </header>
     <judgementBody>
+      <!-- introduction about the judiciary history of the law case-->
+      <introduction>
+      </introduction>
+      <!-- the facts-->
       <background>
         <blockList>
           <item>
@@ -158,13 +154,13 @@
       </decision>
     </judgementBody>
     <conclusions>
-      <p class="signature">
-        <p>臺北簡易庭 法官</p>
-        <judge id="jud1" refersTo="#劉宇霖">劉宇霖</judge>
+      <p class="signature"><span class="signature">法官</span>
+        <judge id="jud01" refersTo="#劉宇霖">劉宇霖</judge>
+        <eol/>
       </p>
     </conclusions>
-    <authorialNote>
-      <p>如不服本判決，應於判決送達後20日內向本庭（臺北市○○區○○○路0段000巷0號）提出上訴狀。（須按他造當事人之人數附繕本）。如委任律師提起上訴者，應一併繳納上訴審裁判費。</p>
-    </authorialNote>
   </judgement>
+  <authorialNote>
+    <p>如不服本判決，應於判決送達後20日內向本庭（臺北市○○區○○○路0段000巷0號）提出上訴狀。（須按他造當事人之人數附繕本）。如委任律師提起上訴者，應一併繳納上訴審裁判費。</p>
+  </authorialNote>
 </akomaNtoso>

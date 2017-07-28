@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.akomantoso.org/2.0 ./akomantoso20.xsd" xmlns="http://www.akomantoso.org/2.0">
+  <judgement>
+    <meta>
+    <identification source="#somebody">
+      <FRBRWork>
+        <FRBRthis value="/tw/judgement/2017-04-10/TPE-民事-106-北簡-2332-1/main" />
+        <FRBRuri value="/tw/judgement/2017-04-10/TPE-民事-106-北簡-2332-1" />
+        <FRBRdate date="TPE-民事-106-北簡-2332-1" name="宣判" />
+        <FRBRauthor href="#郭麗萍" as="#Author" />
+        <FRBRcountry value="tw" />
+        <FRBRnumber value="TPE-民事-106-北簡-2332-1" />
+      </FRBRWork>
+      <FRBRExpression>
+        <FRBRthis value="/tw/judgement/2017-04-10/TPE-民事-106-北簡-2332-1/chi@/main" />
+        <FRBRuri value="/tw/judgement/2017-04-10/TPE-民事-106-北簡-2332-1/chi@" />
+        <FRBRdate date="2017-04-10" name="宣判" />
+        <FRBRauthor href="#somebody" as="#Editor" />
+        <FRBRlanguage language="chi" />
+      </FRBRExpression>
+      <FRBRManifestation>
+        <FRBRthis value="/tw/judgement/2017-04-10/TPE-民事-106-北簡-2332-1/chi@/main.xml" />
+        <FRBRuri value="/tw/judgement/2017-04-10/TPE-民事-106-北簡-2332-1/chi@/main.akn" />
+        <FRBRdate date="2017-07-27" name="XMLConversion" />
+        <FRBRauthor href="#somebody" as="#Editor" />
+        <FRBRformat value="xml" />
+      </FRBRManifestation>
+    </identification>
+    <publication date="2017-04-10" name="Sentenced" showAs="宣判" number="TPE-民事-106-北簡-2332-1" />
+    <classification source="#somebody">
+      <keyword id="侵權行為損害賠償" value="侵權行為損害賠償" showAs="侵權行為損害賠償" />
+    </classification>
+    <lifecycle source="#somebody">
+      <eventRef date="2017-04-10" id="e1" source="#ro1" type="published" />
+    </lifecycle>
+    <workflow source="#somebody">
+      <step date="" id="a1" outcome="#言詞辯論終結" />
+      <step date="2017-04-10" id="a2" outcome="#宣判" />
+    </workflow>
+    <analysis source="#somebody">
+      <judicial>
+      </judicial>
+    </analysis>
+    <references source="#somebody">
+    </references>
+    <note>
+      <p>原始網址： http://djirs.judicial.gov.tw/fjud/index_1_S.aspx?p=vmYXn2KVxeevz4%2fCE5gGIqgaAzHar2nnVlQMJ1naido%3d</p>
+    </note>
+    </meta>
+    <header>
+      <p>
+        <b>
+<docProponent>臺灣臺北地方法院簡易民事判決</docProponent>
+</b>
+      </p>
+      <p class="judgementNumber">
+        <docNumber id="judgmentNumber">臺灣臺北地方法院簡易民事判決</docNumber>
+      </p>
+      <p class="parties">
+        <b>原告</b>
+        <party id="p1" refersTo="#馬蕙芬" as="#Appellant">馬蕙芬</party>
+        <eol/>
+        <b>被告</b>
+        <party id="p1" refersTo="#黃秀華" as="#Respondent">黃秀華</party>
+        <eol/>
+      </p>
+      <p class="summary">
+        <b>主文：</b>
+        <p>被告應給付原告新臺幣捌萬玖仟玖佰貳拾陸元。</p>
+        <p>原告其餘之訴駁回。</p>
+        <p>訴訟費用由被告負擔二分之一，餘由原告負擔。</p>
+        <p>本判決原告勝訴部分得假執行。但被告如以新臺幣捌萬玖仟玖佰貳拾陸元為原告預供擔保，得免為假執行。</p>
+      </p>
+      </p>
+    </header>
+    <judgementBody>
+      <!-- introduction about the judiciary history of the law case-->
+      <introduction>
+        <blockList>
+          <item>
+            <p>
+              <num>壹</num>、程序事項</p>
+            <blockList>
+              <item>
+                <p>
+                  <num>一</num>、按訴狀送達後，原告不得將原訴變更或追加他訴，但請求之基礎事實同一、擴張或減縮應受判決事項之聲明者，不在此限，民事訴訟法第255條第1項第2、3款定有明文。本件原告起訴時，係請求被告應給付原告新臺幣（下同）20萬元，及自起訴狀繕本送達翌日起至清償日止，按年息5％計算之利息。嗣於民國106年3月27日言詞辯論期日，追加玉鐲損失部分45,500元，並減縮聲明請求被告應給付原告155,494元，核無不符，應予准許。</p>
+              </item>
+              <item>
+                <p>
+                  <num>二</num>、又被告經檢察官起訴及原法院判處罪刑者，僅為傷害他人身體之行為，不及於毀損玉鐲部分，此部分非屬被告犯傷害罪所受侵害之客體，原告雖不得依刑事附帶民事訴訟程序，請求被告賠償該玉鐲之損害，惟原告於移送民事庭後已為前揭訴之追加，並已繳納此部分裁判費，本院即應併予審認。</p>
+              </item>
+            </blockList>
+          </item>
+          <item>
+            <p>
+              <num>貳</num>、實體方面</p>
+            <blockList>
+              <item>
+                <p>
+                  <num>一</num>、原告起訴主張：被告因認在職場上遭受原告刁難而心生不滿，於105年6月30日上午11時50分許，見原告行走在臺北市○○區○○路000巷0弄00號附近，竟基於傷害之犯意，自後方出手強行拉扯原告頭髮，導致原告跌倒在地，待原告起身後，仍接續拉扯原告衣服與肩膀，致原告受有左肘表淺性損傷、左肩及上臂表淺性損傷、雙膝部擦挫傷、左大腳趾挫傷及臉部擦挫傷等傷害，暨原告穿戴在手上之玉鐲斷裂。為此請求被告給付醫療費3,050元、交通費1,440元、工作薪資損失5,504元、精神慰撫金100,000元及玉鐲損失45,500元，以上合計155,494元，爰依法提起本件訴訟，並聲明：被告應給付原告155,494元。</p>
+              </item>
+              <item>
+                <p>
+                  <num>二</num>、被告則以：原告腳有受傷，臉破一點，其餘伊不知道，不同意原告之請求，也無錢可賠償等語，資為抗辯。</p>
+              </item>
+            </blockList>
+          </item>
+        </blockList>
+      </introduction>
+      <!-- the facts-->
+      <background>
+      </background>
+      <!-- the law-->
+      <motivation>
+        <blockList id="reasoning">
+          <item>
+            <p>
+              <num>三</num>、原告主張上開事實，業據提出醫療費用收據、統一發票、玉鐲鑑定書、yahoo拍賣網頁截圖、原告受傷暨玉鐲斷裂照片為證（見本院卷第34至41頁；證物袋）。且被告前揭傷害犯行，業經本院以105年度易字第920號刑事判決判處拘役40日確定在案，被告於該刑事案件亦坦承犯行等情，業經本院依職權調取上開刑事卷宗全卷核閱無訛。又於該刑事案件105年8月8日偵訊期日，原告已當庭提出玉鐲斷裂照片（見105年度偵字第15683號偵卷第25頁），且被告亦自承伊有拉原告衣服，原告就摔倒，伊知道原告玉鐲有破等語（見本院卷第29頁），堪認原告上開主張其身體受傷及玉鐲受損之事實為真實。</p>
+          </item>
+          <item>
+            <p>
+              <num>四</num>、按因故意或過失不法侵害他人之權利者，負損害賠償責任；不法侵害他人之身體或健康者，對於被害人因此喪失或減少勞動能力，或增加生活上之需要時，應負損害賠償責任；不法侵害他人之身體、健康、名譽、自由、信用、隱私、貞操，或不法侵害其他人格法益而情節重大者，被害人雖非財產上之損害，亦得請求賠償相當之金額，民法第184條第1項前段、第193條第1項及第195條第1項前段分別定有明文。本件被告故意不法侵害原告之權利，已如前述，自應就原告因此所受之損害，負賠償責任，茲就原告請求之各項損害賠償，審核如下：</p>
+            <blockList>
+              <item>
+                <p>
+                  <num>（一）</num>醫藥費部分：原告主張因本件事故支出醫藥費用3,050元，並提出臺北醫學大學附設醫院醫療費用收據10件為證（見本院卷第34至38頁），應予准許。</p>
+              </item>
+              <item>
+                <p>
+                  <num>（二）</num>交通費部分：原告固主張因本件事故支出交通費1,440元云云，惟並未提出任何證據證明，難謂有據，不能准許。</p>
+              </item>
+              <item>
+                <p>
+                  <num>（三）</num>工作損失部分：原告主張於105年7月1日、18日及同年8月8日、23日，共4日無法工作，每月薪資為41,303元，換算每日薪資1,376元，4日共計5,504元等語，並提出員工薪資單、差勤資料查詢表及個人出勤統計查詢表各1件為佐（見限閱卷）。惟查，原告所受傷害為擦挫傷，原告復未能提出醫囑休養天數之證明，僅得就事發翌日即105年7月1日部分，認其請假有必要性，此部分工作損失即1,376元應予准許。其餘天數尚難認有請假必要性，不應准許。</p>
+              </item>
+              <item>
+                <p>
+                  <num>（四）</num>精神慰撫金部分：按慰藉金之賠償須以人格權遭遇侵害，使精神上受有痛苦為必要，其核給之標準固與財產上損害之計算不同，然非不可斟酌雙方身分資力與加害程度，及其他各種情形核定相當之數額。其金額是否相當，自應依實際加害情形與被害人所受之痛苦及雙方之身分、地位、經濟狀況等關係決定之（最高法院51年台上字第223號判例、85年度台上字第460號判決意旨參照）。查，原告因被告傷害行為，受有左肘表淺性損傷、左肩及上臂表淺性損傷、雙膝部擦挫傷、左大腳趾挫傷及臉部擦挫傷等傷害，堪信原告精神上受有相當痛苦。本院審酌原告為45年次，年滿61歲，五專畢業；被告為60年次，現年45歲，小學畢業，有個人戶籍資料查詢結果2件在卷可稽，本院衡量兩造身分、經濟能力（見卷附稅務電子閘門財產所得調件明細表）、加害行為及原告受傷程度等一切情狀，認為原告請求精神慰撫金100,000元尚屬過高，應以40,000元為適當，逾此部分之請求，則無理由。</p>
+              </item>
+              <item>
+                <p>
+                  <num>（五）</num>玉鐲部分：原告主張上開事故致伊配戴的玉鐲破裂損壞，主張此部分損失為45,500元乙節，業據提出統一發票、玉鐲鑑定書、yahoo拍賣網頁截圖及原告受傷暨玉鐲斷裂照片為證（見本院卷第39至41頁；證物袋），堪信原告主張為真實。</p>
+              </item>
+              <item>
+                <p>
+                  <num>（六）</num>以上原告所得請求金額合計為89,926元（計算式：3,050元＋1,376元＋40,000元＋45,500元＝89,926元）。</p>
+              </item>
+            </blockList>
+          </item>
+        </blockList>
+      </motivation>
+      <decision>
+        <blockList>
+          <item>
+            <p>
+              <num>五</num>、綜上所述，原告依侵權行為之法律關係，請求被告給付原告89,926元，為有理由，應予准許。逾此部分之請求，為無理由，應予駁回。</p>
+          </item>
+          <item>
+            <p>
+              <num>六</num>、兩造其餘攻擊及舉證方法經審酌核與本件判決結果無影響，爰不一一論述，併予敘明。</p>
+          </item>
+          <item>
+            <p>
+              <num>七</num>、本件原告勝訴部分，係就民事訴訟法第427條訴訟適用簡易程序所為被告敗訴之判決，依同法第389條第1項第3款規定，應依職權宣告假執行，並依同法第392條第2項規定，依職權宣告被告如預供擔保，得免為假執行。</p>
+          </item>
+          <item>
+            <p>
+              <num>八</num>、本件原告所請求被告給付109,994元部分（即醫療費、交通費、工作損失、精神慰撫金部分），係刑事附帶民事訴訟經刑事合議庭裁定移送本庭，依刑事訴訟法第504條第2項之規定，免納裁判費。惟就於移送本庭後追加部分（即玉鐲損失45,500元部分），則應繳納裁判費，爰依民事訴訟法第79條之規定，諭知兩造訴訟費用負擔之比例。</p>
+          </item>
+        </blockList>
+      </decision>
+    </judgementBody>
+    <conclusions>
+      <p class="signature"><span class="signature">法官</span>
+        <judge id="jud01" refersTo="#郭麗萍">郭麗萍</judge>
+        <eol/>
+      </p>
+    </conclusions>
+  </judgement>
+  <authorialNote>
+    <p>如不服本判決，應於判決送達後20日內向本庭（臺北市○○區○○○路0段000巷0號）提出上訴狀。（須按他造當事人之人數附繕本）。如委任律師提起上訴者，應一併繳納上訴審裁判費。</p>
+  </authorialNote>
+</akomaNtoso>
