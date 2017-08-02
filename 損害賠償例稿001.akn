@@ -1,201 +1,234 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.akomantoso.org/2.0 ./akomantoso20.xsd" xmlns="http://www.akomantoso.org/2.0">
-    <judgement>
-      <meta>
-        <identification source="#somebody">
-          <FRBRWork>
-            <FRBRthis value="/tw/judgement/{{宣判日期}}/{{案件編號}}/main"/>
-            <FRBRuri value="/tw/judgement/{{宣判日期}}/{{案件編號}}"/>
-            <FRBRdate date="{{案件編號}}" name="宣判"/>
-            <FRBRauthor href="{{受命法官}}" as="#Author"/>
-            <FRBRcountry value="tw"/>
-            <FRBRnumber value="{{案件編號}}"/>
-          </FRBRWork>
-          <FRBRExpression>
-            <FRBRthis value="/tw/judgement/{{宣判日期}}/{{案件編號}}/chi@/main" />
-            <FRBRuri value="/tw/judgement/{{宣判日期}}/{{案件編號}}/chi@" />
-            <FRBRdate date="{{宣判日期}}" name="宣判" />
-            <FRBRauthor href="#somebody" as="#Editor"/>
-            <FRBRlanguage language="chi"/>
-          </FRBRExpression>
-          <FRBRManifestation>
-            <FRBRthis value="/tw/judgement/{{宣判日期}}/{{案件編號}}/chi@/main.xml"/>
-            <FRBRuri value="/tw/judgement/{{宣判日期}}/{{案件編號}}/chi@/main.akn"/>
-            <FRBRdate date="{{宣判日期}}" name="XMLConversion"/>
-            <FRBRauthor href="#somebody" as="#Editor"/>
-            <FRBRformat value="xml"/>
-          </FRBRManifestation>
-        </identification>
-        <publication date="{{判決發佈日期}}" name="Sentenced" showAs="宣判" number="{{判決發佈日期}}"/>
-        <classification source="#somebody">
-          <keyword id="{{案由}}" value="{{案由}}" showAs="{{案由}}"/>
-        </classification>
-        <lifecycle source="#somebody">
-          <eventRef date="{{宣判日期}}" id="e1" source="#ro1" type="published"/>
-        </lifecycle>
-        <workflow source="#somebody">
-          <step date="{{言詞辯論終結日期}}" id="a1" outcome="#言詞辯論終結"/>
-          <step date="{{宣判日期}}" id="a2" outcome="#宣判"/>
-        </workflow>
-        <analysis source="#somebody">
-          <judicial>
-          </judicial>
-        </analysis>
-        <references source="#somebody">
-          {{相關援引法條}}
-        </references>
-        <note>
-          <p>原始網址： #{data[:url]}</p>
-        </note>
-      </meta>
-      <header>
-        <p>
-          <b>
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.akomantoso.org/2.0 ./akomantoso20.xsd" xmlns="http://www.akomantoso.org/2.0">
+  <judgement>
+    <meta>
+    <identification source="#somebody">
+      <FRBRWork>
+        <FRBRthis value="/tw/judgement/{{宣判日期}}/{{案件編號}}/main" />
+        <FRBRuri value="/tw/judgement/{{宣判日期}}/{{案件編號}}" />
+        <FRBRdate date="{{案件編號}}" name="宣判" />
+        <FRBRauthor href="{{受命法官}}" as="#Author" />
+        <FRBRcountry value="tw" />
+        <FRBRnumber value="{{案件編號}}" />
+      </FRBRWork>
+      <FRBRExpression>
+        <FRBRthis value="/tw/judgement/{{宣判日期}}/{{案件編號}}/chi@/main" />
+        <FRBRuri value="/tw/judgement/{{宣判日期}}/{{案件編號}}/chi@" />
+        <FRBRdate date="{{宣判日期}}" name="宣判" />
+        <FRBRauthor href="#somebody" as="#Editor" />
+        <FRBRlanguage language="chi" />
+      </FRBRExpression>
+      <FRBRManifestation>
+        <FRBRthis value="/tw/judgement/{{宣判日期}}/{{案件編號}}/chi@/main.xml" />
+        <FRBRuri value="/tw/judgement/{{宣判日期}}/{{案件編號}}/chi@/main.akn" />
+        <FRBRdate date="{{宣判日期}}" name="XMLConversion" />
+        <FRBRauthor href="#somebody" as="#Editor" />
+        <FRBRformat value="xml" />
+      </FRBRManifestation>
+    </identification>
+    <publication date="{{判決發佈日期}}" name="Sentenced" showAs="宣判" number="{{判決發佈日期}}" />
+    <classification source="#somebody">
+      <keyword id="{{案由}}" value="{{案由}}" showAs="{{案由}}" />
+    </classification>
+    <lifecycle source="#somebody">
+      <eventRef date="{{宣判日期}}" id="e1" source="#ro1" type="published" />
+    </lifecycle>
+    <workflow source="#somebody">
+      <step date="{{言詞辯論終結日期}}" id="a1" outcome="#言詞辯論終結" />
+      <step date="{{宣判日期}}" id="a2" outcome="#宣判" />
+    </workflow>
+    <analysis source="#somebody">
+      <judicial>
+      </judicial>
+    </analysis>
+    <references source="#somebody">
+      {{相關援引法條}}
+    </references>
+    <note>
+      <p>原始網址： #{data[:url]}</p>
+    </note>
+    </meta>
+    <header>
+      <p>
+        <b>
             <docProponent>{{臺灣★地方法院民事簡易判決}}</docProponent>
           </b>
-        </p>
-        <p class="judgementNumber">
-          <docNumber id="judgmentNumber">{{案件編號}}</docNumber>
-        </p>
-        <p class="parties">
-          {{當事人欄}}
-        </p>
-        <p class="summary">
-          <b>主文：</b>
-          {{<p>被告應連帶給付原告新台幣★元，及自民國★日起至清償日止，按週年利率百分之五計算之利息。</p>
-          <p>原告其餘之訴駁回。</p>
-          <p>訴訟費用新台幣★元由被告連帶負擔其中★元，餘由原告負擔。</p>
-          <p>本判決原告勝訴部分得假執行；但被告如於假執行執行標的物拍定、變賣前，以新台幣★元為原告預供擔保，得免為假執行。</p>
-          <p>原告其餘假執行之聲請駁回。</p>}}
-        </p>
-      </header>
-      <judgementBody>
-        <!-- introduction about the judiciary history of the law case-->
-        <introduction>
-        </introduction>
-        <!-- the facts-->
-        <background>
-          <blockList>
-            <item>
-              <p><num>壹</num>、程序部分：</p>
-              <blockList>
-                <item>
-                  <p><num>一</num>、按訴狀送達後，原告不得將原訴變更或追加他訴，但有民事訴訟法第255條第1項但書第3款擴張或減縮應受判決事項聲明之情形者，不在此限。本件原告原係請求被告應連帶給付新台幣（下同）★元，暨自民國（下同）★日起至清償日止，按★計算之利息；嗣於起訴狀送達被告後，擴張其聲明為被告應連帶給付★元，暨自★日起至清償日止，按★計算之利息；核屬擴張應受判決事項聲明，依上說明，自應准許，合先敘明。</p>
-                </item>
-                <item>
-                  <p><num>二</num>、被告★業經合法通知而未於最後言詞辯論期日到場，核無民事訴訟法第386條所列各款情形，爰依原告之聲請，由其一造辯論而為判決。</p>
-                </item>
-              </blockList>
-            </item>
-            <item>
-              <p><num>貳</num>、實體部分：</p>
-              <blockList>
-                <item>
-                  <p><num>一</num>、原告起訴主張：被告★受僱於被告★擔任★業務，於★日★分許，執行業務中駕駛被告★所提供車牌號碼★號★車，沿★縣★路由★往★方向行駛，行經★處時，本應注意★，而依當時現場狀況為★等情觀之，並無任何不能注意之情事，詎竟疏未注意及此，貿然★，致與其所駕駛之車牌號碼★號★車發生碰撞，致其受有★等傷害，因而受有醫療費用★元、減少勞動力損害★元、精神慰撫金★元等損害（以上共計為★元），爰依據侵權行為之法律關係，請求被告連帶賠償★元，並加給自起訴狀繕本送達翌日起至清償日止，按年息5%計算之法定遲延利息等語。</p>
-                </item>
-                <item>
-                  <p><num>二</num>、被告★未於最後言詞辯論期日到場，惟據其前所到場、具狀及被告★到場所為之聲明、陳述略以：★等語，並聲明求為判決：原告之訴駁回，如受不利判決，願供擔保請准免為假執行等語。</p>
-                </item>
-              </blockList>
-            </item>
-          </blockList>
-        </background>
-        <!-- the law-->
-        <motivation>
-          <blockList id="issues">
-            <item>
-              <p><num>參</num>、本件經整理兩造不爭執事項，及依民事訴訟法第436條第2項準用同法第270條之1第1項第3款規定整理並協議簡化兩造爭點，分別列舉如下（見本院卷第★頁、第★頁）：</p>
-              <blockList>
-                <item>
-                  <p><num>（一）</num>兩造不爭執事項：</p>
-                  <blockList>
-                    <item>
-                      <p><num>1. </num></p>
-                    </item>
-                    <item>
-                      <p><num>2. </num></p>
-                    </item>
-                    <item>
-                      <p><num>3. </num></p>
-                    </item>
-                  </blockList>
-                </item>
-                <item>
-                  <p><num>（二）</num>兩造爭點：</p>
-                  <blockList>
-                    <item>
-                      <p><num>1. </num></p>
-                    </item>
-                    <item>
-                      <p><num>2. </num></p>
-                    </item>
-                    <item>
-                      <p><num>3. </num></p>
-                    </item>
-                  </blockList>
-                </item>
-              </blockList>
-            </item>
-          </blockList>
-          <blockList id="reasoning">
-            <item>
-              <p><num>肆</num>、本院得心證之理由：</p>
-              <blockList>
-                <item>
-                  <p><num>一</num>、按因故意或過失，不法侵害他人之權利者，負損害賠償責任；汽車、機車或其他非依軌道行駛之動力車輛，在使用中加損害於他人者，駕駛人應賠償因此所生之損害；民法第184條第1項前段、第191條之2前段分別定有明文。查本件有關原告主張：被告★受僱於被告★擔任★業務，於上開時地執行業務中駕駛被告★所提供上開車輛行經上開肇事地點時，應注意能注意而不注意，貿然★，致與原告所駕駛之上開車輛發生碰撞，致原告受有★等傷害之事實，為兩造所不爭，並有★在卷可參，應堪信為真實。依★規定，被告★本應注意★，且依肇事當時之情況觀之，被告★亦非不能注意，竟疏未注意，致肇生上開事故，被告★自應負過失侵權行為責任。</p>
-                </item>
-                <item>
-                  <p><num>二</num>、次按受僱人因執行職務，不法侵害他人之權利者，由僱用人與行為人連帶負損害賠償責任，民法第188條第1項前段定有明文。查被告★為被告★之僱用人，為兩造所是認，並有★為憑，依前開規定，被告★自應負連帶損害賠償責任。</p>
-                </item>
-                <item>
-                  <p><num>三</num>、再按不法侵害他人之身體或健康者，對於被害人因此喪失或減少勞動能力，或增加生活上之需要時，應負損害賠償責任；不法侵害他人之身體、健康、名譽、自由、信用、隱私、貞操，或不法侵害其他人格法益而情節重大者，被害人雖非財產上之損害，亦得請求賠償相當之金額，民法第193條第1項、第195條第1項前段分別定有明文。被告★對於本件車禍既有過失責任，已見前述，則原告請求賠償損害，即屬於法有據，茲就原告本件請求之各項損害，分別論述如下︰</p>
-                  <blockList>
-                    <item>
-                      <p><num>（一）</num>增加生活上需要之損害（含醫療費用）：原告因本件交通事故支出醫療費★元等情，已據其提出★、★為證，足堪信為真正。被告否認原告前開請求，辯稱★云云，惟無法舉證以實其說，所辯難認可採，則本件原告請求上開醫療費用，核屬有據。</p>
-                    </item>
-                    <item>
-                      <p><num>（二）</num>喪失或減少勞動能力之損害：</p>
-                    </item>
-                    <item>
-                      <p><num>（三）</num>精神慰撫金：按關於精神慰撫金之量定，應參酌兩造之身分、地位及經濟狀況並加害之情形與受傷之程度等，以為裁量之標準（最高法院51年度臺上字第213號判例要旨參照）。茲審酌原告為★畢業，於本件事故發生時年約★歲，係從事★工作，其★年度所得總額為★元，名下擁有★；被告★為★畢業，於本件事故發生時年約★歲，係從事★工作，其★年度所得總額為★元，名下擁有★；此有本院依職權所調取兩造稅務電子閘門財產所得調件明細表附卷可稽（見本院卷第★頁），復審酌兩造之身分、地位、經濟狀況、發生本件交通事故原因力之強弱、原告所受傷害程度等一切情狀，爰認原告請求被告給付精神慰撫金，在★元範圍內尚稱允當，逾此範圍之請求，尚嫌過高。</p>
-                    </item>
-                    <item>
-                      <p><num>（四）</num>綜上所述，原告所得請求賠償之金額合計為★元。</p>
-                    </item>
-                  </blockList>
-                </item>
-                <item>
-                  <p><num>四</num>、又按損害之發生或擴大，被害人與有過失者，法院得減輕賠償金額，或免除之；重大之損害原因，為債務人所不及知，而被害人不預促其注意或怠於避免或減少損害者，為與有過失；且前二項規定，於被害人之代理人或使用人與有過失者，準用之；亦為民法第217條第1、2、3項所明定。經查：★，原告既與有過失，依前開說明觀之，即應適用過失相抵之法則。本院審酌兩造之過失程度，認原告與被告應負之過失責任為★比★，方屬公允。</p>
-                </item>
-                <item>
-                  <p><num>五</num>、原告所受之損害金額為★元，而原告亦應負★之過失責任等情，均已見前述，則原告所受損害應核減之金額為★，即被告應連帶賠償原告★元。從而，本件原告本於侵權行為損害賠償之法律關係請求被告連帶賠償損害，就其訴請被告連帶給付★元，及自起訴狀繕本送達翌日（即★日）起至清償日止，按年息5%計算之法定遲延利息部分之請求，為有理由，應予准許。逾此範圍所為之請求，為無理由，應予駁回。</p>
-                </item>
-              </blockList>
-            </item>
-            
-          </blockList>
-        </motivation>
-        <decision>
-          <blockList>
-            <item>
-              <p><num>伍</num>、本件有關原告勝訴部份，係就民事訴訟法第427條第1項至第4項訴訟適用簡易程序所為被告敗訴之判決，應依職權宣告假執行；而被告就該部分亦聲明願供擔保請准免為假執行宣告免，核無不合，爰酌定相當之擔保金額併予宣告。</p>
-              <p>至於原告其餘部分假執行之聲請，因該部份訴之駁回而失所依據，應予駁回。</p> 
-            </item>
-            <item>
-              <p><num>陸</num>、據上論結，本件原告之訴為一部有理由，一部無理由，並依民事訴訟法第436條第2項、第385條第1項前段、第79條、第85條第2項、第389條第1項第3款、第392條，判決如主文。</p>
-            </item>
-          </blockList>
-        </decision>
-        
-      </judgementBody>
-      <conclusions>
-        <p class="signature"><span class="signature">法官</span>
-          <judge id="jud01" refersTo="{{受命法官}}">{{受命法官}}</judge>
-          <eol/>
-        </p>
-      </conclusions>
-    </judgement>
-    <authorialNote>
-      <p>如不服本判決，應於送達後20日內，向本院提出上訴狀並表明上訴理由，如於本判決宣示後送達前提起上訴者，應於判決送達後20日內補提上訴理由書（須附繕本）。</p>
-    </authorialNote>
-  </akomaNtoso>
+      </p>
+      <p class="judgementNumber">
+        <docNumber id="judgmentNumber">{{案件編號}}</docNumber>
+      </p>
+      <p class="parties">
+        {{當事人欄}}
+      </p>
+      <p class="summary">
+        <b>主文：</b> {{
+        <p>被告應連帶給付原告新台幣★元，及自民國★日起至清償日止，按週年利率百分之五計算之利息。</p>
+        <p>原告其餘之訴駁回。</p>
+        <p>訴訟費用新台幣★元由被告連帶負擔其中★元，餘由原告負擔。</p>
+        <p>本判決原告勝訴部分得假執行；但被告如於假執行執行標的物拍定、變賣前，以新台幣★元為原告預供擔保，得免為假執行。</p>
+        <p>原告其餘假執行之聲請駁回。</p>}}
+      </p>
+    </header>
+    <judgementBody>
+      <!-- introduction about the judiciary history of the law case-->
+      <introduction>
+      </introduction>
+      <!-- the facts-->
+      <background>
+        <blockList>
+          <item>
+            <p>
+              <num>壹</num>、程序部分：</p>
+            <blockList>
+              <item>
+                <p>
+                  <num>一</num>、按訴狀送達後，原告不得將原訴變更或追加他訴，但有民事訴訟法第255條第1項但書第3款擴張或減縮應受判決事項聲明之情形者，不在此限。本件原告原係請求被告應連帶給付新台幣（下同）★元，暨自民國（下同）★日起至清償日止，按★計算之利息；嗣於起訴狀送達被告後，擴張其聲明為被告應連帶給付★元，暨自★日起至清償日止，按★計算之利息；核屬擴張應受判決事項聲明，依上說明，自應准許，合先敘明。</p>
+              </item>
+              <item>
+                <p>
+                  <num>二</num>、被告★業經合法通知而未於最後言詞辯論期日到場，核無民事訴訟法第386條所列各款情形，爰依原告之聲請，由其一造辯論而為判決。</p>
+              </item>
+            </blockList>
+          </item>
+          <item>
+            <p>
+              <num>貳</num>、實體部分：</p>
+            <blockList>
+              <item>
+                <p>
+                  <num>一</num>、原告起訴主張：被告★受僱於被告★擔任★業務，於★日★分許，執行業務中駕駛被告★所提供車牌號碼★號★車，沿★縣★路由★往★方向行駛，行經★處時，本應注意★，而依當時現場狀況為★等情觀之，並無任何不能注意之情事，詎竟疏未注意及此，貿然★，致與其所駕駛之車牌號碼★號★車發生碰撞，致其受有★等傷害，因而受有醫療費用★元、減少勞動力損害★元、精神慰撫金★元等損害（以上共計為★元），爰依據侵權行為之法律關係，請求被告連帶賠償★元，並加給自起訴狀繕本送達翌日起至清償日止，按年息5%計算之法定遲延利息等語。</p>
+              </item>
+              <item>
+                <p>
+                  <num>二</num>、被告★未於最後言詞辯論期日到場，惟據其前所到場、具狀及被告★到場所為之聲明、陳述略以：★等語，並聲明求為判決：原告之訴駁回，如受不利判決，願供擔保請准免為假執行等語。</p>
+              </item>
+            </blockList>
+          </item>
+        </blockList>
+      </background>
+      <!-- the law-->
+      <motivation>
+        <blockList id="issues">
+          <item>
+            <p>
+              <num>參</num>、本件經整理兩造不爭執事項，及依民事訴訟法第436條第2項準用同法第270條之1第1項第3款規定整理並協議簡化兩造爭點，分別列舉如下（見本院卷第★頁、第★頁）：</p>
+            <blockList>
+              <item>
+                <p>
+                  <num>（一）</num>兩造不爭執事項：</p>
+                <blockList>
+                  <item>
+                    <p>
+                      <num>1. </num>
+                    </p>
+                  </item>
+                  <item>
+                    <p>
+                      <num>2. </num>
+                    </p>
+                  </item>
+                  <item>
+                    <p>
+                      <num>3. </num>
+                    </p>
+                  </item>
+                </blockList>
+              </item>
+              <item>
+                <p>
+                  <num>（二）</num>兩造爭點：</p>
+                <blockList>
+                  <item>
+                    <p>
+                      <num>1. </num>
+                    </p>
+                  </item>
+                  <item>
+                    <p>
+                      <num>2. </num>
+                    </p>
+                  </item>
+                  <item>
+                    <p>
+                      <num>3. </num>
+                    </p>
+                  </item>
+                </blockList>
+              </item>
+            </blockList>
+          </item>
+        </blockList>
+        <blockList id="reasoning">
+          <item>
+            <p>
+              <num>肆</num>、本院得心證之理由：</p>
+            <blockList>
+              <item>
+                <p>
+                  <num>一</num>、按因故意或過失，不法侵害他人之權利者，負損害賠償責任；汽車、機車或其他非依軌道行駛之動力車輛，在使用中加損害於他人者，駕駛人應賠償因此所生之損害；民法第184條第1項前段、第191條之2前段分別定有明文。查本件有關原告主張：被告★受僱於被告★擔任★業務，於上開時地執行業務中駕駛被告★所提供上開車輛行經上開肇事地點時，應注意能注意而不注意，貿然★，致與原告所駕駛之上開車輛發生碰撞，致原告受有★等傷害之事實，為兩造所不爭，並有★在卷可參，應堪信為真實。依★規定，被告★本應注意★，且依肇事當時之情況觀之，被告★亦非不能注意，竟疏未注意，致肇生上開事故，被告★自應負過失侵權行為責任。</p>
+              </item>
+              <item>
+                <p>
+                  <num>二</num>、次按受僱人因執行職務，不法侵害他人之權利者，由僱用人與行為人連帶負損害賠償責任，民法第188條第1項前段定有明文。查被告★為被告★之僱用人，為兩造所是認，並有★為憑，依前開規定，被告★自應負連帶損害賠償責任。</p>
+              </item>
+              <item>
+                <p>
+                  <num>三</num>、再按不法侵害他人之身體或健康者，對於被害人因此喪失或減少勞動能力，或增加生活上之需要時，應負損害賠償責任；不法侵害他人之身體、健康、名譽、自由、信用、隱私、貞操，或不法侵害其他人格法益而情節重大者，被害人雖非財產上之損害，亦得請求賠償相當之金額，民法第193條第1項、第195條第1項前段分別定有明文。被告★對於本件車禍既有過失責任，已見前述，則原告請求賠償損害，即屬於法有據，茲就原告本件請求之各項損害，分別論述如下︰</p>
+                <blockList>
+                  <item>
+                    <p>
+                      <num>（一）</num>增加生活上需要之損害（含醫療費用）：原告因本件交通事故支出醫療費★元等情，已據其提出★、★為證，足堪信為真正。被告否認原告前開請求，辯稱★云云，惟無法舉證以實其說，所辯難認可採，則本件原告請求上開醫療費用，核屬有據。</p>
+                  </item>
+                  <item>
+                    <p>
+                      <num>（二）</num>喪失或減少勞動能力之損害：</p>
+                  </item>
+                  <item>
+                    <p>
+                      <num>（三）</num>精神慰撫金：按關於精神慰撫金之量定，應參酌兩造之身分、地位及經濟狀況並加害之情形與受傷之程度等，以為裁量之標準（最高法院51年度臺上字第213號判例要旨參照）。茲審酌原告為★畢業，於本件事故發生時年約★歲，係從事★工作，其★年度所得總額為★元，名下擁有★；被告★為★畢業，於本件事故發生時年約★歲，係從事★工作，其★年度所得總額為★元，名下擁有★；此有本院依職權所調取兩造稅務電子閘門財產所得調件明細表附卷可稽（見本院卷第★頁），復審酌兩造之身分、地位、經濟狀況、發生本件交通事故原因力之強弱、原告所受傷害程度等一切情狀，爰認原告請求被告給付精神慰撫金，在★元範圍內尚稱允當，逾此範圍之請求，尚嫌過高。</p>
+                  </item>
+                  <item>
+                    <p>
+                      <num>（四）</num>綜上所述，原告所得請求賠償之金額合計為★元。</p>
+                  </item>
+                </blockList>
+              </item>
+              <item>
+                <p>
+                  <num>四</num>、又按損害之發生或擴大，被害人與有過失者，法院得減輕賠償金額，或免除之；重大之損害原因，為債務人所不及知，而被害人不預促其注意或怠於避免或減少損害者，為與有過失；且前二項規定，於被害人之代理人或使用人與有過失者，準用之；亦為民法第217條第1、2、3項所明定。經查：★，原告既與有過失，依前開說明觀之，即應適用過失相抵之法則。本院審酌兩造之過失程度，認原告與被告應負之過失責任為★比★，方屬公允。</p>
+              </item>
+              <item>
+                <p>
+                  <num>五</num>、原告所受之損害金額為★元，而原告亦應負★之過失責任等情，均已見前述，則原告所受損害應核減之金額為★，即被告應連帶賠償原告★元。從而，本件原告本於侵權行為損害賠償之法律關係請求被告連帶賠償損害，就其訴請被告連帶給付★元，及自起訴狀繕本送達翌日（即★日）起至清償日止，按年息5%計算之法定遲延利息部分之請求，為有理由，應予准許。逾此範圍所為之請求，為無理由，應予駁回。</p>
+              </item>
+            </blockList>
+          </item>
+
+        </blockList>
+      </motivation>
+      <decision>
+        <blockList>
+          <item>
+            <p>
+              <num>伍</num>、本件有關原告勝訴部份，係就民事訴訟法第427條第1項至第4項訴訟適用簡易程序所為被告敗訴之判決，應依職權宣告假執行；而被告就該部分亦聲明願供擔保請准免為假執行宣告免，核無不合，爰酌定相當之擔保金額併予宣告。</p>
+            <p>至於原告其餘部分假執行之聲請，因該部份訴之駁回而失所依據，應予駁回。</p>
+          </item>
+          <item>
+            <p>
+              <num>陸</num>、據上論結，本件原告之訴為一部有理由，一部無理由，並依民事訴訟法第436條第2項、第385條第1項前段、第79條、第85條第2項、第389條第1項第3款、第392條，判決如主文。</p>
+          </item>
+        </blockList>
+      </decision>
+
+    </judgementBody>
+    <conclusions>
+      <p class="signature"><span class="signature">法官</span>
+        <judge id="jud01" refersTo="{{受命法官}}">{{受命法官}}</judge>
+        <eol/>
+      </p>
+    </conclusions>
+  </judgement>
+  <authorialNote>
+    <p>如不服本判決，應於送達後20日內，向本院提出上訴狀並表明上訴理由，如於本判決宣示後送達前提起上訴者，應於判決送達後20日內補提上訴理由書（須附繕本）。</p>
+  </authorialNote>
+</akomaNtoso>
