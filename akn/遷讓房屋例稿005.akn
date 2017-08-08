@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.akomantoso.org/2.0 ./akomantoso20.xsd" xmlns="http://www.akomantoso.org/2.0">
+  <judgement>
+    <meta>
+    <identification source="#somebody">
+      <FRBRWork>
+        <FRBRthis value="/tw/judgement/{{宣判日期}}/{{案件編號}}/main" />
+        <FRBRuri value="/tw/judgement/{{宣判日期}}/{{案件編號}}" />
+        <FRBRdate date="{{案件編號}}" name="宣判" />
+        <FRBRauthor href="{{受命法官}}" as="#Author" />
+        <FRBRcountry value="tw" />
+        <FRBRnumber value="{{案件編號}}" />
+      </FRBRWork>
+      <FRBRExpression>
+        <FRBRthis value="/tw/judgement/{{宣判日期}}/{{案件編號}}/chi@/main" />
+        <FRBRuri value="/tw/judgement/{{宣判日期}}/{{案件編號}}/chi@" />
+        <FRBRdate date="{{宣判日期}}" name="宣判" />
+        <FRBRauthor href="#somebody" as="#Editor" />
+        <FRBRlanguage language="chi" />
+      </FRBRExpression>
+      <FRBRManifestation>
+        <FRBRthis value="/tw/judgement/{{宣判日期}}/{{案件編號}}/chi@/main.xml" />
+        <FRBRuri value="/tw/judgement/{{宣判日期}}/{{案件編號}}/chi@/main.akn" />
+        <FRBRdate date="{{宣判日期}}" name="XMLConversion" />
+        <FRBRauthor href="#somebody" as="#Editor" />
+        <FRBRformat value="xml" />
+      </FRBRManifestation>
+    </identification>
+    <publication date="{{判決發佈日期}}" name="Sentenced" showAs="宣判" number="{{判決發佈日期}}" />
+    <classification source="#somebody">
+      <keyword id="{{案由}}" value="{{案由}}" showAs="{{案由}}" />
+    </classification>
+    <lifecycle source="#somebody">
+      <eventRef date="{{宣判日期}}" id="e1" source="#ro1" type="published" />
+    </lifecycle>
+    <workflow source="#somebody">
+      <step date="{{言詞辯論終結日期}}" id="a1" outcome="#言詞辯論終結" />
+      <step date="{{宣判日期}}" id="a2" outcome="#宣判" />
+    </workflow>
+    <analysis source="#somebody">
+      <judicial>
+      </judicial>
+    </analysis>
+    <references source="#somebody">
+      {{相關援引法條}}
+    </references>
+    <note>
+      <p>原始網址： #{data[:url]}</p>
+    </note>
+    </meta>
+    <header>
+      <p>
+        <b>
+            <docProponent>{{臺灣★地方法院民事簡易判決}}</docProponent>
+          </b>
+      </p>
+      <p class="judgementNumber">
+        <docNumber id="judgmentNumber">{{案件編號}}</docNumber>
+      </p>
+      <p class="parties">
+        {{當事人欄}}
+      </p>
+      <p class="summary">
+        <b>主文：</b> {{
+        <p>被告應自坐落★縣★鄉★段★小段★號土地上之建號★號建物即門牌號碼★縣★鄉★路★巷★弄★號房屋遷出，並將該房屋返還原告及其他共有人全體。</p>
+        <p>被告應自民國★日起至遷讓交還前項房屋日止，按月給付原告新台幣★元。</p>
+        <p>訴訟費用由被告負擔。</p>
+        <p>本判決得假執行。</p>}}
+      </p>
+    </header>
+    <judgementBody>
+      <!-- introduction about the judiciary history of the law case-->
+      <introduction>
+      </introduction>
+      <!-- the facts-->
+      <background>
+        <blockList>
+          <item>
+            <p>
+              <num>壹</num>、程序部分：</p>
+            <blockList>
+              <item>
+                <p>
+                  <num>一</num>、按訴狀送達後，原告不得將原訴變更或追加他訴，但有民事訴訟法第255條第1項但書第2款請求之基礎事實同一者，不在此限。原告於本件起訴狀送達被告後，復追加請求★，核與其原起訴請求之基礎事實同一，依上說明，自應准許，合先敘明。</p>
+              </item>
+              <item>
+                <p>
+                  <num>二</num>、被告業經合法通知而未於最後言詞辯論期日到場，核無民事訴訟法第386條所列各款情形，爰依原告之聲請，由其一造辯論而為判決。</p>
+              </item>
+            </blockList>
+          </item>
+          <item>
+            <p>
+              <num>貳</num>、實體部分：</p>
+            <blockList>
+              <item>
+                <p>
+                  <num>一</num>、原告起訴主張：坐落★縣★鄉★段★小段★號土地上之建號★號建物即門牌號碼★縣★鄉★路★巷★弄★號房屋（下稱系爭房屋），係原告與訴外人★所共有（原告之應有部分為★，訴外人★之應有部分則為★），前經原告與訴外人★共同於民國（下同）★日將該屋出租予被告，雙方約定租期為★年（即自★日起至★日止），每月租金為新台幣（下同）★元，且原告已於租期屆滿前向被告表示屆期不再續租，則被告理應於租期屆滿後遷讓交還系爭房屋，詎租期屆滿後，被告卻仍拒不交還系爭房屋，其占用系爭房屋顯屬無權占有，爰依據民法第821條、第767條規定，訴請被告應自系爭房屋遷出，交還予原告及其他共有人全體，並自租期屆滿翌日起，按月賠償原告相當於上開租金額之損害金★元等語。</p>
+              </item>
+              <item>
+                <p>
+                  <num>二</num>、被告未於最後言詞辯論期日到場，惟據其前所到場及具狀所為之聲明、陳述略以：★等語，並聲明求為判決原告之訴駁回等語。</p>
+              </item>
+            </blockList>
+          </item>
+        </blockList>
+      </background>
+      <!-- the law-->
+      <motivation>
+        <blockList id="issues">
+          <item>
+            <p>
+              <num>三</num>、本件經整理兩造不爭執事項，及依民事訴訟法第436條第2項準用同法第270條之1第1項第3款規定整理並協議簡化兩造爭點，分別列舉如下（見本院卷第★頁、第★頁）：</p>
+            <blockList>
+              <item>
+                <p>
+                  <num>（一）</num>兩造不爭執事項：</p>
+                <blockList>
+                  <item>
+                    <p>
+                      <num>1. </num>
+                    </p>
+                  </item>
+                  <item>
+                    <p>
+                      <num>2. </num>
+                    </p>
+                  </item>
+                  <item>
+                    <p>
+                      <num>3. </num>
+                    </p>
+                  </item>
+                </blockList>
+              </item>
+              <item>
+                <p>
+                  <num>（二）</num>兩造爭點：</p>
+                <blockList>
+                  <item>
+                    <p>
+                      <num>1. </num>
+                    </p>
+                  </item>
+                  <item>
+                    <p>
+                      <num>2. </num>
+                    </p>
+                  </item>
+                  <item>
+                    <p>
+                      <num>3. </num>
+                    </p>
+                  </item>
+                </blockList>
+              </item>
+            </blockList>
+          </item>
+        </blockList>
+        <blockList id="reasoning">
+          <item>
+            <p>
+              <num>四</num>、本院得心證之理由：</p>
+            <blockList>
+              <item>
+                <p>
+                  <num>（一）</num>原告起訴所主張之上開事實，業據提出系爭建物登記謄本、房屋租賃契約書、房屋稅繳款證明★各一份為證，且為被告所不爭，被告並自承其目前確仍繼續占有使用系爭房屋無訛在卷，應堪信原告之主張為真實。</p>
+              </item>
+              <item>
+                <p><num>（二）</num>被告雖另以前揭情詞置辯，惟查：★★★，則被告上開辯解，自無足採。</p>
+              </item>
+              <item>
+                <p><num>（三）</num>被告於租期屆滿之後，既無繼續占有使用系爭房屋之正當權源，則原告依據民法第821條、第767條、第184條第1項前段之規定，訴請被告應自系爭房屋遷出，交還予原告及其他共有人全體，並自租期屆滿翌日起，按月賠償原告相當於上開租金額之損害金★元（每月租金★元×y／x＝原告每月★元）等語，自屬有據，應予照准。</p>
+              </item>
+              <item>
+                <p><num>（四）</num>本件係就民事訴訟法第427條第1項至第4項訴訟適用簡易程序所為被告敗訴之判決，應依職權宣告假執行，附此敘明。</p>
+              </item>
+              <item>
+                <p><num></num></p>
+              </item>
+            </blockList>
+          </item>
+        </blockList>
+      </motivation>
+      <decision>
+        <blockList>
+          <item>
+            <p>
+              <num>五</num>、據上論結，本件原告之訴為有理由，依民事訴訟法第436條第2項、第385條第1項前段、第78條、第389條第1項第3款，判決如主文。</p>
+          </item>
+        </blockList>
+      </decision>
+    </judgementBody>
+    <conclusions>
+      <p class="signature"><span class="signature">法官</span>
+        <judge id="jud01" refersTo="{{受命法官}}">{{受命法官}}</judge>
+        <eol/>
+      </p>
+    </conclusions>
+  </judgement>
+  <authorialNote>
+    <p>如不服本判決，應於送達後20日內，向本院提出上訴狀並表明上訴理由，如於本判決宣示後送達前提起上訴者，應於判決送達後20日內補提上訴理由書（須附繕本）。</p>
+  </authorialNote>
+</akomaNtoso>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.akomantoso.org/2.0 ./akomantoso20.xsd" xmlns="http://www.akomantoso.org/2.0">
+  <judgement>
+    <meta>
+    <identification source="#somebody">
+      <FRBRWork>
+        <FRBRthis value="/tw/judgement/{{宣判日期}}/{{案件編號}}/main" />
+        <FRBRuri value="/tw/judgement/{{宣判日期}}/{{案件編號}}" />
+        <FRBRdate date="{{案件編號}}" name="宣判" />
+        <FRBRauthor href="{{受命法官}}" as="#Author" />
+        <FRBRcountry value="tw" />
+        <FRBRnumber value="{{案件編號}}" />
+      </FRBRWork>
+      <FRBRExpression>
+        <FRBRthis value="/tw/judgement/{{宣判日期}}/{{案件編號}}/chi@/main" />
+        <FRBRuri value="/tw/judgement/{{宣判日期}}/{{案件編號}}/chi@" />
+        <FRBRdate date="{{宣判日期}}" name="宣判" />
+        <FRBRauthor href="#somebody" as="#Editor" />
+        <FRBRlanguage language="chi" />
+      </FRBRExpression>
+      <FRBRManifestation>
+        <FRBRthis value="/tw/judgement/{{宣判日期}}/{{案件編號}}/chi@/main.xml" />
+        <FRBRuri value="/tw/judgement/{{宣判日期}}/{{案件編號}}/chi@/main.akn" />
+        <FRBRdate date="{{宣判日期}}" name="XMLConversion" />
+        <FRBRauthor href="#somebody" as="#Editor" />
+        <FRBRformat value="xml" />
+      </FRBRManifestation>
+    </identification>
+    <publication date="{{判決發佈日期}}" name="Sentenced" showAs="宣判" number="{{判決發佈日期}}" />
+    <classification source="#somebody">
+      <keyword id="{{案由}}" value="{{案由}}" showAs="{{案由}}" />
+    </classification>
+    <lifecycle source="#somebody">
+      <eventRef date="{{宣判日期}}" id="e1" source="#ro1" type="published" />
+    </lifecycle>
+    <workflow source="#somebody">
+      <step date="{{言詞辯論終結日期}}" id="a1" outcome="#言詞辯論終結" />
+      <step date="{{宣判日期}}" id="a2" outcome="#宣判" />
+    </workflow>
+    <analysis source="#somebody">
+      <judicial>
+      </judicial>
+    </analysis>
+    <references source="#somebody">
+      {{相關援引法條}}
+    </references>
+    <note>
+      <p>原始網址： #{data[:url]}</p>
+    </note>
+    </meta>
+    <header>
+      <p>
+        <b>
+            <docProponent>{{臺灣★地方法院民事簡易判決}}</docProponent>
+          </b>
+      </p>
+      <p class="judgementNumber">
+        <docNumber id="judgmentNumber">{{案件編號}}</docNumber>
+      </p>
+      <p class="parties">
+        {{當事人欄}}
+      </p>
+      <p class="summary">
+        <b>主文：</b> {{
+        <p>被告應給付原告新台幣★元，暨自民國★日起至清償日止，按★計算之利息，並按上開利息總額百分之★加給違約金。</p>
+        <p>訴訟費用新台幣★元由被告負擔。</p>
+        <p>本判決得假執行。</p>}}
+      </p>
+    </header>
+    <judgementBody>
+      <!-- introduction about the judiciary history of the law case-->
+      <introduction>
+      </introduction>
+      <!-- the facts-->
+      <background>
+        <blockList>
+          <item>
+            <p>
+              <num>壹</num>、程序部分：</p>
+            <blockList>
+              <item>
+                <p>
+                  <num>一</num>、按訴狀送達後，原告不得將原訴變更或追加他訴，但有民事訴訟法第255條第1項但書第3款擴張或減縮應受判決事項聲明之情形者，不在此限。本件原告原係請求被告應給付新台幣（下同）★元，暨自民國（下同）★日起至清償日止，按★計算之利息，並按上開利息總額百分之★加給違約金；嗣於起訴狀送達被告後，擴張其聲明為被告應給付★元，暨自★日起至清償日止，按★計算之利息，並按上開利息總額百分之★加給違約金；核屬擴張應受判決事項聲明，依上說明，自應准許，合先敘明。</p>
+              </item>
+              <item>
+                <p>
+                  <num>二</num>、被告業經合法通知而未於最後言詞辯論期日到場，核無民事訴訟法第386條所列各款情形，爰依原告之聲請，由其一造辯論而為判決。</p>
+              </item>
+            </blockList>
+          </item>
+          <item>
+            <p>
+              <num>貳</num>、實體部分：</p>
+            <blockList>
+              <item>
+                <p>
+                  <num>一</num>、原告起訴主張：被告於民國（下同）★日，與原告簽約請領信用卡使用，依約被告得於原告之特約商店簽帳消費，惟消費後應依原告所寄送信用卡消費明細表所定之日期與方式繳付帳款予原告，逾期則應給付原告按★計算之循環信用利息；又倘被告未於應付款之期日前，清償所應繳付消費款中之最低應繳金額，並應按上開利息總額之★加給違約金。詎被告於★月間消費簽帳之結果，本應於★日給付原告★元，或至少應給付★元，被告卻未如數給付，則被告自應依約給付原告如主文第一項所示之信用卡消費款、利息、違約金，爰求為判決如主文所示等語。</p>
+              </item>
+              <item>
+                <p>
+                  <num>二</num>、被告未於最後言詞辯論期日到場，惟據其前所到場及具狀所為之聲明、陳述略以：★等語，並聲明求為判決：原告之訴駁回等語。</p>
+              </item>
+            </blockList>
+          </item>
+        </blockList>
+      </background>
+      <!-- the law-->
+      <motivation>
+        <blockList id="issues">
+          <item>
+            <p>
+              <num>三</num>、本件經整理兩造不爭執事項，及依民事訴訟法第436條第2項準用同法第270條之1第1項第3款規定整理並協議簡化兩造爭點，分別列舉如下（見本院卷第★頁、第★頁）：</p>
+            <blockList>
+              <item>
+                <p>
+                  <num>（一）</num>兩造不爭執事項：</p>
+                <blockList>
+                  <item>
+                    <p>
+                      <num>1. </num>
+                    </p>
+                  </item>
+                  <item>
+                    <p>
+                      <num>2. </num>
+                    </p>
+                  </item>
+                  <item>
+                    <p>
+                      <num>3. </num>
+                    </p>
+                  </item>
+                </blockList>
+              </item>
+              <item>
+                <p>
+                  <num>（二）</num>兩造爭點：</p>
+                <blockList>
+                  <item>
+                    <p>
+                      <num>1. </num>
+                    </p>
+                  </item>
+                  <item>
+                    <p>
+                      <num>2. </num>
+                    </p>
+                  </item>
+                  <item>
+                    <p>
+                      <num>3. </num>
+                    </p>
+                  </item>
+                </blockList>
+              </item>
+            </blockList>
+          </item>
+        </blockList>
+        <blockList id="reasoning">
+          <item>
+            <p>
+              <num>四</num>、本院得心證之理由：</p>
+            <blockList>
+              <item>
+                <p><num>（一）</num>依據兩造不爭執事項★，原告主張★等情，應堪信為真實。【原告所主張之上開事實，業據提出與其所述相符之★為證，被告未於言詞辯論期日到場，亦未提出書狀作何聲明或陳述，本院依上開調查證據之結果，應堪信原告之主張為真實】。</p>
+              </item>
+              <item>
+                <p><num>（二）</num>被告雖另以前揭情詞置辯，惟查：★★★，是被告上開辯解，自非可採。</p>
+              </item>
+              <item>
+                <p><num>（三）</num>從而，原告本於契約之法律關係，訴請被告給付如主文第一項所示之信用卡消費款、利息、違約金等語，即屬有據，應予照准。</p>
+              </item>
+              <item>
+                <p><num>（四）</num>本件係就民事訴訟法第427條第1項至第4項訴訟適用簡易程序所為被告敗訴之判決，應依職權宣告假執行，附此敘明。</p>
+              </item>
+            </blockList>
+          </item>
+        </blockList>
+      </motivation>
+      <decision>
+        <blockList>
+          <item>
+            <p>
+              <num>五</num>、據上論結，本件原告之訴為有理由，依民事訴訟法第436條第2項、第385條第1項前段、第78條、第389條第1項第3款，判決如主文。</p>
+          </item>
+        </blockList>
+      </decision>
+    </judgementBody>
+    <conclusions>
+      <p class="signature"><span class="signature">法官</span>
+        <judge id="jud01" refersTo="{{受命法官}}">{{受命法官}}</judge>
+        <eol/>
+      </p>
+    </conclusions>
+  </judgement>
+  <authorialNote>
+    <p>如不服本判決，應於送達後20日內，向本院提出上訴狀並表明上訴理由，如於本判決宣示後送達前提起上訴者，應於判決送達後20日內補提上訴理由書（須附繕本）。</p>
+  </authorialNote>
+</akomaNtoso>
