@@ -39,9 +39,21 @@
     </workflow>
     <analysis source="#somebody">
       <judicial>
+        <result type="approve"/>
       </judicial>
     </analysis>
     <references source="#somebody">
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_24" showAs="民事訴訟法第24條" />
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_78" showAs="民事訴訟法第78條" />
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_385__para_1" showAs="民事訴訟法第385條第1項" />
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_386" showAs="民事訴訟法第386條" />
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_389__para_1__subpara_3" showAs="民事訴訟法第389條第1項第3款" />
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_392__para_2" showAs="民事訴訟法第392條第2項" />
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_392__para_3" showAs="民事訴訟法第392條第3項" />
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_427__para_1" showAs="民事訴訟法第427條第1項" />
+      <TLCReference href="/tw/act/銀行法/@chi/main~art_47-1__para_2" showAs="銀行法第47-1條第2項" />
+      <TLCReference href="/tw/act/民法/@chi/main~art_233__para_1" showAs="民法第233條第1項" />
+      <TLCReference href="/tw/act/民法/@chi/main~art_478" showAs="民法第478條" />
     </references>
     <note>
       <p>原始網址： http://djirs.judicial.gov.tw/fjud/index_1_S.aspx?p=JHGjmdElzId1mhndOsscMsv0bjE0tUQyuFnOJBSr6wA%3d</p>

@@ -39,9 +39,23 @@
     </workflow>
     <analysis source="#somebody">
       <judicial>
+        <result type="approve"/>
       </judicial>
     </analysis>
     <references source="#somebody">
+      <TLCReference href="/tw/act/民法/@chi/main~art_425__para_2" showAs="民法第425條第2項" />
+      <TLCReference href="/tw/act/民法/@chi/main~art_425" showAs="民法第425條" />
+      <TLCReference href="/tw/act/民法/@chi/main~art_439" showAs="民法第439條" />
+      <TLCReference href="/tw/act/民法/@chi/main~art_450__para_2" showAs="民法第450條第2項" />
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_427__para_2" showAs="民事訴訟法第427條第2項" />
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_389__para_1__subpara_3" showAs="民事訴訟法第389條第1項第3款" />
+      <TLCReference href="/tw/act/土地法/@chi/main~art_100" showAs="土地法第100條" />
+      <TLCReference href="/tw/act/土地法/@chi/main~art_100__para_1" showAs="土地法第100條第1項" />
+      <TLCReference href="/tw/judgement/最高法院41年台上字第138號/@chi/main" showAs="最高法院41年台上字第138號判例要旨" />
+      <TLCReference href="/tw/judgement/最高法院61年台上字第1695號/@chi/main" showAs="最高法院61年台上字第1695號判例要旨" />
+      <TLCReference href="/tw/judgement/最高法院69年台上字第2183號/@chi/main" showAs="最高法院69年台上字第2183號判例要旨" />
+      <TLCReference href="/tw/judgement/最高法院73年台上字第1573號/@chi/main" showAs="最高法院73年台上字第1573號判例要旨" />
+      <TLCReference href="/tw/judgement/最高法院97年度台上字第294號/@chi/main" showAs="最高法院97年度台上字第294號判決要旨" />
     </references>
     <note>
       <p>原始網址： http://djirs.judicial.gov.tw/fjud/index_1_S.aspx?p=q2ZXx5Vyw4as7%2bfINoX0SRyW%2fajGf0khfUroVTzXpw8%3d</p>

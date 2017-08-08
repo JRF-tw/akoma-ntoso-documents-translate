@@ -39,9 +39,16 @@
 </workflow>
 <analysis source="#somebody">
 <judicial>
+  <result type="deny"/>
 </judicial>
 </analysis>
 <references source="#somebody">
+  <TLCReference href="/tw/act/民法/@chi/main~art_148__para_1" showAs="民法第148條第1項" />
+<TLCReference href="/tw/act/民法/@chi/main~art_767__para_1" showAs="民法第767條第1項" />
+<TLCReference href="/tw/act/民事訴訟法/@chi/main~art_78" showAs="民事訴訟法第78條" />
+<TLCReference href="/tw/judgement/最高法院71年台上字第737號/@chi/main" showAs="最高法院71年台上字第737號判例要旨" />
+<TLCReference href="/tw/judgement/最高法院83年度台上字第2348號/@chi/main" showAs="最高法院83年度台上字第2348號判決要旨" />
+<TLCReference href="/tw/judgement/台中地方法院105年度中簡字第2956號/@chi/main" showAs="台中地方法院105年度中簡字第2956號" />
 </references>
 <note>
 <p>原始網址： http://djirs.judicial.gov.tw/fjud/index_1_S.aspx?p=vErdLevukPceL%2fw8bJWZI%2bVBGtd3ihyD7%2bW19780zgA%3d</p>

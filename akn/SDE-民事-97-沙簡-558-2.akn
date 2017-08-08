@@ -39,6 +39,7 @@
     </workflow>
     <analysis source="#somebody">
       <judicial>
+        <result type="approve"/>
       </judicial>
     </analysis>
     <references source="#somebody">

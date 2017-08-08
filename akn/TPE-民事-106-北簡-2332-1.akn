@@ -39,9 +39,23 @@
     </workflow>
     <analysis source="#somebody">
       <judicial>
+        <result type="approve"/>
       </judicial>
     </analysis>
     <references source="#somebody">
+      <TLCReference href="/tw/act/民法/@chi/main~art_184__para_1" showAs="民法第184條第1項" />
+      <TLCReference href="/tw/act/民法/@chi/main~art_193__para_1" showAs="民法第193條第1項" />
+      <TLCReference href="/tw/act/民法/@chi/main~art_195__para_1" showAs="民法第195條第1項" />
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_79" showAs="民事訴訟法第79條" />
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_255__para_1__subpara_2~3" showAs="民事訴訟法第255條第1項第2~3款" />
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_389__para_1__subpara_3" showAs="民事訴訟法第389條第1項第3款" />
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_392__para_2" showAs="民事訴訟法第392條第2項" />
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_427" showAs="民事訴訟法第427條" />
+      <TLCReference href="/tw/act/刑事訴訟法/@chi/main~art_504__para_2" showAs="刑事訴訟法第504條第2項" />
+      <TLCReference href="/tw/judgement/臺北地方法院105年度易字第920號刑事判決/@chi/main" showAs="臺北地方法院105年度易字第920號刑事判決" />
+      <TLCReference href="/tw/judgement/最高法院105年度偵字第15683號/@chi/main" showAs="最高法院105年度偵字第15683號" />
+      <TLCReference href="/tw/judgement/最高法院51年台上字第223號判例/@chi/main" showAs="最高法院51年台上字第223號判例" />
+      <TLCReference href="/tw/judgement/最高法院85年度台上字第460號判決/@chi/main" showAs="最高法院85年度台上字第460號判決" />
     </references>
     <note>
       <p>原始網址： http://djirs.judicial.gov.tw/fjud/index_1_S.aspx?p=vmYXn2KVxeevz4%2fCE5gGIqgaAzHar2nnVlQMJ1naido%3d</p>

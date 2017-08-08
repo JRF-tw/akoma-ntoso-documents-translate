@@ -39,6 +39,7 @@
     </workflow>
     <analysis source="#somebody">
       <judicial>
+        <result type="approve"/>
       </judicial>
     </analysis>
     <references source="#somebody">
@@ -58,6 +59,16 @@
         <docNumber id="judgmentNumber">{{案件編號}}</docNumber>
       </p>
       <p class="parties">
+        <TLCReference href="/tw/act/民法/@chi/main~art_184__para_1" showAs="民法第184條第1項" />
+        <TLCReference href="/tw/act/民法/@chi/main~art_767" showAs="民法第767條" />
+        <TLCReference href="/tw/act/民法/@chi/main~art_821" showAs="民法第821條" />
+        <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_78" showAs="民事訴訟法第78條" />
+        <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_255__para_1" showAs="民事訴訟法第255條第1項" />
+        <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_270-1__para_1__subpara_3" showAs="民事訴訟法第270-1條第1項第3款" />
+        <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_385__para_1" showAs="民事訴訟法第385條第1項" />
+        <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_389__para_1__subpara_3" showAs="民事訴訟法第389條第1項第3款" />
+        <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_427__para_1~4" showAs="民事訴訟法第427條第1~4項" />
+        <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_436__para_2" showAs="民事訴訟法第436條第2項" />
         {{當事人欄}}
       </p>
       <p class="summary">

@@ -39,9 +39,24 @@
     </workflow>
     <analysis source="#somebody">
       <judicial>
+        <result type="deny"/>
       </judicial>
     </analysis>
     <references source="#somebody">
+      <TLCReference href="/tw/act/民法/@chi/main~art_184__para_1" showAs="民法第184條第1項" />
+      <TLCReference href="/tw/act/民法/@chi/main~art_185__para_1" showAs="民法第185條第1項" />
+      <TLCReference href="/tw/act/民法/@chi/main~art_189" showAs="民法第189條" />
+      <TLCReference href="/tw/act/民法/@chi/main~art_191__para_1" showAs="民法第191條第1項" />
+      <TLCReference href="/tw/act/民法/@chi/main~art_195__para_1" showAs="民法第195條第1項" />
+      <TLCReference href="/tw/act/民法/@chi/main~art_213__para_1" showAs="民法第213條第1項" />
+      <TLCReference href="/tw/act/民法/@chi/main~art_213__para_3" showAs="民法第213條第3項" />
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_78" showAs="民事訴訟法第78條" />
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_277" showAs="民事訴訟法第277條" />
+      <TLCReference href="/tw/judgement/最高法院17年上字第917號判例/@chi/main" showAs="最高法院17年上字第917號判例意旨" />
+      <TLCReference href="/tw/judgement/最高法院22年上字第3437號/@chi/main" showAs="最高法院22年上字第3437號判例意旨" />
+      <TLCReference href="/tw/judgement/最高法院95年度台上字第310號/@chi/main" showAs="最高法院95年度台上字第310號判決意旨" />
+      <TLCReference href="/tw/judgement/最高法院96年台上字第489號/@chi/main" showAs="最高法院96年台上字第489號判決意旨" />
+      <TLCReference href="/tw/judgement/最高法院100年度台上字第328號/@chi/main" showAs="最高法院100年度台上字第328號判決" />
     </references>
     <note>
       <p>原始網址： http://djirs.judicial.gov.tw/fjud/index_1_S.aspx?p=3fS4eHW%2bOVlWZ8OYyh7b2Do4BR0rGPj%2b5ARdQRoVUcsUagx3SnjbVg%3d%3d</p>

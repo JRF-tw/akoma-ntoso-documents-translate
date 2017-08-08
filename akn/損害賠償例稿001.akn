@@ -39,9 +39,28 @@
     </workflow>
     <analysis source="#somebody">
       <judicial>
+        <result type="approve"/>
       </judicial>
     </analysis>
     <references source="#somebody">
+      <TLCReference href="/tw/act/民法/@chi/main~art_184,1" showAs="民法第184,1條" />
+      <TLCReference href="/tw/act/民法/@chi/main~art_191,2" showAs="民法第191,2條" />
+      <TLCReference href="/tw/act/民法/@chi/main~art_193,1" showAs="民法第193,1條" />
+      <TLCReference href="/tw/act/民法/@chi/main~art_195,1" showAs="民法第195,1條" />
+      <TLCReference href="/tw/act/民法/@chi/main~art_217,1" showAs="民法第217,1條" />
+      <TLCReference href="/tw/act/民法/@chi/main~art_217,2" showAs="民法第217,2條" />
+      <TLCReference href="/tw/act/民法/@chi/main~art_217,3" showAs="民法第217,3條" />
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_79" showAs="民事訴訟法第79條" />
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_85,2" showAs="民事訴訟法第85,2條" />
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_255,1" showAs="民事訴訟法第255,1條" />
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_270__para_1,1,3" showAs="民事訴訟法第270條第1,1,3項" />
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_385,1" showAs="民事訴訟法第385,1條" />
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_386" showAs="民事訴訟法第386條" />
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_389,1,3" showAs="民事訴訟法第389,1,3條" />
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_392" showAs="民事訴訟法第392條" />
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_427,1~4" showAs="民事訴訟法第427,1~4條" />
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_436,2" showAs="民事訴訟法第436,2條" />
+      <TLCReference href="/tw/judgement/最高法院51年度臺上字第213號/@chi/main" showAs="最高法院51年度臺上字第213號判例要旨" />
       {{相關援引法條}}
     </references>
     <note>

@@ -39,9 +39,33 @@
     </workflow>
     <analysis source="#somebody">
       <judicial>
+        <result type="approve"/>
       </judicial>
     </analysis>
     <references source="#somebody">
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_255__para_1__subpara_3" showAs="民事訴訟法第255條第1項第3款" />
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_255__para_1__subpara_5" showAs="民事訴訟法第255條第1項第5款" />
+      <TLCReference href="/tw/act/票據法/@chi/main~art_29" showAs="票據法第29條" />
+      <TLCReference href="/tw/act/票據法/@chi/main~art_96" showAs="票據法第96條" />
+      <TLCReference href="/tw/act/票據法/@chi/main~art_5" showAs="票據法第5條" />
+      <TLCReference href="/tw/act/票據法/@chi/main~art_11__para_1" showAs="票據法第11條第1項" />
+      <TLCReference href="/tw/act/票據法/@chi/main~art_11__para_2" showAs="票據法第11條第2項" />
+      <TLCReference href="/tw/act/票據法/@chi/main~art_29__para_1" showAs="票據法第29條第1項" />
+      <TLCReference href="/tw/act/票據法/@chi/main~art_96__para_1" showAs="票據法第96條第1項" />
+      <TLCReference href="/tw/act/票據法/@chi/main~art_126__para_1" showAs="票據法第126條第1項" />
+      <TLCReference href="/tw/act/票據法/@chi/main~art_126" showAs="票據法第126條" />
+      <TLCReference href="/tw/act/票據法/@chi/main~art_133" showAs="票據法第133條" />
+      <TLCReference href="/tw/act/票據法/@chi/main~art_144" showAs="票據法第144條" />
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_79" showAs="民事訴訟法第79條" />
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_85__para_2" showAs="民事訴訟法第85條第2項" />
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_389__para_1__subpara_3" showAs="民事訴訟法第389條第1項第3款" />
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_392__para_2" showAs="民事訴訟法第392條第2項" />
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_427" showAs="民事訴訟法第427條" />
+      <TLCReference href="/tw/judgement/最高法院67年台上第3896號/@chi/main" showAs="最高法院67年台上第3896號判例要旨" />
+      <TLCReference href="/tw/judgement/最高法院71年度台上字第1474號/@chi/main" showAs="最高法院71年度台上字第1474號判例要旨" />
+      <TLCReference href="/tw/judgement/最高法院70年度台上字第4447號/@chi/main" showAs="最高法院70年度台上字第4447號" />
+      <TLCEvent href="/tw/event/1992-10-13/民一字第16977號民事法律座談會/@chi/main" showAs="臺灣高等法院81年10月13日(81)廳民一字第16977號民事法律座談會" />
+
     </references>
     <note>
       <p>原始網址： http://djirs.judicial.gov.tw/fjud/index_1_S.aspx?p=wGkhVfTHpP04qXisP%2f39W%2fb8qtbSGh%2bmV1fDJv%2ffyn4%3d</p>

@@ -38,9 +38,19 @@
     </workflow>
     <analysis source="#somebody">
       <judicial>
+        <result type="approve"/>
       </judicial>
     </analysis>
     <references source="#somebody">
+      <TLCReference href="/tw/act/票據法/@chi/main~art_5__para_1" showAs="票據法第5條第1項" />
+      <TLCReference href="/tw/act/票據法/@chi/main~art_29" showAs="票據法第29條" />
+      <TLCReference href="/tw/act/票據法/@chi/main~art_85__para_1" showAs="票據法第85條第1項" />
+      <TLCReference href="/tw/act/票據法/@chi/main~art_133" showAs="票據法第133條" />
+      <TLCReference href="/tw/act/票據法/@chi/main~art_144" showAs="票據法第144條" />
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_277" showAs="民事訴訟法第277條" />
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_389__para_1__subpara_3" showAs="民事訴訟法第389條第1項第3款" />
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_392__para_2" showAs="民事訴訟法第392條第2項" />
+      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_427" showAs="民事訴訟法第427條" />
     </references>
     <note>
       <p>原始網址： http://djirs.judicial.gov.tw/fjud/index_1_S.aspx?p=wGkhVfTHpP34HuFlVIGYQRDp2Uz0lmRPNPMSK5sICCg%3d</p>
