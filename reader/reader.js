@@ -308,7 +308,7 @@ var parseTLCReferenceElement = (element) => {
 }
 
 var parseNoteElement = (element) => {
-
+  return getElementText(element);
 }
 
 var parseHeaderElement = (element) => {
@@ -316,7 +316,6 @@ var parseHeaderElement = (element) => {
   element['elements'].forEach((item) => {
     if (item['name'] === 'p') {
       itemClass = getArrayValue(item, 'attributes', 'class');
-      console.log(itemClass);
       if (itemClass === 'docProponent') {
         data['docProponent'] = parseDocProponentElement(item);
       } else if (itemClass === 'judgementNumber') {
@@ -475,9 +474,6 @@ var parseBlockListElement = (element) => {
   })
   return data;
 }
-var parseIssuesBlockListElement = (element) => {
-
-}
 
 var parseIntroElement = (element) => {
   return getElementText(element).split("\n");
@@ -493,12 +489,6 @@ var parseItemElement = (element) => {
     }
   })
   return data;
-}
-var parsePElement = (element) => {
-
-}
-var parseNumElement = (element) => {
-
 }
 
 var addEmptyArray = (data, key) => {
