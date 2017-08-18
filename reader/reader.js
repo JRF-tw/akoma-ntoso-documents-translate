@@ -1,16 +1,5 @@
-#!/usr/bin/env node
 var convert = require('xml-js');
-var fs = require('fs');
-
-fs.readFile('../akn/TPE-民事-104-北簡-9523-1.akn', (err, data) => {
-    result = convert.xml2js(data, {compact: false});
-    result = parseAknJson(result);
-    printJson(result);
-
-    var compactResult = convert.xml2js(data, {compact: true});
-    // var result1 = convert.xml2json(data, {compact: false});
-    // console.log(result1);
-});
+var axios = require('axios');
 
 var getArrayValue = (array, key1, key2) => {
   if (array.hasOwnProperty(key1) && array[key1].hasOwnProperty(key2)){
@@ -21,16 +10,18 @@ var getArrayValue = (array, key1, key2) => {
 }
 
 var getElementText = (element) => {
-  text = "";
+  var text = "";
   element['elements'].forEach((item) => {
+    // printJson(item);
     if (item['type'] === 'text' && item.hasOwnProperty('text')){
       text = text + item['text'].replace(/ +/, '').replace("\n", '');
     } else {
       text = text + getElementText(item);
-      if (item['type'] === 'element' && item['name'] in ['p', 'b']) {
+      if (item['type'] === 'element' && ['p', 'b'].includes(item['name'])) {
         text = text + "\n";
       }
     }
+
   })
   text = text.replace(/\n$/, '');
   return text;
@@ -371,13 +362,6 @@ var findDocNumberElement = (elements) => {
   return result;
 }
 
-var parseDocProponentPElement = (element) => {
-
-}
-
-var parseJudgementNumberPElement = (element) => {
-
-}
 var parsePartiesPElement = (element) => {
   var data = [];
   var party;
@@ -443,7 +427,7 @@ var parseIntroductionElement = (element) => {
         if (!data.hasOwnProperty('blockList')) {
           data['blockList'] = [];
         }
-        data['blockList'].push(parseBlockListElement(item));
+        data['blockList']= parseBlockListElement(item);
       }
     })
   }
@@ -457,7 +441,7 @@ var parseBackgroundElement = (element) => {
         if (!data.hasOwnProperty('blockList')) {
           data['blockList'] = [];
         }
-        data['blockList'].push(parseBlockListElement(item));
+        data['blockList'] = parseBlockListElement(item);
       }
     })
   }
@@ -561,13 +545,138 @@ var printJson = (json) => {
   console.log(JSON.stringify(json, null, 2));
 }
 
+var array2html = (json) => {
+  var result = "";
+  console.log(json);
+  json.forEach((item) => {
+    result += "<p>" + item + "</p>";
+  })
+  return result;
+}
 
+var block2html = (json) => {
+  var result = "";
+  if (json.hasOwnProperty('blockList')) {
+    result = blockList2html(json, 'blockList')
+  } else if (json.hasOwnProperty('reasoningBlockList')) {
+    result = blockList2html(json, 'reasoningBlockList')
+  } else if  (json.hasOwnProperty('issuesBlockList')) {
+    result = blockList2html(json, 'issuesBlockList')
+  }
+  return result;
+}
+
+var parties2html = (json) => {
+  var result = '<p class="parties">';
+  json.forEach((item) => {
+    result += partyItem2html(item);
+  })
+  result += '</p>';
+  return result;
+}
+
+var partyItem2html = (json) => {
+  var result = "<p>" + json['party'] + "&nbsp;" + json['name'];
+  if (json['role'] === 'lawyer') {
+    result += "&nbsp;律師";
+  }
+  result += "</p>";
+  return result;
+}
+
+var blockList2html = (json, key = 'blockList') => {
+  var result;
+  if (json.hasOwnProperty(key)) {
+    var result = "<ul>";
+    json[key].forEach((item) => {
+      if(item['name'] === 'item') {
+        result += item2html(item);
+      } else if (item['name'] === 'intro') {
+        result += intro2html(item);
+      }
+    })
+    result += "</ul>";
+  }
+  return result;
+}
+
+var intro2html = (json) => {
+  return json['intro'];
+}
+
+var item2html = (json) => {
+  var result = "<li>";
+  json['contents'].forEach((item) => {
+    if(item.hasOwnProperty('text')){
+      result += text2html(item);
+    } else if (item.hasOwnProperty('blockList')){
+      result += blockList2html(item);
+    }
+  })
+  result += "</li>";
+  return result;
+}
+
+var text2html = (json) => {
+  return json['text'];
+}
+
+var conclusion2html = (json) => {
+  var result = "";
+  json.forEach((item) => {
+    if (item['role'] === 'judge') {
+      result += "<p>法官&nbsp;" + item['name'] + "</p>";
+    }
+  })
+}
+
+var updateContent = (json) => {
+  var title = document.getElementById('title');
+  title.innerText = json['judgement']['header']['docProponent'] + json['judgement']['header']['judgementNumber'];
+  var docProponent = document.getElementById('docProponent');
+  docProponent.innerText = json['judgement']['header']['docProponent'];
+  var judgementNumber = document.getElementById('judgementNumber');
+  judgementNumber.innerText = json['judgement']['header']['judgementNumber'];
+  var parties = document.getElementById('parties');
+  parties.innerHTML = parties2html(json['judgement']['header']['parties']);
+  var summary = document.getElementById('summary');
+  summary.innerHTML = array2html(json['judgement']['header']['summary']['text']);
+  var introduction = document.getElementById('introduction');
+  introduction.innerHTML = blockList2html(json['judgement']['judgementBody']['introduction']);
+  var background = document.getElementById('background');
+  background.innerHTML = blockList2html(json['judgement']['judgementBody']['background']);
+  var issues = document.getElementById('issues');
+  issues.innerHTML = blockList2html(json['judgement']['judgementBody']['motivation'], 'issuesBlockList');
+  var reasoning = document.getElementById('reasoning');
+  reasoning.innerHTML = blockList2html(json['judgement']['judgementBody']['motivation'], 'reasoningBlockList');
+  var decision = document.getElementById('decision');
+  decision.innerHTML = blockList2html(json['judgement']['judgementBody']['decision']);
+  var conclusions = document.getElementById('conclusions');
+  conclusions.innerHTML = conclusions2html(json['judgement']['conclusions']);
+}
+
+var updateAkn = function() {
+  var formUrl = document.getElementById("form-url");
+  var url = formUrl.value;
+  console.log(url);
+  axios.get(url).then((data) => {
+    result = convert.xml2js(data['data'], {compact: false});
+    result = parseAknJson(result);
+    updateContent(result);
+    printJson(result);
+  }).catch((error) => {
+    console.log(error);
+  });
+}
+
+document.getElementById("update-btn").addEventListener("click", updateAkn);
+console.log('reader');
 
 // var result = parseAknJson(result);
 
 // printJson(result);
 
-
-
+// blockList2html(a)
+// item2html(b)
 
 
