@@ -585,7 +585,7 @@ var partyItem2html = (json) => {
 }
 
 var blockList2html = (json, key = 'blockList') => {
-  var result;
+  var result = "";
   if (json.hasOwnProperty(key)) {
     var result = "<ul>";
     json[key].forEach((item) => {
@@ -628,6 +628,7 @@ var conclusion2html = (json) => {
       result += "<p>法官&nbsp;" + item['name'] + "</p>";
     }
   })
+  return result;
 }
 
 var updateContent = (json) => {

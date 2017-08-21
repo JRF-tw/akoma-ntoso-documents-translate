@@ -147,9 +147,9 @@
       <!-- the law-->
       <motivation>
         <blockList id="issues">
-          <intro>
+          <listIntroduction>
             <p>原告主張被告大棡化工工業股份有限公司、簡順得應連帶負系爭支票之票據責任，被告大棡化工工業股份有限公司就此為認諾之表示，而被告簡順得固不否認系爭支票上發票人欄位之印章為其所蓋用，然否認就系爭支票應負付款之責，並抗辯如上，是本件爭點厥為：</p>
-          </intro>
+          </listIntroduction>
           <item>
             <p>被告簡順得是否授權佘字吉簽發系爭支票？</p>
           </item>
