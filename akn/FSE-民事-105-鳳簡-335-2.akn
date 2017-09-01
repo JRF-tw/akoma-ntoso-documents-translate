@@ -42,15 +42,15 @@
       </judicial>
     </analysis>
     <references source="#somebody">
-      <TLCReference href="/tw/act/票據法/@chi/main~art_5__para_1" showAs="票據法第5條第1項" />
-      <TLCReference href="/tw/act/票據法/@chi/main~art_29" showAs="票據法第29條" />
-      <TLCReference href="/tw/act/票據法/@chi/main~art_85__para_1" showAs="票據法第85條第1項" />
-      <TLCReference href="/tw/act/票據法/@chi/main~art_133" showAs="票據法第133條" />
-      <TLCReference href="/tw/act/票據法/@chi/main~art_144" showAs="票據法第144條" />
-      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_277" showAs="民事訴訟法第277條" />
-      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_389__para_1__subpara_3" showAs="民事訴訟法第389條第1項第3款" />
-      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_392__para_2" showAs="民事訴訟法第392條第2項" />
-      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_427" showAs="民事訴訟法第427條" />
+      <TLCReference href="/tw/act/1987-06-29/票據法/@chi/main~art_5__para_1" showAs="票據法第5條第1項" />
+      <TLCReference href="/tw/act/1987-06-29/票據法/@chi/main~art_29" showAs="票據法第29條" />
+      <TLCReference href="/tw/act/1987-06-29/票據法/@chi/main~art_85__para_1" showAs="票據法第85條第1項" />
+      <TLCReference href="/tw/act/1987-06-29/票據法/@chi/main~art_133" showAs="票據法第133條" />
+      <TLCReference href="/tw/act/1987-06-29/票據法/@chi/main~art_144" showAs="票據法第144條" />
+      <TLCReference href="/tw/act/2015-07-01/民事訴訟法/@chi/main~art_277" showAs="民事訴訟法第277條" />
+      <TLCReference href="/tw/act/2015-07-01/民事訴訟法/@chi/main~art_389__para_1__subpara_3" showAs="民事訴訟法第389條第1項第3款" />
+      <TLCReference href="/tw/act/2015-07-01/民事訴訟法/@chi/main~art_392__para_2" showAs="民事訴訟法第392條第2項" />
+      <TLCReference href="/tw/act/2015-07-01/民事訴訟法/@chi/main~art_427" showAs="民事訴訟法第427條" />
     </references>
     <note>
       <p>原始網址： http://djirs.judicial.gov.tw/fjud/index_1_S.aspx?p=wGkhVfTHpP34HuFlVIGYQRDp2Uz0lmRPNPMSK5sICCg%3d</p>
@@ -89,10 +89,19 @@
         <blockList>
           <item>
             <p>一、原告主張：伊持有被告簽發票面金額新臺幣（下同）40萬元，支票號碼AFH0000000號，發票日為民國104年3月14日之支票1紙（下稱系爭支票），於105年3月1日提示後，竟遭退票，爰依票據之法律關係請求被告清償等語，並聲明：</p>
-            <p>被告應給付原告40萬元，及自105年3月1日起至清償日止，按年息百分之6計算之利息。</p>
+            <blockList id="原告聲明">
+              <item>
+                <p>被告應給付原告40萬元，及自105年3月1日起至清償日止，按年息百分之6計算之利息。</p>
+              </item>
+            </blockList>
           </item>
           <item>
-            <p>二、被告則以：伊並未向原告借款，伊支票本都放在李佳蓉那裡，系爭支票的借款係匯入李佳蓉的宏錦生技貿易有限公司帳戶，原告與李佳蓉已經有2年以上的借貸關係，期間換票才有系爭支票，另李佳蓉實際拿到的錢也沒有如票面金額，另原告月息十分的高利貸，40萬一年的利息已經收取48萬元，已超過票面金額，再者，原告要求李佳蓉簽發本票就同一筆款項雙倍追討助長高利貸。另李佳蓉亦已標會取得合會金並還清此筆借款，係現金還款，但原告未將系爭支票交還，故原告請求給付票款無理由等語置辯，並聲明：原告之訴駁回。</p>
+            <p>二、被告則以：伊並未向原告借款，伊支票本都放在李佳蓉那裡，系爭支票的借款係匯入李佳蓉的宏錦生技貿易有限公司帳戶，原告與李佳蓉已經有2年以上的借貸關係，期間換票才有系爭支票，另李佳蓉實際拿到的錢也沒有如票面金額，另原告月息十分的高利貸，40萬一年的利息已經收取48萬元，已超過票面金額，再者，原告要求李佳蓉簽發本票就同一筆款項雙倍追討助長高利貸。另李佳蓉亦已標會取得合會金並還清此筆借款，係現金還款，但原告未將系爭支票交還，故原告請求給付票款無理由等語置辯，並聲明：</p>
+            <blockList id="被告聲明">
+              <item>
+                <p>原告之訴駁回。</p>
+              </item>
+            </blockList>
           </item>
         </blockList>
       </background>

@@ -1,144 +1,176 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.akomantoso.org/2.0 ./akomantoso20.xsd" xmlns="http://www.akomantoso.org/2.0">
-<judgement>
-<meta>
-<identification source="#somebody">
-<FRBRWork>
-<FRBRthis value="/tw/judgement/2017-02-24/TCE-民事-105-中簡-3127-1/main"/>
-<FRBRuri value="/tw/judgement/2017-02-24/TCE-民事-105-中簡-3127-1"/>
-<FRBRdate date="TCE-民事-105-中簡-3127-1" name="宣判"/>
-<FRBRauthor href="#高士傑" as="#Author"/>
-<FRBRcountry value="tw"/>
-<FRBRnumber value="TCE-民事-105-中簡-3127-1"/>
-</FRBRWork>
-<FRBRExpression>
-<FRBRthis value="/tw/judgement/2017-02-24/TCE-民事-105-中簡-3127-1/chi@/main" />
-<FRBRuri value="/tw/judgement/2017-02-24/TCE-民事-105-中簡-3127-1/chi@" />
-<FRBRdate date="2017-02-24" name="宣判" />
-<FRBRauthor href="#somebody" as="#Editor"/>
-<FRBRlanguage language="chi"/>
-</FRBRExpression>
-<FRBRManifestation>
-<FRBRthis value="/tw/judgement/2017-02-24/TCE-民事-105-中簡-3127-1/chi@/main.xml"/>
-<FRBRuri value="/tw/judgement/2017-02-24/TCE-民事-105-中簡-3127-1/chi@/main.akn"/>
-<FRBRdate date="2017-07-27" name="XMLConversion"/>
-<FRBRauthor href="#somebody" as="#Editor"/>
-<FRBRformat value="xml"/>
-</FRBRManifestation>
-</identification>
-<publication date="2017-02-24" name="Sentenced" showAs="宣判" number="TCE-民事-105-中簡-3127-1"/>
-<classification source="#somebody">
-<keyword id="排除侵害等" value="排除侵害等" showAs="排除侵害等"/>
-</classification>
-<lifecycle source="#somebody">
-<eventRef date="2017-02-24" id="e1" source="#ro1" type="published"/>
-</lifecycle>
-<workflow source="#somebody">
-<step date="2017-02-03" id="a1" outcome="#言詞辯論終結"/>
-<step date="2017-02-24" id="a2" outcome="#宣判"/>
-</workflow>
-<analysis source="#somebody">
-<judicial>
-  <result type="deny"/>
-</judicial>
-</analysis>
-<references source="#somebody">
-  <TLCReference href="/tw/act/民法/@chi/main~art_148__para_1" showAs="民法第148條第1項" />
-<TLCReference href="/tw/act/民法/@chi/main~art_767__para_1" showAs="民法第767條第1項" />
-<TLCReference href="/tw/act/民事訴訟法/@chi/main~art_78" showAs="民事訴訟法第78條" />
-<TLCReference href="/tw/judgement/最高法院71年台上字第737號/@chi/main" showAs="最高法院71年台上字第737號判例要旨" />
-<TLCReference href="/tw/judgement/最高法院83年度台上字第2348號/@chi/main" showAs="最高法院83年度台上字第2348號判決要旨" />
-<TLCReference href="/tw/judgement/台中地方法院105年度中簡字第2956號/@chi/main" showAs="台中地方法院105年度中簡字第2956號" />
-</references>
-<note>
-<p>原始網址： http://djirs.judicial.gov.tw/fjud/index_1_S.aspx?p=vErdLevukPceL%2fw8bJWZI%2bVBGtd3ihyD7%2bW19780zgA%3d</p>
-</note>
-</meta>
-<header>
-<p class="docProponent">
-<b>
+  <judgement>
+    <meta>
+    <identification source="#somebody">
+      <FRBRWork>
+        <FRBRthis value="/tw/judgement/2017-02-24/TCE-民事-105-中簡-3127-1/main" />
+        <FRBRuri value="/tw/judgement/2017-02-24/TCE-民事-105-中簡-3127-1" />
+        <FRBRdate date="TCE-民事-105-中簡-3127-1" name="宣判" />
+        <FRBRauthor href="#高士傑" as="#Author" />
+        <FRBRcountry value="tw" />
+        <FRBRnumber value="TCE-民事-105-中簡-3127-1" />
+      </FRBRWork>
+      <FRBRExpression>
+        <FRBRthis value="/tw/judgement/2017-02-24/TCE-民事-105-中簡-3127-1/chi@/main" />
+        <FRBRuri value="/tw/judgement/2017-02-24/TCE-民事-105-中簡-3127-1/chi@" />
+        <FRBRdate date="2017-02-24" name="宣判" />
+        <FRBRauthor href="#somebody" as="#Editor" />
+        <FRBRlanguage language="chi" />
+      </FRBRExpression>
+      <FRBRManifestation>
+        <FRBRthis value="/tw/judgement/2017-02-24/TCE-民事-105-中簡-3127-1/chi@/main.xml" />
+        <FRBRuri value="/tw/judgement/2017-02-24/TCE-民事-105-中簡-3127-1/chi@/main.akn" />
+        <FRBRdate date="2017-07-27" name="XMLConversion" />
+        <FRBRauthor href="#somebody" as="#Editor" />
+        <FRBRformat value="xml" />
+      </FRBRManifestation>
+    </identification>
+    <publication date="2017-02-24" name="Sentenced" showAs="宣判" number="TCE-民事-105-中簡-3127-1" />
+    <classification source="#somebody">
+      <keyword id="排除侵害等" value="排除侵害等" showAs="排除侵害等" />
+    </classification>
+    <lifecycle source="#somebody">
+      <eventRef date="2017-02-24" id="e1" source="#ro1" type="published" />
+    </lifecycle>
+    <workflow source="#somebody">
+      <step date="2017-02-03" id="a1" outcome="#言詞辯論終結" />
+      <step date="2017-02-24" id="a2" outcome="#宣判" />
+    </workflow>
+    <analysis source="#somebody">
+      <judicial>
+        <result type="deny" />
+      </judicial>
+    </analysis>
+    <references source="#somebody">
+      <TLCReference href="/tw/act/2015-06-10/民法/@chi/main~art_148__para_1" showAs="民法第148條第1項" />
+      <TLCReference href="/tw/act/2015-06-10/民法/@chi/main~art_767__para_1" showAs="民法第767條第1項" />
+      <TLCReference href="/tw/act/2015-07-01/民事訴訟法/@chi/main~art_78" showAs="民事訴訟法第78條" />
+      <TLCReference href="/tw/judgement/1982-01-01/最高法院71年台上字第737號/@chi/main" showAs="最高法院71年台上字第737號判例要旨" />
+      <TLCReference href="/tw/judgement/1994-09-09/最高法院83年度台上字第2348號/@chi/main" showAs="最高法院83年度台上字第2348號判決要旨" />
+      <TLCReference href="/tw/judgement/2017-02-02/台中地方法院105年度中簡字第2956號/@chi/main" showAs="台中地方法院105年度中簡字第2956號" />
+    </references>
+    <note>
+      <p>原始網址： http://djirs.judicial.gov.tw/fjud/index_1_S.aspx?p=vErdLevukPceL%2fw8bJWZI%2bVBGtd3ihyD7%2bW19780zgA%3d</p>
+    </note>
+    </meta>
+    <header>
+      <p class="docProponent">
+        <b>
 <docProponent>臺灣臺中地方法院臺中簡易庭民事判決</docProponent>
 </b>
-</p>
-<p class="judgementNumber">
-<docNumber id="judgmentNumber">臺灣臺中地方法院臺中簡易庭民事判決</docNumber>
-</p>
-<p class="parties">
-  <b>原告</b>
-  <party id="p1" refersTo="#黃瑞宜" as="#Appellant">黃瑞宜</party>
-  <eol/>
-  <b>訴訟代理人</b>
-  <party id="p1" refersTo="#黃金字">黃金字</party>
-  <eol/>
-  <b>訴訟代理人</b>
-  <party id="p3" refersTo="#吳錫銘">吳錫銘</party>
-  <eol/>
-  <b>被告</b>
-  <party id="p4" refersTo="#財團法人台中市文昌公廟" as="#Respondent">財團法人台中市文昌公廟</party>
-  <eol/>
-  <b>法定代理人</b>
-  <party id="p3" refersTo="#陳梓賡">陳梓賡</party>
-  <eol/>
-  <b>訴訟代理人</b>
-  <lawyer id="p3" refersTo="#駱威文">駱威文</lawyer>
-  <eol/>
-</p>
-<p class="summary">
-<b>主文：</b>
-<p>原告之訴駁回。</p>
-<p>訴訟費用由原告負擔。</p>
-</p>
-</header>
-<judgementBody>
-<!-- introduction about the judiciary history of the law case-->
-<introduction>
-</introduction>
-<!-- the facts-->
-<background>
-  <blockList>
-    <item>
-      <p><num>一</num>、原告主張：原告自98年12月28日以夫妻贈與為原因登記為<location>臺中市○○區○○段000地號土地（下稱系爭土地）</location>之所有權人，被告於97年3月31日以買賣為原因登記取得<location>南屯區南屯段859、860地號土地</location>及其上門牌號碼南屯路二段620號房屋（南屯路南屯段670建號）之所有權，因被告所有上開房屋後方增建物（下稱系爭增建物）之牆壁，有越界占用原告所有系爭土地如附圖（即臺中市中興地政事務所105年12月27日土地複丈成果圖，下稱附圖）所示編號A部分面積1平方公尺，屬無權占用原告所有系爭土地，爰依民法第767條第1項規定，請求被告拆屋還地等語，並聲明：被告應將坐落系爭土地上如附圖所示編號A部分面積1平方公尺之地上物拆除，並將占用部分土地返還原告。</p>
-    </item>
-    <item>
-      <p><num>二</num>、被告則以：被告係於97年間購得系爭房屋及所坐落之<location>同段859、860地號土地</location>，被告購得系爭房屋時，系爭房屋後方即有系爭增建物，系爭增建物並非被告所興建，系爭增建物應無越界占用原告所有系爭土地；退步言之，如系爭增建物牆壁有越界占用原告所有系爭土地，亦屬以兩造所有土地地界為系爭增建物牆壁之中心，被告前手所增建之共同壁，於興建當時應係有得到原告之同意等語。並聲明：(一)原告之訴駁回。(二)如受不利益之判決，願供擔保請准免予宣告假執行。</p>
-    </item>
-  </blockList>
-</background>
-<!-- the law-->
-<motivation>
-  <blockList id="reasoning">
-    <item>
-      <p><num>(一)</num>原告主張其為系爭土地之所有權人，被告為系爭增建物之所有權人等事實，業據原告提出系爭土地登記第一類謄本為證（見本院卷第17頁），並有被告所有系爭房屋及所坐落同段859、860地號土地登記第一類謄本在卷可查（見本院卷第53至54頁、第57頁）；參以依本院現場履勘所拍攝兩造房屋後方之照片（見本院卷第38頁），對照原告所有坐落系爭土地上房屋之測量成果圖（見本院卷第19頁），可知系爭增建物並未辦理保存登記；及佐以系爭增建物在外觀構造上可與主體建物區隔，有本院履勘現場照片可證（見本院卷第32頁），在構造上應有獨立性，惟系爭增建物後方緊鄰河流，縱有後門，亦無法對外聯絡交通，仍需仰賴前方門牌號碼南屯路二段620號房屋之門口對外出入，故在使用功能上，與有辦理保存登記之主體建物，作一體之利用，欠缺使用上之獨立性，應為「附屬物」，有本院履勘現場筆錄、履勘現場照片在卷可佐（見本院卷第30至32頁、第33至34頁、第41至42頁），足認系爭增建物附屬於主體建物（即有辦保存登記（南屯路南屯段670建號房屋），為主體建物所有權之一部分，原告主張被告就系爭增建物有所有權（拆除權）乙情，堪信為真。</p>
-    </item>
-    <item>
-      <p><num>(二)</num>原告復主張系爭增建物占用系爭土地如附圖所示編號A部分面積1平方公尺之事實，業經本院會同兩造及臺中市中興地政事務所測量員現場履勘，有勘驗筆錄、現場照片、臺中市中興地政事務所105年12月28日中興地所二字第1050012466號函暨檢附之附圖存卷可考（見本院卷第50至51頁），此部分事實，亦可認定。被告抗辯：系爭增建物牆壁，並未越界占用系爭土地云云，顯非可採。</p>
-    </item>
-    <item>
-      <p><num>(三)</num>被告雖抗辯：被告前手興建系爭增建物牆壁時，應有得到當時系爭土地所有權人即原告配偶之同意等語，經查：1.兩造房屋有辦保存登記部分，建築完成日期均為71年1月14日，使用執照字號均為（71）中工建使字第36號，有建物登記第一類謄本在卷可佐（見本院卷第56至57頁），應為同一建商所興建，故就兩造房屋有辦理保存登記部分之隔間牆壁，應屬共同壁無誤，興建時可推知有得到土地所有權人之同意。</p>
-      <p>惟就系爭增建物部分，為未辦保存登記之建物，業經本院說明如上；依原告所述，係被告前手於76年時所增建（見本院卷第63頁背面），依本院履勘時現場觀察兩造有保存登記房屋後方現場情形，系爭增建物一樓牆壁，應係以兩造所有同段861、860地號土地地界為中心建造，足認被告前手當初有意延伸興建「共同壁」，此由被告前手就系爭增建物一樓部分，刻意預留鋼筋及該鋼筋有凸出於系爭增建物牆壁外乙節（見本院卷第39至40頁），即可得知，臺中市中興地政事務所現場測量人員鄭仁傑亦同此看法（見本院卷第31頁正面）。然被告未能提出其前手興建增建物牆壁時，有得到原告之明示或默示同意之證據，其抗辯系爭增建物牆壁為共同壁，越界占用系爭土地有得到當時系爭土地之所有權人即原告配偶黃金字同意乙節，尚難據信。</p>
-    </item>
-    <item>
-      <p><num>(四)</num>原告請求拆屋還地，是否構成權利濫用？按權利之行使，不得違反公共利益，或以損害他人為主要目的，民法第148條第1項定有明文。又權利之行使，是否以損害他人為主要目的，應就權利人因行使權利可得之利益，與他人及國家社會因其行使權利所受之損失，比較衡量定之，倘其行使權利所得之利益極少，而他人及國家社會所受之損失甚大者，或其取得權利之初，即明顯知悉其嗣後權利之行使，將造成他人及國家社會重大損害者，非不得視為以損害他人為主要目的，此乃權利社會化之基本內涵所必然之解釋（最高法院71年台上字第737號著有判例、83年度台上字第2348號判決足資參照）。經查，系爭增建物牆壁占用系爭土地僅1平方公尺，占用系爭土地之邊緣，為一狹長形狀，該部分土地目前原告係作為花圃利用，對原告花圃土地之使用現狀，幾乎不生影響；參以臺中市中興地政事務所測量人員鄭仁傑於履勘現場時表示，共同壁之厚度應為15公分，一邊各7.5公分（見本院卷第31頁背面），是原告如欲取回遭占用之土地，勢須將系爭增建物一樓牆壁拆除一半，依常理此項拆除工程當然會對該建物造成影響；佐以原告提起本件訴訟之目的，係因被告就原告後方增建廚房，占用被告所有南屯區南屯段856地號土地部分，有起訴請求原告拆除廚房返還占用土地予被告，業經本院以105年度中簡字第2956號案件審理，原告希望被告能夠不要拆除原告所有之增建廚房等語（見本院卷第24頁正背面），故本院參酌原告起訴之目的，及原告拆屋還地可獲得之利益及所造成之損害，認原告如欲避免廚房遭到拆除，應另行他管道與被告協商，而非藉由提起本件訴訟以迂迴達到其目的，原告拆屋還地所能獲得之土地使用利益極少，被告之損失頗大，是原告依民法第767條第1項規定主張拆屋還地，構成權利濫用，而不予准許。</p>
-    </item>
-  </blockList>
-</motivation>
-<decision>
-  <blockList>
-    <item>
-      <p><num>四</num>、綜上所述，原告本於民法第767條第1項前段、中段規定，訴請被告將坐落系爭土地上如附圖所示編號A部分面積1平方公尺之地上物拆除，並將該部分土地返還原告等語，為無理由，應予駁回。</p>
-    </item>
-    <item>
-      <p><num>五</num>、本件事證已臻明確，兩造其餘攻擊防禦方法，經審酌後核與判決結果不生影響，爰不逐一論述。</p>
-    </item>
-    <item>
-      <p><num>六</num>、訴訟費用負擔之依據：民事訴訟法第78條。</p>
-    </item>
-  </blockList>
-</decision>
-</judgementBody>
-<conclusions><p class="signature"><span class="signature">法官</span><judge id="jud01" refersTo="#高士傑">高士傑</judge><eol/></p></conclusions>
-</judgement>
-<authorialNote>
-  <p>如不服本判決，應於送達後二十日內，向本院提出上訴狀並表明上訴理由，如於本判決宣示後送達前提起上訴者，應於判決送達後二十日內補提上訴理由書（須附繕本）。如委任律師提起上訴者，應一併繳納上訴審裁判費。</p>
-</authorialNote>
+      </p>
+      <p class="judgementNumber">
+        <docNumber id="judgmentNumber">臺灣臺中地方法院臺中簡易庭民事判決</docNumber>
+      </p>
+      <p class="parties">
+        <b>原告</b>
+        <party id="p1" refersTo="#黃瑞宜" as="#Appellant">黃瑞宜</party>
+        <eol/>
+        <b>訴訟代理人</b>
+        <party id="p1" refersTo="#黃金字">黃金字</party>
+        <eol/>
+        <b>訴訟代理人</b>
+        <party id="p3" refersTo="#吳錫銘">吳錫銘</party>
+        <eol/>
+        <b>被告</b>
+        <party id="p4" refersTo="#財團法人台中市文昌公廟" as="#Respondent">財團法人台中市文昌公廟</party>
+        <eol/>
+        <b>法定代理人</b>
+        <party id="p3" refersTo="#陳梓賡">陳梓賡</party>
+        <eol/>
+        <b>訴訟代理人</b>
+        <lawyer id="p3" refersTo="#駱威文">駱威文</lawyer>
+        <eol/>
+      </p>
+      <p class="summary">
+        <b>主文：</b>
+        <p>原告之訴駁回。</p>
+        <p>訴訟費用由原告負擔。</p>
+      </p>
+    </header>
+    <judgementBody>
+      <!-- introduction about the judiciary history of the law case-->
+      <introduction>
+      </introduction>
+      <!-- the facts-->
+      <background>
+        <blockList>
+          <item>
+            <p>
+              <num>一</num>、原告主張：原告自98年12月28日以夫妻贈與為原因登記為
+              <location>臺中市○○區○○段000地號土地（下稱系爭土地）</location>之所有權人，被告於97年3月31日以買賣為原因登記取得
+              <location>南屯區南屯段859、860地號土地</location>及其上門牌號碼南屯路二段620號房屋（南屯路南屯段670建號）之所有權，因被告所有上開房屋後方增建物（下稱系爭增建物）之牆壁，有越界占用原告所有系爭土地如附圖（即臺中市中興地政事務所105年12月27日土地複丈成果圖，下稱附圖）所示編號A部分面積1平方公尺，屬無權占用原告所有系爭土地，爰依民法第767條第1項規定，請求被告拆屋還地等語，並聲明：</p>
+            <blockList id="原告聲明">
+              <item>
+                <p>被告應將坐落系爭土地上如附圖所示編號A部分面積1平方公尺之地上物拆除，並將占用部分土地返還原告。</p>
+              </item>
+            </blockList>
+          </item>
+          <item>
+            <p>
+              <num>二</num>、被告則以：被告係於97年間購得系爭房屋及所坐落之
+              <location>同段859、860地號土地</location>，被告購得系爭房屋時，系爭房屋後方即有系爭增建物，系爭增建物並非被告所興建，系爭增建物應無越界占用原告所有系爭土地；退步言之，如系爭增建物牆壁有越界占用原告所有系爭土地，亦屬以兩造所有土地地界為系爭增建物牆壁之中心，被告前手所增建之共同壁，於興建當時應係有得到原告之同意等語。並聲明：</p>
+            <blockList id="被告聲明">
+              <item>
+                <p>
+                  <num>(一)</num>原告之訴駁回。</p>
+              </item>
+              <item>
+                <p>
+                  <num>(二)</num>如受不利益之判決，願供擔保請准免予宣告假執行。</p>
+              </item>
+            </blockList>
+          </item>
+        </blockList>
+      </background>
+      <!-- the law-->
+      <motivation>
+        <blockList id="reasoning">
+          <item>
+            <p>
+              <num>(一)</num>原告主張其為系爭土地之所有權人，被告為系爭增建物之所有權人等事實，業據原告提出系爭土地登記第一類謄本為證（見本院卷第17頁），並有被告所有系爭房屋及所坐落同段859、860地號土地登記第一類謄本在卷可查（見本院卷第53至54頁、第57頁）；參以依本院現場履勘所拍攝兩造房屋後方之照片（見本院卷第38頁），對照原告所有坐落系爭土地上房屋之測量成果圖（見本院卷第19頁），可知系爭增建物並未辦理保存登記；及佐以系爭增建物在外觀構造上可與主體建物區隔，有本院履勘現場照片可證（見本院卷第32頁），在構造上應有獨立性，惟系爭增建物後方緊鄰河流，縱有後門，亦無法對外聯絡交通，仍需仰賴前方門牌號碼南屯路二段620號房屋之門口對外出入，故在使用功能上，與有辦理保存登記之主體建物，作一體之利用，欠缺使用上之獨立性，應為「附屬物」，有本院履勘現場筆錄、履勘現場照片在卷可佐（見本院卷第30至32頁、第33至34頁、第41至42頁），足認系爭增建物附屬於主體建物（即有辦保存登記（南屯路南屯段670建號房屋），為主體建物所有權之一部分，原告主張被告就系爭增建物有所有權（拆除權）乙情，堪信為真。</p>
+          </item>
+          <item>
+            <p>
+              <num>(二)</num>原告復主張系爭增建物占用系爭土地如附圖所示編號A部分面積1平方公尺之事實，業經本院會同兩造及臺中市中興地政事務所測量員現場履勘，有勘驗筆錄、現場照片、臺中市中興地政事務所105年12月28日中興地所二字第1050012466號函暨檢附之附圖存卷可考（見本院卷第50至51頁），此部分事實，亦可認定。被告抗辯：系爭增建物牆壁，並未越界占用系爭土地云云，顯非可採。</p>
+          </item>
+          <item>
+            <p>
+              <num>(三)</num>被告雖抗辯：被告前手興建系爭增建物牆壁時，應有得到當時系爭土地所有權人即原告配偶之同意等語，經查：1.兩造房屋有辦保存登記部分，建築完成日期均為71年1月14日，使用執照字號均為（71）中工建使字第36號，有建物登記第一類謄本在卷可佐（見本院卷第56至57頁），應為同一建商所興建，故就兩造房屋有辦理保存登記部分之隔間牆壁，應屬共同壁無誤，興建時可推知有得到土地所有權人之同意。</p>
+            <p>惟就系爭增建物部分，為未辦保存登記之建物，業經本院說明如上；依原告所述，係被告前手於76年時所增建（見本院卷第63頁背面），依本院履勘時現場觀察兩造有保存登記房屋後方現場情形，系爭增建物一樓牆壁，應係以兩造所有同段861、860地號土地地界為中心建造，足認被告前手當初有意延伸興建「共同壁」，此由被告前手就系爭增建物一樓部分，刻意預留鋼筋及該鋼筋有凸出於系爭增建物牆壁外乙節（見本院卷第39至40頁），即可得知，臺中市中興地政事務所現場測量人員鄭仁傑亦同此看法（見本院卷第31頁正面）。然被告未能提出其前手興建增建物牆壁時，有得到原告之明示或默示同意之證據，其抗辯系爭增建物牆壁為共同壁，越界占用系爭土地有得到當時系爭土地之所有權人即原告配偶黃金字同意乙節，尚難據信。</p>
+          </item>
+          <item>
+            <p>
+              <num>(四)</num>原告請求拆屋還地，是否構成權利濫用？按權利之行使，不得違反公共利益，或以損害他人為主要目的，民法第148條第1項定有明文。又權利之行使，是否以損害他人為主要目的，應就權利人因行使權利可得之利益，與他人及國家社會因其行使權利所受之損失，比較衡量定之，倘其行使權利所得之利益極少，而他人及國家社會所受之損失甚大者，或其取得權利之初，即明顯知悉其嗣後權利之行使，將造成他人及國家社會重大損害者，非不得視為以損害他人為主要目的，此乃權利社會化之基本內涵所必然之解釋（最高法院71年台上字第737號著有判例、83年度台上字第2348號判決足資參照）。經查，系爭增建物牆壁占用系爭土地僅1平方公尺，占用系爭土地之邊緣，為一狹長形狀，該部分土地目前原告係作為花圃利用，對原告花圃土地之使用現狀，幾乎不生影響；參以臺中市中興地政事務所測量人員鄭仁傑於履勘現場時表示，共同壁之厚度應為15公分，一邊各7.5公分（見本院卷第31頁背面），是原告如欲取回遭占用之土地，勢須將系爭增建物一樓牆壁拆除一半，依常理此項拆除工程當然會對該建物造成影響；佐以原告提起本件訴訟之目的，係因被告就原告後方增建廚房，占用被告所有南屯區南屯段856地號土地部分，有起訴請求原告拆除廚房返還占用土地予被告，業經本院以105年度中簡字第2956號案件審理，原告希望被告能夠不要拆除原告所有之增建廚房等語（見本院卷第24頁正背面），故本院參酌原告起訴之目的，及原告拆屋還地可獲得之利益及所造成之損害，認原告如欲避免廚房遭到拆除，應另行他管道與被告協商，而非藉由提起本件訴訟以迂迴達到其目的，原告拆屋還地所能獲得之土地使用利益極少，被告之損失頗大，是原告依民法第767條第1項規定主張拆屋還地，構成權利濫用，而不予准許。</p>
+          </item>
+        </blockList>
+      </motivation>
+      <decision>
+        <blockList>
+          <item>
+            <p>
+              <num>四</num>、綜上所述，原告本於民法第767條第1項前段、中段規定，訴請被告將坐落系爭土地上如附圖所示編號A部分面積1平方公尺之地上物拆除，並將該部分土地返還原告等語，為無理由，應予駁回。</p>
+          </item>
+          <item>
+            <p>
+              <num>五</num>、本件事證已臻明確，兩造其餘攻擊防禦方法，經審酌後核與判決結果不生影響，爰不逐一論述。</p>
+          </item>
+          <item>
+            <p>
+              <num>六</num>、訴訟費用負擔之依據：民事訴訟法第78條。</p>
+          </item>
+        </blockList>
+      </decision>
+    </judgementBody>
+    <conclusions>
+      <p class="signature"><span class="signature">法官</span>
+        <judge id="jud01" refersTo="#高士傑">高士傑</judge>
+        <eol/>
+      </p>
+    </conclusions>
+  </judgement>
+  <authorialNote>
+    <p>如不服本判決，應於送達後二十日內，向本院提出上訴狀並表明上訴理由，如於本判決宣示後送達前提起上訴者，應於判決送達後二十日內補提上訴理由書（須附繕本）。如委任律師提起上訴者，應一併繳納上訴審裁判費。</p>
+  </authorialNote>
 </akomaNtoso>

@@ -43,19 +43,19 @@
       </judicial>
     </analysis>
     <references source="#somebody">
-      <TLCReference href="/tw/act/民法/@chi/main~art_184__para_1" showAs="民法第184條第1項" />
-      <TLCReference href="/tw/act/民法/@chi/main~art_193__para_1" showAs="民法第193條第1項" />
-      <TLCReference href="/tw/act/民法/@chi/main~art_195__para_1" showAs="民法第195條第1項" />
-      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_79" showAs="民事訴訟法第79條" />
-      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_255__para_1__subpara_2~3" showAs="民事訴訟法第255條第1項第2~3款" />
-      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_389__para_1__subpara_3" showAs="民事訴訟法第389條第1項第3款" />
-      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_392__para_2" showAs="民事訴訟法第392條第2項" />
-      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_427" showAs="民事訴訟法第427條" />
-      <TLCReference href="/tw/act/刑事訴訟法/@chi/main~art_504__para_2" showAs="刑事訴訟法第504條第2項" />
-      <TLCReference href="/tw/judgement/臺北地方法院105年度易字第920號刑事判決/@chi/main" showAs="臺北地方法院105年度易字第920號刑事判決" />
-      <TLCReference href="/tw/judgement/最高法院105年度偵字第15683號/@chi/main" showAs="最高法院105年度偵字第15683號" />
-      <TLCReference href="/tw/judgement/最高法院51年台上字第223號判例/@chi/main" showAs="最高法院51年台上字第223號判例" />
-      <TLCReference href="/tw/judgement/最高法院85年度台上字第460號判決/@chi/main" showAs="最高法院85年度台上字第460號判決" />
+      <TLCReference href="/tw/act/2015-06-10/民法/@chi/main~art_184__para_1" showAs="民法第184條第1項" />
+      <TLCReference href="/tw/act/2015-06-10/民法/@chi/main~art_193__para_1" showAs="民法第193條第1項" />
+      <TLCReference href="/tw/act/2015-06-10/民法/@chi/main~art_195__para_1" showAs="民法第195條第1項" />
+      <TLCReference href="/tw/act/2015-07-01/民事訴訟法/@chi/main~art_79" showAs="民事訴訟法第79條" />
+      <TLCReference href="/tw/act/2015-07-01/民事訴訟法/@chi/main~art_255__para_1__subpara_2~3" showAs="民事訴訟法第255條第1項第2~3款" />
+      <TLCReference href="/tw/act/2015-07-01/民事訴訟法/@chi/main~art_389__para_1__subpara_3" showAs="民事訴訟法第389條第1項第3款" />
+      <TLCReference href="/tw/act/2015-07-01/民事訴訟法/@chi/main~art_392__para_2" showAs="民事訴訟法第392條第2項" />
+      <TLCReference href="/tw/act/2015-07-01/民事訴訟法/@chi/main~art_427" showAs="民事訴訟法第427條" />
+      <TLCReference href="/tw/act/2016-06-22/刑事訴訟法/@chi/main~art_504__para_2" showAs="刑事訴訟法第504條第2項" />
+      <TLCReference href="/tw/judgement/2016-11-30/臺北地方法院105年度易字第920號刑事判決/@chi/main" showAs="臺北地方法院105年度易字第920號刑事判決" />
+      <TLCReference href="/tw/judgement/105年度偵字第15683號/@chi/main" showAs="105年度偵字第15683號" />
+      <TLCReference href="/tw/judgement/1962-01-31/最高法院51年台上字第223號判例/@chi/main" showAs="最高法院51年台上字第223號判例" />
+      <TLCReference href="/tw/judgement/1996-03-07/最高法院85年度台上字第460號判決/@chi/main" showAs="最高法院85年度台上字第460號判決" />
     </references>
     <note>
       <p>原始網址： http://djirs.judicial.gov.tw/fjud/index_1_S.aspx?p=vmYXn2KVxeevz4%2fCE5gGIqgaAzHar2nnVlQMJ1naido%3d</p>
@@ -110,7 +110,12 @@
             <blockList>
               <item>
                 <p>
-                  <num>一</num>、原告起訴主張：被告因認在職場上遭受原告刁難而心生不滿，於105年6月30日上午11時50分許，見原告行走在臺北市○○區○○路000巷0弄00號附近，竟基於傷害之犯意，自後方出手強行拉扯原告頭髮，導致原告跌倒在地，待原告起身後，仍接續拉扯原告衣服與肩膀，致原告受有左肘表淺性損傷、左肩及上臂表淺性損傷、雙膝部擦挫傷、左大腳趾挫傷及臉部擦挫傷等傷害，暨原告穿戴在手上之玉鐲斷裂。為此請求被告給付醫療費3,050元、交通費1,440元、工作薪資損失5,504元、精神慰撫金100,000元及玉鐲損失45,500元，以上合計155,494元，爰依法提起本件訴訟，並聲明：被告應給付原告155,494元。</p>
+                  <num>一</num>、原告起訴主張：被告因認在職場上遭受原告刁難而心生不滿，於105年6月30日上午11時50分許，見原告行走在臺北市○○區○○路000巷0弄00號附近，竟基於傷害之犯意，自後方出手強行拉扯原告頭髮，導致原告跌倒在地，待原告起身後，仍接續拉扯原告衣服與肩膀，致原告受有左肘表淺性損傷、左肩及上臂表淺性損傷、雙膝部擦挫傷、左大腳趾挫傷及臉部擦挫傷等傷害，暨原告穿戴在手上之玉鐲斷裂。為此請求被告給付醫療費3,050元、交通費1,440元、工作薪資損失5,504元、精神慰撫金100,000元及玉鐲損失45,500元，以上合計155,494元，爰依法提起本件訴訟，並聲明：</p>
+                <blockList id="原告聲明">
+                  <item>
+                    <p>被告應給付原告155,494元。</p>
+                  </item>
+                </blockList>
               </item>
               <item>
                 <p>

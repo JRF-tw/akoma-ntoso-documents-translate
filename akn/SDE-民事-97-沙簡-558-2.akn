@@ -43,18 +43,18 @@
       </judicial>
     </analysis>
     <references source="#somebody">
-      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_78" showAs="民事訴訟法第78條" />
-      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_255__para_1__subpara_3" showAs="民事訴訟法第255條第1項第3款" />
-      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_385__para_1" showAs="民事訴訟法第385條第1項" />
-      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_386" showAs="民事訴訟法第386條" />
-      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_389__para_1__subpara_3" showAs="民事訴訟法第389條第1項第3款" />
-      <TLCReference href="/tw/judgement/TCD-97-司促-28870/@chi/main" showAs="臺灣臺中地方法院97年度司促字第28870號支付命令" />
-      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_427__para_1" showAs="民事訴訟法第427條第1項" />
-      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_436__para_2" showAs="民事訴訟法第436條第2項" />
-      <TLCReference href="/tw/act/民法/@chi/main~art_103__para_1" showAs="民法第103條第1項" />
-      <TLCReference href="/tw/act/民法/@chi/main~art_474__para_1" showAs="民法第474條第1項" />
-      <TLCReference href="/tw/act/民法/@chi/main~art_739" showAs="民法第739條第1項" />
-      <TLCReference href="/tw/act/民法/@chi/main~art_740" showAs="民法第740條第1項" /> 
+      <TLCReference href="/tw/act/2009-01-21/民事訴訟法/@chi/main~art_78" showAs="民事訴訟法第78條" />
+      <TLCReference href="/tw/act/2009-01-21/民事訴訟法/@chi/main~art_255__para_1__subpara_3" showAs="民事訴訟法第255條第1項第3款" />
+      <TLCReference href="/tw/act/2009-01-21/民事訴訟法/@chi/main~art_385__para_1" showAs="民事訴訟法第385條第1項" />
+      <TLCReference href="/tw/act/2009-01-21/民事訴訟法/@chi/main~art_386" showAs="民事訴訟法第386條" />
+      <TLCReference href="/tw/act/2009-01-21/民事訴訟法/@chi/main~art_389__para_1__subpara_3" showAs="民事訴訟法第389條第1項第3款" />
+      <TLCReference href="/tw/judgement/2008-08-22/TCD-97-司促-28870/@chi/main" showAs="臺灣臺中地方法院97年度司促字第28870號支付命令" />
+      <TLCReference href="/tw/act/2009-01-21/民事訴訟法/@chi/main~art_427__para_1" showAs="民事訴訟法第427條第1項" />
+      <TLCReference href="/tw/act/2009-01-21/民事訴訟法/@chi/main~art_436__para_2" showAs="民事訴訟法第436條第2項" />
+      <TLCReference href="/tw/act/2009-01-23/民法/@chi/main~art_103__para_1" showAs="民法第103條第1項" />
+      <TLCReference href="/tw/act/2009-01-23/民法/@chi/main~art_474__para_1" showAs="民法第474條第1項" />
+      <TLCReference href="/tw/act/2009-01-23/民法/@chi/main~art_739" showAs="民法第739條第1項" />
+      <TLCReference href="/tw/act/2009-01-23/民法/@chi/main~art_740" showAs="民法第740條第1項" /> 
     </references>
     <note>
       <p>原始網址： http://djirs.judicial.gov.tw/fjud/index_1_S.aspx?p=sxQJLZcCaeOfIS0tainXMxII4irIXu5L13xGzOwnyTM%3d</p>
@@ -107,7 +107,18 @@
             <blockList>
               <item>
                 <p>
-                  <num>一</num>、按訴狀送達後，原告不得將原訴變更或追加他訴。但有下列各款情形之一者，不在此限：三、擴張或減縮應受判決事項之聲明者，民事訴訟法第255條第1項第3款定有明文。本件原告起訴原請求被告應連帶給付原告新臺幣（下同）30萬元，及自支付命令送達翌日起起至清償日止，按年息18%計算之利息。嗣於本院審理中變更訴之聲明為：(一)被告甲○○應給付原告57萬元，及其中30萬元自臺灣臺中地方法院（下稱臺中地院）97年度司促字第28870號支付命令送達翌日起至清償日止，按年息18%計算之利息。(二)被告乙○○應給付原告57萬元，及其中30萬元自臺中地院97年度司促字第28870號支付命令送達翌日起至清償日止，按年息18%計算之利息。(三)前2項聲明，如任一被告為全部或一部之給付時，另一被告於該給付範圍內同免給付之義務，核與上開規定相符，應予准許。</p>
+                  <num>一</num>、按訴狀送達後，原告不得將原訴變更或追加他訴。但有下列各款情形之一者，不在此限：三、擴張或減縮應受判決事項之聲明者，民事訴訟法第255條第1項第3款定有明文。本件原告起訴原請求被告應連帶給付原告新臺幣（下同）30萬元，及自支付命令送達翌日起起至清償日止，按年息18%計算之利息。嗣於本院審理中變更訴之聲明為：</p>
+                  <blockList id="原告聲明">
+                    <item>
+                      <p><num>(一)</num>被告甲○○應給付原告57萬元，及其中30萬元自臺灣臺中地方法院（下稱臺中地院）97年度司促字第28870號支付命令送達翌日起至清償日止，按年息18%計算之利息。</p>
+                    </item>
+                    <item>
+                      <p><num>(二)</num>被告乙○○應給付原告57萬元，及其中30萬元自臺中地院97年度司促字第28870號支付命令送達翌日起至清償日止，按年息18%計算之利息。</p>
+                    </item>
+                    <item>
+                      <p><num>(三)</num>前2項聲明，如任一被告為全部或一部之給付時，另一被告於該給付範圍內同免給付之義務，核與上開規定相符，應予准許。</p>
+                    </item>
+                  </blockList>
               </item>
               <item>
                 <p>

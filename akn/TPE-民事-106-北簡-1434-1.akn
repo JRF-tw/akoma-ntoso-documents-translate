@@ -43,16 +43,16 @@
       </judicial>
     </analysis>
     <references source="#somebody">
-      <TLCReference href="/tw/act/民法/@chi/main~art_18__para_1" showAs="民法第18條第1項" />
-      <TLCReference href="/tw/act/民法/@chi/main~art_184__para_1" showAs="民法第184條第1項" />
-      <TLCReference href="/tw/act/民法/@chi/main~art_195__para_1" showAs="民法第195條第1項" />
-      <TLCReference href="/tw/act/民法/@chi/main~art_196" showAs="民法第196條" />
-      <TLCReference href="/tw/act/民法/@chi/main~art_213~215" showAs="民法第213~215條" />
-      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_78" showAs="民事訴訟法第78條" />
-      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_386" showAs="民事訴訟法第386條" />
-      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_389__para_1__subpara_3" showAs="民事訴訟法第389條第1項第3款" />
-      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_392__para_2" showAs="民事訴訟法第392條第2項" />
-      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_427__para_1" showAs="民事訴訟法第427條第1項" />
+      <TLCReference href="/tw/act/2015-06-10/民法/@chi/main~art_18__para_1" showAs="民法第18條第1項" />
+      <TLCReference href="/tw/act/2015-06-10/民法/@chi/main~art_184__para_1" showAs="民法第184條第1項" />
+      <TLCReference href="/tw/act/2015-06-10/民法/@chi/main~art_195__para_1" showAs="民法第195條第1項" />
+      <TLCReference href="/tw/act/2015-06-10/民法/@chi/main~art_196" showAs="民法第196條" />
+      <TLCReference href="/tw/act/2015-06-10/民法/@chi/main~art_213~215" showAs="民法第213~215條" />
+      <TLCReference href="/tw/act/2015-07-01/民事訴訟法/@chi/main~art_78" showAs="民事訴訟法第78條" />
+      <TLCReference href="/tw/act/2015-07-01/民事訴訟法/@chi/main~art_386" showAs="民事訴訟法第386條" />
+      <TLCReference href="/tw/act/2015-07-01/民事訴訟法/@chi/main~art_389__para_1__subpara_3" showAs="民事訴訟法第389條第1項第3款" />
+      <TLCReference href="/tw/act/2015-07-01/民事訴訟法/@chi/main~art_392__para_2" showAs="民事訴訟法第392條第2項" />
+      <TLCReference href="/tw/act/2015-07-01/民事訴訟法/@chi/main~art_427__para_1" showAs="民事訴訟法第427條第1項" />
     </references>
     <note>
       <p>原始網址： http://djirs.judicial.gov.tw/fjud/index_1_S.aspx?p=vmYXn2KVxedcBmcJO27wZ8%2fnmLqLG8sNAemB4SITlfw%3d</p>
@@ -97,7 +97,15 @@
           </item>
           <item>
             <p>
-              <num>二</num>、原告起訴主張：被告於民國104年12月9日18時許，駕駛車號000-0000號自小客車，行經臺北市萬華區西藏路125巷口時，因未注意車前狀況，其車輛右前側遂不慎碰撞原告所有、停放於該處路旁公有停車格內之之3318-QD號自小客車（下稱系爭車輛）之左後側，且因撞擊力道過大導致系爭車輛往右前拖行撞及人行道，右側底盤零件因而毀損。原告因此支出車輛必要修復費用新臺幣（下同）107,530元、停車費2,860元、交通費13,500元、涉訟期間無法工作損失20,000元及精神慰撫金40,000元，損害共計183,890元。爰依侵權行為法律關係請求損害賠償。並聲明：(一)被告應給付原告183,890元，及自起訴狀繕本送達翌日起至清償日止，按年息5%計算之利息；(二)願供擔保請准宣告假執行。</p>
+              <num>二</num>、原告起訴主張：被告於民國104年12月9日18時許，駕駛車號000-0000號自小客車，行經臺北市萬華區西藏路125巷口時，因未注意車前狀況，其車輛右前側遂不慎碰撞原告所有、停放於該處路旁公有停車格內之之3318-QD號自小客車（下稱系爭車輛）之左後側，且因撞擊力道過大導致系爭車輛往右前拖行撞及人行道，右側底盤零件因而毀損。原告因此支出車輛必要修復費用新臺幣（下同）107,530元、停車費2,860元、交通費13,500元、涉訟期間無法工作損失20,000元及精神慰撫金40,000元，損害共計183,890元。爰依侵權行為法律關係請求損害賠償。並聲明：</p>
+            <blockList id="原告聲明">
+              <item>
+                <p><num>(一)</num>被告應給付原告183,890元，及自起訴狀繕本送達翌日起至清償日止，按年息5%計算之利息；</p>
+              </item>
+              <item>
+                <p><num>(二)</num>願供擔保請准宣告假執行。</p>
+              </item>
+            </blockList>
           </item>
           <item>
             <p>

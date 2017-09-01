@@ -43,27 +43,27 @@
       </judicial>
     </analysis>
     <references source="#somebody">
-      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_255__para_1__subpara_3" showAs="民事訴訟法第255條第1項第3款" />
-      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_255__para_1__subpara_5" showAs="民事訴訟法第255條第1項第5款" />
-      <TLCReference href="/tw/act/票據法/@chi/main~art_29" showAs="票據法第29條" />
-      <TLCReference href="/tw/act/票據法/@chi/main~art_96" showAs="票據法第96條" />
-      <TLCReference href="/tw/act/票據法/@chi/main~art_5" showAs="票據法第5條" />
-      <TLCReference href="/tw/act/票據法/@chi/main~art_11__para_1" showAs="票據法第11條第1項" />
-      <TLCReference href="/tw/act/票據法/@chi/main~art_11__para_2" showAs="票據法第11條第2項" />
-      <TLCReference href="/tw/act/票據法/@chi/main~art_29__para_1" showAs="票據法第29條第1項" />
-      <TLCReference href="/tw/act/票據法/@chi/main~art_96__para_1" showAs="票據法第96條第1項" />
-      <TLCReference href="/tw/act/票據法/@chi/main~art_126__para_1" showAs="票據法第126條第1項" />
-      <TLCReference href="/tw/act/票據法/@chi/main~art_126" showAs="票據法第126條" />
-      <TLCReference href="/tw/act/票據法/@chi/main~art_133" showAs="票據法第133條" />
-      <TLCReference href="/tw/act/票據法/@chi/main~art_144" showAs="票據法第144條" />
-      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_79" showAs="民事訴訟法第79條" />
-      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_85__para_2" showAs="民事訴訟法第85條第2項" />
-      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_389__para_1__subpara_3" showAs="民事訴訟法第389條第1項第3款" />
-      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_392__para_2" showAs="民事訴訟法第392條第2項" />
-      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_427" showAs="民事訴訟法第427條" />
-      <TLCReference href="/tw/judgement/最高法院67年台上第3896號/@chi/main" showAs="最高法院67年台上第3896號判例要旨" />
-      <TLCReference href="/tw/judgement/最高法院71年度台上字第1474號/@chi/main" showAs="最高法院71年度台上字第1474號判例要旨" />
-      <TLCReference href="/tw/judgement/最高法院70年度台上字第4447號/@chi/main" showAs="最高法院70年度台上字第4447號" />
+      <TLCReference href="/tw/act/2015-07-01/民事訴訟法/@chi/main~art_255__para_1__subpara_3" showAs="民事訴訟法第255條第1項第3款" />
+      <TLCReference href="/tw/act/2015-07-01/民事訴訟法/@chi/main~art_255__para_1__subpara_5" showAs="民事訴訟法第255條第1項第5款" />
+      <TLCReference href="/tw/act/1987-06-29/票據法/@chi/main~art_29" showAs="票據法第29條" />
+      <TLCReference href="/tw/act/1987-06-29/票據法/@chi/main~art_96" showAs="票據法第96條" />
+      <TLCReference href="/tw/act/1987-06-29/票據法/@chi/main~art_5" showAs="票據法第5條" />
+      <TLCReference href="/tw/act/1987-06-29/票據法/@chi/main~art_11__para_1" showAs="票據法第11條第1項" />
+      <TLCReference href="/tw/act/1987-06-29/票據法/@chi/main~art_11__para_2" showAs="票據法第11條第2項" />
+      <TLCReference href="/tw/act/1987-06-29/票據法/@chi/main~art_29__para_1" showAs="票據法第29條第1項" />
+      <TLCReference href="/tw/act/1987-06-29/票據法/@chi/main~art_96__para_1" showAs="票據法第96條第1項" />
+      <TLCReference href="/tw/act/1987-06-29/票據法/@chi/main~art_126__para_1" showAs="票據法第126條第1項" />
+      <TLCReference href="/tw/act/1987-06-29/票據法/@chi/main~art_126" showAs="票據法第126條" />
+      <TLCReference href="/tw/act/1987-06-29/票據法/@chi/main~art_133" showAs="票據法第133條" />
+      <TLCReference href="/tw/act/1987-06-29/票據法/@chi/main~art_144" showAs="票據法第144條" />
+      <TLCReference href="/tw/act/2015-07-01/民事訴訟法/@chi/main~art_79" showAs="民事訴訟法第79條" />
+      <TLCReference href="/tw/act/2015-07-01/民事訴訟法/@chi/main~art_85__para_2" showAs="民事訴訟法第85條第2項" />
+      <TLCReference href="/tw/act/2015-07-01/民事訴訟法/@chi/main~art_389__para_1__subpara_3" showAs="民事訴訟法第389條第1項第3款" />
+      <TLCReference href="/tw/act/2015-07-01/民事訴訟法/@chi/main~art_392__para_2" showAs="民事訴訟法第392條第2項" />
+      <TLCReference href="/tw/act/2015-07-01/民事訴訟法/@chi/main~art_427" showAs="民事訴訟法第427條" />
+      <TLCReference href="/tw/judgement/1978-11-29/最高法院67年台上第3896號/@chi/main" showAs="最高法院67年台上第3896號判例要旨" />
+      <TLCReference href="/tw/judgement/1982-03-31/最高法院71年度台上字第1474號/@chi/main" showAs="最高法院71年度台上字第1474號判例要旨" />
+      <TLCReference href="/tw/judgement/1981-12-09/最高法院70年度台上字第4447號/@chi/main" showAs="最高法院70年度台上字第4447號" />
       <TLCEvent href="/tw/event/1992-10-13/民一字第16977號民事法律座談會/@chi/main" showAs="臺灣高等法院81年10月13日(81)廳民一字第16977號民事法律座談會" />
 
     </references>
@@ -124,7 +124,15 @@
             <blockList>
               <item>
                 <p>
-                  <num>一</num>、原告主張：原告持有被告簡順得所簽發並經被告大棡化工工業股份有限公司背書之如附表所示支票（下稱系爭支票），詎系爭支票經伊屆期如附表所示日期提示後，竟不獲兌現，被告簡順得乃提供空白支票予被告大棡化工工業股份有限公司法定代表人黃植宏使用，被告簡順得既為發票人，被告大棡化工工業股份有限公司亦在系爭支票背書後，向伊調借現金。爰依票據法律關係，依法提起本訴，並聲明：(一)被告應給付原告69萬7,000元，及如附表編號2之支票（票面金額34萬7,000元）自民國105年5月17日起至清償日止，按年息百分之5計算之利息，如附表編號1之支票（票面金額35萬元）自105年4月3日起至清償日止，按年息百分之5計算之利息；(二)願供擔保，請准宣告假執行。</p>
+                  <num>一</num>、原告主張：原告持有被告簡順得所簽發並經被告大棡化工工業股份有限公司背書之如附表所示支票（下稱系爭支票），詎系爭支票經伊屆期如附表所示日期提示後，竟不獲兌現，被告簡順得乃提供空白支票予被告大棡化工工業股份有限公司法定代表人黃植宏使用，被告簡順得既為發票人，被告大棡化工工業股份有限公司亦在系爭支票背書後，向伊調借現金。爰依票據法律關係，依法提起本訴，並聲明：</p>
+                <blockList id="原告聲明">
+                  <item>
+                    <p><num>(一)</num>被告應給付原告69萬7,000元，及如附表編號2之支票（票面金額34萬7,000元）自民國105年5月17日起至清償日止，按年息百分之5計算之利息，如附表編號1之支票（票面金額35萬元）自105年4月3日起至清償日止，按年息百分之5計算之利息；</p>
+                  </item>
+                  <iten>
+                    <p><num>(二)</num>願供擔保，請准宣告假執行。</p>
+                  </iten>
+                </blockList>
               </item>
               <item>
                 <p>
@@ -136,7 +144,15 @@
                   </item>
                   <item>
                     <p>
-                      <num>(二)</num>被告簡順得則以：被告簡順得稱系爭支票上的「簡順得」印文係伊蓋的，並具狀稱：被告大棡化工工業股份有限公司惡意未經允許開立被告簡順得支票，伊與原告不認識，也無金錢或生意往來的債務糾紛，被告大棡化工工業股份有限公司的溫立辰出具書面承諾要對原告負責票款等語；後於大棡化工工業股份有限公司負責人黃植宏到庭後再稱：系爭支票係伊交給佘字吉，系爭支票上的「簡順得」印文係伊蓋的，但字跡不是伊的，伊不知道佘字吉拿票給被告大棡化工工業股份有限公司，伊認為佘字吉要自己去負擔系爭支票的票款等語，資為抗辯，並聲明：(一)原告之訴駁回；(二)如受不利判決，願供擔保，請准宣告免為假執行。</p>
+                      <num>(二)</num>被告簡順得則以：被告簡順得稱系爭支票上的「簡順得」印文係伊蓋的，並具狀稱：被告大棡化工工業股份有限公司惡意未經允許開立被告簡順得支票，伊與原告不認識，也無金錢或生意往來的債務糾紛，被告大棡化工工業股份有限公司的溫立辰出具書面承諾要對原告負責票款等語；後於大棡化工工業股份有限公司負責人黃植宏到庭後再稱：系爭支票係伊交給佘字吉，系爭支票上的「簡順得」印文係伊蓋的，但字跡不是伊的，伊不知道佘字吉拿票給被告大棡化工工業股份有限公司，伊認為佘字吉要自己去負擔系爭支票的票款等語，資為抗辯，並聲明：</p>
+                    <blockList id="被告聲明">
+                      <item>
+                        <p><num>(一)</num>原告之訴駁回；</p>
+                      </item>
+                      <item>
+                        <p><num>(二)</num>如受不利判決，願供擔保，請准宣告免為假執行。</p>
+                      </item>
+                    </blockList>
                   </item>
                 </blockList>
               </item>

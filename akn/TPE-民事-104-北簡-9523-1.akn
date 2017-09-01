@@ -43,17 +43,17 @@
       </judicial>
     </analysis>
     <references source="#somebody">
-      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_24" showAs="民事訴訟法第24條" />
-      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_78" showAs="民事訴訟法第78條" />
-      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_385__para_1" showAs="民事訴訟法第385條第1項" />
-      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_386" showAs="民事訴訟法第386條" />
-      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_389__para_1__subpara_3" showAs="民事訴訟法第389條第1項第3款" />
-      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_392__para_2" showAs="民事訴訟法第392條第2項" />
-      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_392__para_3" showAs="民事訴訟法第392條第3項" />
-      <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_427__para_1" showAs="民事訴訟法第427條第1項" />
-      <TLCReference href="/tw/act/銀行法/@chi/main~art_47-1__para_2" showAs="銀行法第47-1條第2項" />
-      <TLCReference href="/tw/act/民法/@chi/main~art_233__para_1" showAs="民法第233條第1項" />
-      <TLCReference href="/tw/act/民法/@chi/main~art_478" showAs="民法第478條" />
+      <TLCReference href="/tw/act/2013-05-08/民事訴訟法/@chi/main~art_24" showAs="民事訴訟法第24條" />
+      <TLCReference href="/tw/act/2013-05-08/民事訴訟法/@chi/main~art_78" showAs="民事訴訟法第78條" />
+      <TLCReference href="/tw/act/2013-05-08/民事訴訟法/@chi/main~art_385__para_1" showAs="民事訴訟法第385條第1項" />
+      <TLCReference href="/tw/act/2013-05-08/民事訴訟法/@chi/main~art_386" showAs="民事訴訟法第386條" />
+      <TLCReference href="/tw/act/2013-05-08/民事訴訟法/@chi/main~art_389__para_1__subpara_3" showAs="民事訴訟法第389條第1項第3款" />
+      <TLCReference href="/tw/act/2013-05-08/民事訴訟法/@chi/main~art_392__para_2" showAs="民事訴訟法第392條第2項" />
+      <TLCReference href="/tw/act/2013-05-08/民事訴訟法/@chi/main~art_392__para_3" showAs="民事訴訟法第392條第3項" />
+      <TLCReference href="/tw/act/2013-05-08/民事訴訟法/@chi/main~art_427__para_1" showAs="民事訴訟法第427條第1項" />
+      <TLCReference href="/tw/act/2015-06-24/銀行法/@chi/main~art_47-1__para_2" showAs="銀行法第47-1條第2項" />
+      <TLCReference href="/tw/act/2015-06-10/民法/@chi/main~art_233__para_1" showAs="民法第233條第1項" />
+      <TLCReference href="/tw/act/2015-06-10/民法/@chi/main~art_478" showAs="民法第478條" />
     </references>
     <note>
       <p>原始網址： http://djirs.judicial.gov.tw/fjud/index_1_S.aspx?p=JHGjmdElzId1mhndOsscMsv0bjE0tUQyuFnOJBSr6wA%3d</p>
@@ -117,11 +117,21 @@
             <blockList>
               <item>
                 <p>
-                  <num>一</num>、原告主張：被告於民國92年2月10日向原告申請「台新銀行現金卡信用貸款」，依約定書第1條被告得以金融卡提款或轉帳方式動撥貸款額度內之現金，惟依約定書第5條之約定，被告應於每月之繳款截止日依約繳納每月應還款之金額。詎被告未依約繳款，至104年5月26日止，借款尚餘新臺幣（下同）164,981元未按期給付。依約定書第2條約定，系爭貸款之利息計算，依週年利率18.25％按日計息。然如未依約繳款，依約定書第8條之約定，原告得自應付還本日或付息日之翌日起至清償日止，改依週年利率20％計算延滯利息（依銀行法第47條之1第2項，自104年9月1日起信用卡或現金卡之循環利率不得超過週年利率15％）。且按約定書第9條之約定，被告已喪失期限利益，應即清償所有未償還之全部款項，並應給付其中本金49,907元及自104年5月24日起至104年8月31日止，按週年利率20％計算，自104年9月1日起至清償日止，按週年利率15％計算之延滯利息，雖迭經原告催請，被告仍未清償，爰依消費借貸契約之法律關係請求，並聲明如主文第1項所示。</p>
+                  <num>一</num>、原告主張：被告於民國92年2月10日向原告申請「台新銀行現金卡信用貸款」，依約定書第1條被告得以金融卡提款或轉帳方式動撥貸款額度內之現金，惟依約定書第5條之約定，被告應於每月之繳款截止日依約繳納每月應還款之金額。詎被告未依約繳款，至104年5月26日止，借款尚餘新臺幣（下同）164,981元未按期給付。依約定書第2條約定，系爭貸款之利息計算，依週年利率18.25％按日計息。然如未依約繳款，依約定書第8條之約定，原告得自應付還本日或付息日之翌日起至清償日止，改依週年利率20％計算延滯利息（依銀行法第47條之1第2項，自104年9月1日起信用卡或現金卡之循環利率不得超過週年利率15％）。且按約定書第9條之約定，被告已喪失期限利益，應即清償所有未償還之全部款項，並應給付其中本金49,907元及自104年5月24日起至104年8月31日止，按週年利率20％計算，自104年9月1日起至清償日止，按週年利率15％計算之延滯利息，雖迭經原告催請，被告仍未清償，爰依消費借貸契約之法律關係請求，並聲明：</p>
+                <blockList id="原告聲明">
+                  <item>
+                    <p>如主文第1項所示。</p>
+                  </item>
+                </blockList>
               </item>
               <item>
                 <p>
-                  <num>二</num>、被告未於最後言詞辯論期日到場，據其前到場所為之聲明及陳述，略以：伊確有向原告申請信用卡使用，也願意還這筆錢，但目前無法一次清償，希望能以每月還款5,000元、共還33個月之條件分期清償等語，資為抗辯。並聲明：原告之訴駁回。</p>
+                  <num>二</num>、被告未於最後言詞辯論期日到場，據其前到場所為之聲明及陳述，略以：伊確有向原告申請信用卡使用，也願意還這筆錢，但目前無法一次清償，希望能以每月還款5,000元、共還33個月之條件分期清償等語，資為抗辯。並聲明：</p>
+                <blockList id="被告聲明">
+                  <item>
+                    <p>原告之訴駁回。</p>
+                  </item>
+                </blockList>
               </item>
             </blockList>
           </item>
