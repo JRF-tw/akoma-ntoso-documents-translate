@@ -253,7 +253,7 @@ def apply_template(data)
             </FRBRExpression>
             <FRBRManifestation>
               <FRBRthis value="/tw/judgement/#{data[:publish_date].strftime('%Y-%m-%d')}/#{data[:identification]}/chi@/main.xml"/>
-              <FRBRuri value="/tw/judgement/#{data[:publish_date].strftime('%Y-%m-%d')}/#{data[:identification]}/chi@/main.akn"/>
+              <FRBRuri value="/tw/judgement/#{data[:publish_date].strftime('%Y-%m-%d')}/#{data[:identification]}/chi@.akn"/>
               <FRBRdate date="#{Date.today.strftime('%Y-%m-%d')}" name="XMLConversion"/>
               <FRBRauthor href="#somebody" as="#Editor"/>
               <FRBRformat value="xml"/>

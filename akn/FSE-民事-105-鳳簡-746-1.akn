@@ -20,7 +20,7 @@
       </FRBRExpression>
       <FRBRManifestation>
         <FRBRthis value="/tw/judgement/2017-02-03/FSE-民事-105-鳳簡-746-1/chi@/main.xml" />
-        <FRBRuri value="/tw/judgement/2017-02-03/FSE-民事-105-鳳簡-746-1/chi@/main.akn" />
+        <FRBRuri value="/tw/judgement/2017-02-03/FSE-民事-105-鳳簡-746-1/chi@.akn" />
         <FRBRdate date="2017-07-20" name="XMLConversion" />
         <FRBRauthor href="#somebody" as="#Editor" />
         <FRBRformat value="xml" />
