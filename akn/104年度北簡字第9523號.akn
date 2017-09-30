@@ -37,7 +37,7 @@
     </workflow>
     <analysis source="#somebody">
       <judicial>
-        <result type="approve"/>
+        <result type="全部勝訴"/>
       </judicial>
     </analysis>
     <references source="#somebody">
