@@ -53,9 +53,11 @@
       <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_427__para_1~4" showAs="民事訴訟法第427條第1~4項" />
       {{相關援引法條}}
     </references>
-    <note>
-      <p>原始網址： #{data[:url]}</p>
-    </note>
+    <notes>
+      <note>
+        <p>原始網址： #{data[:url]}</p>
+      </note>
+    </notes>
     </meta>
     <header>
       <p class="docProponent">

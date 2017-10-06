@@ -54,9 +54,11 @@
       <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_385,1" showAs="民事訴訟法第385,1條" />
       <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_392" showAs="民事訴訟法第392條" />
     </references>
-    <note>
-      <p>原始網址： #{data[:url]}</p>
-    </note>
+    <notes>
+      <note>
+        <p>原始網址： #{data[:url]}</p>
+      </note>
+    </notes>
     </meta>
     <header>
       <p class="docProponent">

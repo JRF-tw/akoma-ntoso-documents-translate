@@ -45,9 +45,11 @@
     <references source="#somebody">
       {{相關援引法條}}
     </references>
-    <note>
-      <p>原始網址： #{data[:url]}</p>
-    </note>
+    <notes>
+      <note>
+        <p>原始網址： #{data[:url]}</p>
+      </note>
+    </notes>
     </meta>
     <header>
       <p class="docProponent">

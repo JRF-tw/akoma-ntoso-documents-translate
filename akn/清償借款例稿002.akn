@@ -52,9 +52,11 @@
       <TLCReference href="/tw/act/民事訴訟法/@chi/main~art_389__para_1__subpara_3" showAs="民事訴訟法第389條第1項第3款" />
       {{相關援引法條}}
     </references>
-    <note>
-      <p>原始網址： #{data[:url]}</p>
-    </note>
+    <notes>
+      <note>
+        <p>原始網址： #{data[:url]}</p>
+      </note>
+    </notes>
     </meta>
     <header>
       <p class="docProponent">

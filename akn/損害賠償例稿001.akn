@@ -63,9 +63,11 @@
       <TLCReference href="/tw/judgement/最高法院51年度臺上字第213號/@chi/main" showAs="最高法院51年度臺上字第213號判例要旨" />
       {{相關援引法條}}
     </references>
-    <note>
-      <p>原始網址： #{data[:url]}</p>
-    </note>
+    <notes>
+      <note>
+        <p>原始網址： #{data[:url]}</p>
+      </note>
+    </notes>
     </meta>
     <header>
       <p class="docProponent">

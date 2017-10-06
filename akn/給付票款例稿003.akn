@@ -55,9 +55,11 @@
       <TLCReference href="/tw/act/票據法/@chi/main~art_133" showAs="票據法第133條" />
       {{相關援引法條}}
     </references>
-    <note>
-      <p>原始網址： #{data[:url]}</p>
-    </note>
+    <notes>
+      <note>
+        <p>原始網址： #{data[:url]}</p>
+      </note>
+    </notes>
     </meta>
     <header>
       <p class="docProponent">
