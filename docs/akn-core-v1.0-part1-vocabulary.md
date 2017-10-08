@@ -1934,15 +1934,22 @@ justificatory text
 <td width="291" valign="top" style="width:218.2pt;border:solid black 1.0pt;
   border-top:none;padding:2.75pt 2.75pt 2.75pt 2.75pt">
 
+說明文件目的、目標與緣由的介紹區塊
+
 The introductory part of a document stating its purpose, aims, and justification.
+
+以慣例、列舉或引用的方式說明文件的介紹、動機、目的與法律基礎。慣例描述了頒佈的判決，在許多法律傳統上一般是以正式與固定的言語表達。
 
 Introduction, motivations, purposes, legal basis of a document, in formula, recitals and citations. Formula describes the enacting sentences that, in many legal traditions, are regular and fixed linguistic expressions.
 
+列舉區塊包含法律文件的動機與理由
+
 Recitals block includes motivations and justifications of the legal document.
+
+引用區塊包含對這份文件而言是基礎的重要引用：法律依據，準備行為以及立法程序。
 
 Citation blocks include references to other legal documents that are fundamental to the current text: legal basis, preparatory acts as well as the legislative procedures.
 
- 
 
 </td>
 
@@ -1962,24 +1969,26 @@ main content
   solid black 1.0pt;border-bottom:solid black 1.0pt;border-right:none;
   padding:2.75pt 2.75pt 2.75pt 2.75pt;height:36.6pt">
 
-<body>: for bill/act
+法案：<body>: for bill/act
 
-<debateBody>: for debate record
+會議記錄：<debateBody>: for debate record
 
-<judgmentBody>: for judgments
+裁判：<judgmentBody>: for judgments
 
-<mainBody>: for open structure and for the debate report
+會議報告的開放結構：<mainBody>: for open structure and for the debate report
 
-<amendmentBody>: for the amendment
+修正動議：<amendmentBody>: for the amendment
 
-<collectionBody>: for the collection documents
+文件集：<collectionBody>: for the collection documents
 
-<portionBody>: for the portion of document
+文件的一部分：<portionBody>: for the portion of document
 
 </td>
 
 <td width="291" valign="top" style="width:218.2pt;border:solid black 1.0pt;
   border-top:none;padding:2.75pt 2.75pt 2.75pt 2.75pt;height:36.6pt">
+
+文件的主要部分，規定的部份或是聲明的宣告（頒佈條款）。這段文字的特徵在於可依據文件類型與目的而改變文件結構。
 
 The main part of the document, the part that is prescriptive or states a declaration (enacting terms). The text is characterized by a structural complexity that can vary depending on the document’s typology and purpose.
 
@@ -2007,6 +2016,8 @@ conclusions
 
 <td width="291" valign="top" style="width:218.2pt;border:solid black 1.0pt;
   border-top:none;padding:2.75pt 2.75pt 2.75pt 2.75pt">
+
+我們可能會在這裡找到文件最後的署名與日期
 
 Part in which we may find closing formulas date and signature.
 
@@ -2036,6 +2047,8 @@ authorial notes
   solid black 1.0pt;border-bottom:solid windowtext 1.0pt;border-right:solid black 1.0pt;
   padding:2.75pt 2.75pt 2.75pt 2.75pt">
 
+作者添加到文件上的說明
+
 Part dedicated to include the authorial notes added by the author of the document.
 
 </td>
@@ -2063,11 +2076,16 @@ attachments
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:2.75pt 2.75pt 2.75pt 2.75pt">
 
+文件也可能包含具有補完或是整合主要文件資訊，使資訊更精確的附件
+
 Documents can also include attachments with the precise functionality of completing and integrating the information of the main text.
+
+附件可以是附錄（由於實際原因而不在機構中顯示的資訊性或技術性資料）
 
 Attachments can be an annex (informative or technical data which, for practical reasons, does not appear in the body).
 
- 
+附件或其他類型的元件也可以是本法案批准的另一個行為或國際協議。 
+這些文件不是附件，而是附於批准它們的行為。
 
 Attachments or others types of Components can also be another act or international agreement that is approved by this act. Those documents are not annexed but attached to the act that approves them. Those documents are not annexed but attached to the act that approves them.
 
@@ -2099,6 +2117,10 @@ components
 Document can also include components that are independent works,  expressions, or manifestations.
 
 Each  component can have a num and/or an heading before the document.
+
+
+文件還可以包括獨立作品，表達或表現形式的元件。
+每個元件可以在文件之前具有 num 或標題。
 
 </td>
 
