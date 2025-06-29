@@ -27,13 +27,13 @@ var getElementText = (element) => {
   return text;
 }
 
-var parseElement = (element, data) => {
+var parseElement = (element) => {
   var data = {}
   if (element['type'] === 'element') {
-    if (item['name'] === 'akomaNtoso') {
+    if (element['name'] === 'akomaNtoso') {
       data = parseAkomaNtosoElement(element);
-    } else if (item['name'] === 'judgementElemet') {
-
+    } else if (element['name'] === 'judgementElement') {
+      // TODO: implement judgementElement parsing
     }
   }
   return data;
@@ -49,7 +49,7 @@ var parseAknJson = (json) => {
   return data;
 }
 
-var parseAkomaNtosoElement = (element, data) => {
+var parseAkomaNtosoElement = (element) => {
   var data = {}
   element['elements'].forEach((item) => {
     if (item['name'] === 'judgement') {
@@ -288,6 +288,7 @@ var parseReferencesElement = (element) => {
       data.push(parseTLCReferenceElement(item));
     }
   })
+  return data;
 }
 
 var parseTLCReferenceElement = (element) => {
@@ -653,7 +654,7 @@ var updateContent = (json) => {
   var decision = document.getElementById('decision');
   decision.innerHTML = blockList2html(json['judgement']['judgementBody']['decision']);
   var conclusions = document.getElementById('conclusions');
-  conclusions.innerHTML = conclusions2html(json['judgement']['conclusions']);
+  conclusions.innerHTML = conclusion2html(json['judgement']['conclusions']);
 }
 
 var updateAkn = function() {
@@ -661,7 +662,7 @@ var updateAkn = function() {
   var url = formUrl.value;
   console.log(url);
   axios.get(url).then((data) => {
-    result = convert.xml2js(data['data'], {compact: false});
+    result = convert.xml2js(data.data, {compact: false});
     result = parseAknJson(result);
     updateContent(result);
     printJson(result);
@@ -670,7 +671,10 @@ var updateAkn = function() {
   });
 }
 
-document.getElementById("update-btn").addEventListener("click", updateAkn);
+document.getElementById("update-btn").addEventListener("click", function(e) {
+  e.preventDefault();
+  updateAkn();
+});
 console.log('reader');
 
 // var result = parseAknJson(result);

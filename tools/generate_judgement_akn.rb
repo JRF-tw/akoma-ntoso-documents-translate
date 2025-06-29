@@ -5,93 +5,12 @@
 
 require 'open-uri'
 require 'uri'
-require 'iconv'
 require 'nokogiri'
 require 'json'
 require 'mechanize'
 require 'cgi'
 
-$courts = {
-  'TPC': '司法院－刑事補償',
-  'TPU': '司法院－訴願決定',
-  'TPJ': '司法院職務法庭',
-  'TPS': '最高法院',
-  'TPA': '最高行政法院',
-  'TPP': '公務員懲戒委員會',
-  'TPH': '臺灣高等法院',
-  'TPB': '臺北高等行政法院',
-  'TCB': '臺中高等行政法院',
-  'KSB': '高雄高等行政法院',
-  'IPC': '智慧財產法院',
-  'TCH': '臺灣高等法院 臺中分院',
-  'TNH': '臺灣高等法院 臺南分院',
-  'KSH': '臺灣高等法院 高雄分院',
-  'HLH': '臺灣高等法院 花蓮分院',
-  'TPD': '臺灣臺北地方法院',
-  'SLD': '臺灣士林地方法院',
-  'PCD': '臺灣新北地方法院',
-  'ILD': '臺灣宜蘭地方法院',
-  'KLD': '臺灣基隆地方法院',
-  'TYD': '臺灣桃園地方法院',
-  'SCD': '臺灣新竹地方法院',
-  'MLD': '臺灣苗栗地方法院',
-  'TCD': '臺灣臺中地方法院',
-  'CHD': '臺灣彰化地方法院',
-  'NTD': '臺灣南投地方法院',
-  'ULD': '臺灣雲林地方法院',
-  'CYD': '臺灣嘉義地方法院',
-  'TND': '臺灣臺南地方法院',
-  'KSD': '臺灣高雄地方法院',
-  'HLD': '臺灣花蓮地方法院',
-  'TTD': '臺灣臺東地方法院',
-  'PTD': '臺灣屏東地方法院',
-  'PHD': '臺灣澎湖地方法院',
-  'KMH': '福建高等法院金門分院',
-  'KMD': '福建金門地方法院',
-  'LCD': '福建連江地方法院',
-  'KSY': '臺灣高雄少年及家事法院'
-}
-
-$simple_courts = {
-  'TPE': '臺北簡易庭',
-  'STE': '新店簡易庭',
-  'SLE': '士林簡易庭',
-  'NHE': '內湖簡易庭',
-  'PCE': '板橋簡易庭',
-  'SJE': '三重簡易庭',
-  'TYE': '桃園簡易庭',
-  'CLE': '中壢簡易庭',
-  'SCD': '新竹簡易庭',
-  'CPE': '竹北簡易庭(含竹東)',
-  'MLD': '苗栗簡易庭',
-  'TCE': '臺中簡易庭',
-  'SDE': '沙鹿簡易庭',
-  'FYE': '豐原簡易庭',
-  'CHE': '彰化簡易庭',
-  'OLE': '員林簡易庭',
-  'PDE': '北斗簡易庭',
-  'NTE': '南投簡易庭(含埔里)',
-  'TLE': '斗六簡易庭',
-  'HUE': '虎尾簡易庭',
-  'CYE': '嘉義簡易庭(含朴子)',
-  'PKE': '北港簡易庭',
-  'TNE': '臺南簡易庭',
-  'SYE': '柳營簡易庭',
-  'SSE': '新市簡易庭',
-  'KSE': '高雄簡易庭',
-  'GSE': '岡山簡易庭',
-  'CSE': '旗山簡易庭',
-  'FSE': '鳳山簡易庭',
-  'PTE': '屏東簡易庭',
-  'CCE': '潮州簡易庭',
-  'TTE': '臺東簡易庭',
-  'HLE': '花蓮簡易庭(含鳳林,玉里)',
-  'ILE': '宜蘭簡易庭',
-  'LTE': '羅東簡易庭',
-  'KLD': '基隆、瑞芳簡易庭',
-  'MKE': '馬公簡易庭',
-  'KME': '金城簡易庭',
-}
+$courts_data = JSON.parse(File.read(File.join(File.dirname(__FILE__), 'courts.json')))
 
 # http://djirs.judicial.gov.tw/fjud/index_1_S.aspx?p=JHGjmdElzId1mhndOsscMsv0bjE0tUQyuFnOJBSr6wA%3d
 
@@ -118,8 +37,8 @@ def get_division_name(sys)
 end
 
 def get_court(court_code)
-  court = $courts[court_code] || $simple_courts[court_code]
-  return court
+  court_info = $courts_data.find { |court| court['code'] == court_code.to_s }
+  return court_info ? court_info['name'] : "未知法院(#{court_code})"
 end
 
 def get_page(url)

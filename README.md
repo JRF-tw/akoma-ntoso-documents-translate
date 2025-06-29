@@ -1,6 +1,6 @@
 # Akoma Ntoso 台灣法律文件範例專案
 
-本專案旨在以 Akoma Ntoso 格式製作台灣裁判與法律的範例文件，探索國際法律文件標準在台灣法制體系的應用可能性。
+本專案以 Akoma Ntoso 格式製作台灣裁判與法律的範例文件，期能探索國際法律文件標準在台灣法制體系的應用可能性。
 
 ## 什麼是 Akoma Ntoso？
 
@@ -35,21 +35,23 @@ Akoma Ntoso（非洲規範性文本面向知識管理的開放標準與本體架
 │   ├── index.html          # 閱讀器介面
 │   ├── reader.js           # 核心解析程式
 │   └── package.json        # 依賴管理
+├── tools/                  # 程式工具集
+│   ├── courts.json         # 台灣法院代碼對照表（JSON格式）
+│   ├── generate_judgement_akn.rb # 判決書轉換工具
+│   ├── generate_reference.rb   # 法條引用產生器
+│   └── reference.txt       # 法條引用範例檔案
 ├── docs/                   # Akoma Ntoso 標準文件
-├── courts.json             # 台灣法院代碼對照表
-├── generate_judgement_akn.rb # 判決書轉換工具
-├── generate_reference.rb   # 法條引用產生器
 └── translate_number.rb     # 中文數字轉換工具
 ```
 
 ## 主要功能
 
-### 1. 判決書轉換工具 (`generate_judgement_akn.rb`)
+### 1. 判決書轉換工具 (`tools/generate_judgement_akn.rb`)
 
 將台灣司法院裁判系統的判決書轉換為 Akoma Ntoso 格式：
 
 ```bash
-ruby generate_judgement_akn.rb "判決書網址"
+ruby tools/generate_judgement_akn.rb "判決書網址"
 ```
 
 **功能特色：**
@@ -57,13 +59,14 @@ ruby generate_judgement_akn.rb "判決書網址"
 - 解析法官資訊和案件內容
 - 生成符合 Akoma Ntoso 標準的 XML 文件
 - 支援民事、刑事、行政等各類型案件
+- 使用 JSON 格式的法院對照表，維護更簡便
 
-### 2. 法條引用產生器 (`generate_reference.rb`)
+### 2. 法條引用產生器 (`tools/generate_reference.rb`)
 
 產生標準化的法條引用格式：
 
 ```bash
-ruby generate_reference.rb reference.txt
+ruby tools/generate_reference.rb tools/reference.txt
 ```
 
 支援多層次法條結構：
@@ -129,7 +132,7 @@ npm install
 
 1. **轉換判決書**：
    ```bash
-   ruby generate_judgement_akn.rb "http://djirs.judicial.gov.tw/fjud/..."
+   ruby tools/generate_judgement_akn.rb "http://djirs.judicial.gov.tw/fjud/..."
    ```
 
 2. **檢視範例文件**：

@@ -9,16 +9,19 @@ This repository contains tools for translating and working with Akoma Ntoso lega
 ## Key Components
 
 ### Ruby Scripts (Main Generation Tools)
-- `generate_judgement_akn.rb` - Main script for converting Taiwanese court judgments to Akoma Ntoso format
+Located in the `tools/` directory:
+
+- `tools/generate_judgement_akn.rb` - Main script for converting Taiwanese court judgments to Akoma Ntoso format
   - Scrapes judgment data from Taiwan's judicial database
   - Parses court metadata, case details, and content
   - Generates structured XML in Akoma Ntoso format
-  - Usage: `ruby generate_judgement_akn.rb [JUDGMENT_URL]`
+  - Uses JSON-based court mapping from `tools/courts.json`
+  - Usage: `ruby tools/generate_judgement_akn.rb [JUDGMENT_URL]`
 
-- `generate_reference.rb` - Generates legal reference elements for Akoma Ntoso documents
+- `tools/generate_reference.rb` - Generates legal reference elements for Akoma Ntoso documents
   - Creates TLCReference elements for legal citations
   - Handles articles, paragraphs, and sub-paragraphs
-  - Usage: `ruby generate_reference.rb [REFERENCE_FILE]`
+  - Usage: `ruby tools/generate_reference.rb tools/reference.txt`
 
 - `translate_number.rb` - Contains Chinese numeral conversion functions
   - Converts Traditional Chinese numbers to Arabic numerals
@@ -31,7 +34,8 @@ This repository contains tools for translating and working with Akoma Ntoso lega
 - Uses xml-js and axios libraries for XML processing and HTTP requests
 
 ### Data Files
-- `courts.json` - Comprehensive mapping of Taiwan court codes to court names and divisions
+- `tools/courts.json` - Comprehensive mapping of Taiwan court codes to court names and divisions in JSON format
+- `tools/reference.txt` - Sample reference file for legal citation generation
 - `akn/` directory - Contains converted Akoma Ntoso documents (.akn files)
 - Sample documents include civil judgments, criminal cases, and legal codes
 
@@ -40,10 +44,10 @@ This repository contains tools for translating and working with Akoma Ntoso lega
 ### Ruby Environment
 ```bash
 # Run the main judgment converter
-ruby generate_judgement_akn.rb "http://djirs.judicial.gov.tw/fjud/[JUDGMENT_URL]"
+ruby tools/generate_judgement_akn.rb "http://djirs.judicial.gov.tw/fjud/[JUDGMENT_URL]"
 
 # Generate legal references
-ruby generate_reference.rb reference.txt
+ruby tools/generate_reference.rb tools/reference.txt
 ```
 
 ### Web Reader
@@ -88,3 +92,9 @@ Akoma Ntoso documents follow FRBR (Functional Requirements for Bibliographic Rec
 ## Dependencies
 - Ruby: mechanize, nokogiri, json (for web scraping and XML processing)
 - JavaScript: xml-js, axios (for XML parsing and HTTP requests)
+
+## Recent Improvements
+- Removed deprecated `iconv` dependency (modern Ruby handles encoding natively)
+- Consolidated court data into structured JSON format in `tools/courts.json`
+- Unified data access through JSON-based court lookup
+- Organized development tools in `tools/` directory

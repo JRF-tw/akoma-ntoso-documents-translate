@@ -19,7 +19,7 @@
   <meta property="og:image" content="" />
   <meta property="og:description" content="" />
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -74,15 +74,19 @@
 <body>
   <div class="container">
     <div class="row">
-      <form>
-        <div class="form-group">
-          <label for="form-url">Akoma Ntoso網址</label>
-          <input type="text" class="form-control" id="form-url" value="https://raw.githubusercontent.com/JRF-tw/akoma-ntoso-documents-translate/master/akn/SLE-%E6%B0%91%E4%BA%8B-105-%E5%A3%AB%E7%B0%A1-1170-1.akn">
-        </div>
-        <a id="update-btn" href="#">Submit</a>
-      </form>
-      <article>
-        <div class="col-xs-12 col-sm-8 col-sm-offset-2 article">
+      <div class="col-12">
+        <form>
+          <div class="mb-3">
+            <label for="form-url" class="form-label">Akoma Ntoso網址</label>
+            <input type="text" class="form-control" id="form-url" value="https://raw.githubusercontent.com/JRF-tw/akoma-ntoso-documents-translate/master/akn/SLE-%E6%B0%91%E4%BA%8B-105-%E5%A3%AB%E7%B0%A1-1170-1.akn">
+          </div>
+          <button id="update-btn" type="button" class="btn btn-primary">載入文件</button>
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <article class="col-12">
+        <div class="col-12 col-md-8 offset-md-2 article">
           <h1 class="text-center" id="title"></h1>
           <span id="docProponent">
             
@@ -127,10 +131,8 @@
       </div>
     </div>
   </footer>
-  <!-- jQuery -->
-  <script src="//code.jquery.com/jquery.js"></script>
   <!-- Bootstrap JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   <script src="bundle.js"></script>
   <!-- <script type="text/javascript">
   (function(i, s, o, g, r, a, m) {

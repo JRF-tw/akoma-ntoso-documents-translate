@@ -318,8 +318,8 @@
       }
     ]
   }, {
-    "name": "臺灣南投地方法院",
-    "code": "TND",
+    "name": "臺灣南投地方法院", 
+    "code": "NTD",
     "divisions": [
       {
         "name": "刑事",
