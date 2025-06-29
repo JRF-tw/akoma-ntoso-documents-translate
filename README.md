@@ -155,7 +155,11 @@ npm install
 
 ## 授權
 
-本專案採用開源授權，歡迎貢獻和改進。
+本專案採用 MIT 授權條款。
+
+Copyright (c) 2018 Billy Zhe-Wei Lin, Ronny Wang, Judicial Reform Foundation
+
+詳細授權條款請參閱 [LICENSE](LICENSE) 檔案。
 
 ---
 
